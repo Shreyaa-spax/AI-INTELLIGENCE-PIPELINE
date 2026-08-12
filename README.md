@@ -1,88 +1,236 @@
 # AI Intelligence Pipeline
 
-An asynchronous data ingestion and enrichment pipeline for collecting, normalizing, resolving, and validating AI ecosystem intelligence.
+> **An asynchronous, source-traceable AI intelligence pipeline for collecting, enriching, resolving, validating, and exporting structured ecosystem data.**
 
-## Features
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
+[![Async](https://img.shields.io/badge/Architecture-AsyncIO%20%2B%20aiohttp-informational)](https://docs.python.org/3/library/asyncio.html)
+[![Data](https://img.shields.io/badge/Data-CSV%20%2B%20JSON-success)](https://github.com/Shreyaa-spax/AI-INTELLIGENCE-PIPELINE/tree/main/data)
 
-- **Asynchronous Web Ingestion**: Fast concurrency using Python's `asyncio` and `aiohttp`.
-- **LEGITIMATE Startup Directory Ingestion**: Ingests 1,100 real AI startups from Y Combinator's company registry.
-- **LEGITIMATE AI Product Directory Ingestion**: Ingests 1,100 unique AI tools from the `lakey009/AI-Tools-List` registry, inferring pricing models and canonical startup names.
-- **Research Papers Integration**: Retrieves 1,000 papers from ArXiv.
-- **GitHub Enrichment**: Correlates research papers to their official repositories and extracts real-time stargazers count.
-- **High-Fidelity Signal Ingestion (Jobs & News)**: Collects tech jobs and AI news within the last 24 hours across 5 distinct job boards and 5 distinct news feeds.
-- **UTC Date Normalization**: Automatically normalizes all publication dates (including relative times like "3 hours ago") to ISO-8601 UTC format.
-- **Multi-Tier LLM Fallback**: Robust fallback chain (Gemini -> Groq -> DeepSeek) falling back gracefully to mock extraction if keys are missing from `.env`.
-- **Intelligent Context Chunking**: Splits large documents into 12,000-character segments to prevent HTTP 413 context overflows.
-- **Deterministic Entity Resolution**: Standardizes corporate suffixes, casing variations, and alias matches.
-- **Structured Schema Validation**: Strictly validates fields against standard records schemas.
-- **Automated Export Pipeline**: Flattens and exports all datasets to clean CSV files.
+## 1. What this project does
 
----
+The pipeline ingests AI ecosystem intelligence from public sources and turns it into validated, normalized records. It covers five data areas:
 
-## Final Project Dataset Counts
+- **Startups** — 1,100 startup records.
+- **AI Products** — 1,100 product records.
+- **Research Papers** — 1,000 papers, with GitHub repository/star enrichment where available.
+- **Jobs** — fresh AI-related jobs discovered inside a strict 24-hour window.
+- **News** — fresh AI-related news discovered inside a strict 24-hour window.
 
-| Data Vertical | Ingestion Source | Output Count (Rows) | CSV File Path |
-|---|---|---|---|
-| **Startups** | Y Combinator Startup Registry | **1,100** | `data/export_startups.csv` |
-| **Products** | AI Tools Database | **1,100** | `data/export_products.csv` |
-| **Research Papers** | ArXiv API & GitHub stars | **1,000** | `data/export_research_papers.csv` |
-| **Jobs** (<=24h) | Arbeitnow, We Work Remotely, Remotive, Python.org, Jobspresso | **64** | `data/export_jobs.csv` |
-| **News** (<=24h) | TechCrunch, MIT Tech Review, VentureBeat, The Decoder, MarkTechPost | **13** | `data/export_news.csv` |
-| **Entity Mapping** | Resolved startup name associations | **1,100** | `data/export_entity_mapping_log.csv` |
+The pipeline also performs entity resolution and exports clean CSV datasets plus a source-level validation report.
 
----
-
-## Technical Documentation & PDF
-
-The detailed design documentation is available in the root directory:
-- [architecture.pdf](file:///C:/Users/shrey/OneDrive/Documents/Desktop/AI-Intelligence-Pipeline/architecture.pdf) (exactly 3 pages, generated dynamically)
-
-It covers:
-1. Scaling strategies for 500k+ records.
-2. Context window (413) and rate-limit (429/403) handling.
-3. Freshness tracking and Bloom-filter-based deduplication.
-4. Neo4j, pgvector, and PostgreSQL storage integration.
-
----
-
-## Project Structure
+## 2. Architecture at a glance
 
 ```text
+                 PUBLIC DATA SOURCES
+        ┌──────────┬──────────┬──────────┐
+        │ Startups │ Products │ Papers   │
+        ├──────────┼──────────┼──────────┤
+        │ Jobs     │ News     │ GitHub   │
+        └────┬─────┴────┬─────┴────┬─────┘
+             │          │          │
+             └──────────▼──────────┘
+                    ASYNC INGESTION
+                  asyncio + aiohttp
+                         │
+                         ▼
+              VALIDATION + NORMALIZATION
+              • UTC timestamps
+              • schema checks
+              • freshness checks
+              • duplicate filtering
+                         │
+             ┌───────────┴───────────┐
+             ▼                       ▼
+       LLM ORCHESTRATOR        ENTITY RESOLUTION
+       Gemini → Groq →         canonical names,
+       DeepSeek → Mock         aliases, suffixes
+             │                       │
+             └───────────┬───────────┘
+                         ▼
+                  STRUCTURED RECORDS
+                         │
+                  ┌──────┴──────┐
+                  ▼             ▼
+                JSON           CSV
+                  │             │
+                  └──────┬──────┘
+                         ▼
+              SOURCE VALIDATION REPORT
+```
+
+See [`architecture.pdf`](./architecture.pdf) for the detailed design, scaling strategy, failure handling, and storage architecture.
+
+## 3. Key engineering features
+
+### Async ingestion
+The crawlers use `asyncio` and `aiohttp` to perform network-bound collection without blocking on each request.
+
+### Freshness enforcement
+Jobs and news are retained only when their source publication timestamp can be parsed and falls within the **last 24 hours**. Dates are normalized to UTC ISO-8601.
+
+### LLM fallback
+The extraction layer follows a multi-tier fallback strategy:
+
+```text
+Gemini → Groq → DeepSeek → Mock fallback
+```
+
+Transient provider failures are handled with retry/backoff logic rather than immediately abandoning the record.
+
+### Intelligent chunking
+Large source documents are split into bounded chunks before LLM processing to reduce context-window failures.
+
+### Entity resolution
+Company/startup names are normalized through casing, corporate-suffix cleanup, aliases, and canonical mappings.
+
+### Traceability and no fabricated records
+Every collected job/news record retains its source URL. The pipeline does **not** synthesize records to meet a target count. If a source has no qualifying record inside the freshness window, the source report records that outcome.
+
+## 4. Current output snapshot
+
+| Dataset | Current records | Output |
+|---|---:|---|
+| Startups | 1,100 | `data/export_startups.csv` |
+| Products | 1,100 | `data/export_products.csv` |
+| Research Papers | 1,000 | `data/export_research_papers.csv` |
+| Jobs | 64 in the last verified CSV snapshot | `data/export_jobs.csv` |
+| News | 13 in the last verified CSV snapshot | `data/export_news.csv` |
+| Entity Mapping | 1,100 | `data/export_entity_mapping_log.csv` |
+
+> **Important:** Jobs/news are time-sensitive. Their counts are expected to change between runs because only qualifying records from the preceding 24 hours are retained. Run the signal crawler to generate the current snapshot.
+
+After running the crawler, inspect `data/signal_source_report.json` for per-source status, freshness counts, AI-job counts, duplicates removed, and sources that produced qualifying records.
+
+## 5. Project structure
+
+```text
+AI-INTELLIGENCE-PIPELINE/
 ├── src/
-│   ├── scrapers/          # Startups, Products, Papers, and GitHub matcher
-│   ├── signals/           # Job and News crawlers (last 24 hours)
-│   ├── llm/               # Orchestrator, Chunker, and Fallback engine
-│   ├── resolver/          # Name standardization and mapping resolver
-│   ├── schemas/           # Pydantic schemas and schema validation tests
-│   ├── utils/             # Helper scripts (including PDF generation)
-│   ├── main.py            # Complete Pipeline Orchestrator (sequential runner)
-│   └── export.py          # CSV exporter for data mapping
-├── data/                  # JSON files and exported CSVs
-├── architecture.pdf       # 3-page Technical Architecture document
-├── requirements.txt       # Virtual environment dependencies
-└── .gitignore             # Configured to ignore .env and venv
+│   ├── scrapers/
+│   │   ├── startups.py
+│   │   ├── products.py
+│   │   ├── papers.py
+│   │   └── github_matcher.py
+│   ├── signals/
+│   │   └── crawler.py
+│   ├── llm/
+│   │   ├── orchestrator.py
+│   │   └── chunker.py
+│   ├── resolver/
+│   │   └── entity_resolver.py
+│   ├── schemas/
+│   ├── utils/
+│   ├── main.py
+│   └── export.py
+├── data/
+│   ├── export_startups.csv
+│   ├── export_products.csv
+│   ├── export_research_papers.csv
+│   ├── export_jobs.csv
+│   ├── export_news.csv
+│   └── export_entity_mapping_log.csv
+├── architecture.pdf
+├── requirements.txt
+├── .env.example
+└── README.md
 ```
 
----
+## 6. Quick start
 
-## Setup & Running the Pipeline
+### Prerequisites
 
-### 1. Install Dependencies
+- Python 3.10+
+- Git
+- Internet access for source ingestion
+- API keys in `.env` for the configured LLM providers when required
+
+### Install
+
 ```powershell
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
+copy .env.example .env
 ```
 
-### 2. Run the Complete Orchestrated Pipeline
-This command executes the full workflow (Startups, Products, Papers, Jobs, News ingestion, Entity Resolution, and CSV exporting):
+Add API keys to `.env` as needed. **Never commit `.env`.**
+
+### Run the complete pipeline
+
 ```powershell
 python src/main.py
 ```
 
-### 3. Run Specific Components Independently
-- Startups scraper: `python src/scrapers/startups.py`
-- Products scraper: `python src/scrapers/products.py`
-- Papers pipeline: `python src/scrapers/papers.py`
-- Signals (Jobs & News): `python src/signals/crawler.py`
-- Entity resolver: `python src/resolver/apply_resolver.py`
-- Exporter: `python src/export.py`
-- PDF Re-builder: `python src/utils/generate_pdf.py`
+### Run only jobs/news
+
+```powershell
+python src/signals/crawler.py
+```
+
+The signal run creates:
+
+```text
+ data/jobs.json
+ data/news.json
+ data/signal_source_report.json
+```
+
+### Run individual components
+
+```powershell
+python src/scrapers/startups.py
+python src/scrapers/products.py
+python src/scrapers/papers.py
+python src/resolver/apply_resolver.py
+python src/export.py
+```
+
+## 7. Reproducibility checklist
+
+Before submission, verify:
+
+1. `python src/main.py` completes without an unhandled exception.
+2. The three ≥1,000-record datasets contain the expected minimum records.
+3. Research-paper GitHub enrichment is present where a repository can be resolved.
+4. Jobs/news contain source URLs and timestamps.
+5. Jobs/news are filtered to the 24-hour freshness window.
+6. `data/signal_source_report.json` records the live source outcomes.
+7. `export_entity_mapping_log.csv` is generated.
+8. `.env` is not committed to GitHub.
+9. `architecture.pdf` is present in the repository root.
+
+## 8. Scaling strategy
+
+The current implementation is designed as a modular ingestion pipeline. For 500k+ records, the same logical stages can be deployed behind a queue with horizontally scaled workers:
+
+```text
+Sources → Queue → Async workers → Validation → LLM workers
+                                      │
+                                      ▼
+                             Entity resolution
+                                      │
+                                      ▼
+                         PostgreSQL / pgvector / Neo4j
+```
+
+Scaling is achieved by increasing worker capacity, queue partitions, connection pools, rate-limit controls, and storage capacity rather than rewriting the business logic.
+
+## 9. Design principles
+
+- **Source traceability over fabricated completeness.**
+- **Freshness is validated, not assumed.**
+- **LLM failures degrade gracefully through fallback providers.**
+- **Network operations are asynchronous.**
+- **Data quality checks happen before export.**
+- **The pipeline is modular so individual stages can be tested independently.**
+
+## 10. Submission artifacts
+
+- GitHub repository: `Shreyaa-spax/AI-INTELLIGENCE-PIPELINE`
+- `README.md`
+- `architecture.pdf`
+- `data/export_startups.csv`
+- `data/export_products.csv`
+- `data/export_research_papers.csv`
+- `data/export_jobs.csv`
+- `data/export_news.csv`
+- `data/export_entity_mapping_log.csv`
+- `data/signal_source_report.json`
