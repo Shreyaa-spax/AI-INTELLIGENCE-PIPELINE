@@ -1,5 +1,10 @@
 import json
 import os
+import sys
+
+# Ensure local directory is in system path for sub-imports
+sys.path.append(os.path.dirname(__file__))
+
 from entity_resolver import resolve_entity
 
 

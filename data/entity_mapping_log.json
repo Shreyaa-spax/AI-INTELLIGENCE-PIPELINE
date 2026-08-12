@@ -1,407 +1,5502 @@
 [
   {
-    "rawName": "Home",
-    "canonicalName": "Home",
-    "sourceUrl": "https://www.futurepedia.io/"
+    "rawName": "Marft",
+    "canonicalName": "Marft",
+    "sourceUrl": "http://marft.com"
   },
   {
-    "rawName": "AI Tools",
-    "canonicalName": "AI Tools",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools"
+    "rawName": "Amplitude",
+    "canonicalName": "Amplitude",
+    "sourceUrl": "https://amplitude.com"
   },
   {
-    "rawName": "Newsletter",
-    "canonicalName": "Newsletter",
-    "sourceUrl": "https://www.futurepedia.io/subscribe"
+    "rawName": "AgileMD",
+    "canonicalName": "AgileMD",
+    "sourceUrl": "https://agilemd.com"
   },
   {
-    "rawName": "Resources",
-    "canonicalName": "Resources",
-    "sourceUrl": "https://www.futurepedia.io/resources"
+    "rawName": "Sift",
+    "canonicalName": "Sift",
+    "sourceUrl": "https://sift.com/"
   },
   {
-    "rawName": "Free Claude Course",
-    "canonicalName": "Free Claude Course",
-    "sourceUrl": "https://www.futurepedia.io/free-claude-course"
+    "rawName": "LeadGenius",
+    "canonicalName": "LeadGenius",
+    "sourceUrl": "http://leadgenius.com"
   },
   {
-    "rawName": "Newsletter Archive",
-    "canonicalName": "Newsletter Archive",
-    "sourceUrl": "https://www.futurepedia.io/newsletter"
+    "rawName": "Insight Data Science",
+    "canonicalName": "Insight Data Science",
+    "sourceUrl": "http://insightdatascience.com"
   },
   {
-    "rawName": "AI Agents",
-    "canonicalName": "AI Agents",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/ai-agents"
+    "rawName": "Directed Edge",
+    "canonicalName": "Directed Edge",
+    "sourceUrl": "http://directededge.com"
   },
   {
-    "rawName": "AI Innovations",
-    "canonicalName": "AI Innovations",
-    "sourceUrl": "https://www.futurepedia.io/ai-innovations"
+    "rawName": "JustSpotted",
+    "canonicalName": "JustSpotted",
+    "sourceUrl": "http://justspotted.com"
   },
   {
-    "rawName": "AI Tutorials",
-    "canonicalName": "AI Tutorials",
-    "sourceUrl": "https://www.futurepedia.io/tutorials"
+    "rawName": "Hello Chair",
+    "canonicalName": "Hello Chair",
+    "sourceUrl": "http://hellochair.com"
   },
   {
-    "rawName": "AI Automations 101",
-    "canonicalName": "AI Automations 101",
-    "sourceUrl": "https://www.futurepedia.io/resources/automation"
+    "rawName": "Canopy Labs",
+    "canonicalName": "Canopy Labs",
+    "sourceUrl": "http://canopylabs.com"
   },
   {
-    "rawName": "Login",
-    "canonicalName": "Login",
-    "sourceUrl": "https://www.futurepedia.io/login"
+    "rawName": "Human Dx",
+    "canonicalName": "Human Dx",
+    "sourceUrl": "http://humandx.org"
   },
   {
-    "rawName": "Join For Free",
-    "canonicalName": "Join For Free",
-    "sourceUrl": "https://www.futurepedia.io/register"
+    "rawName": "FileStack",
+    "canonicalName": "FileStack",
+    "sourceUrl": "https://www.filestack.com/"
   },
   {
-    "rawName": "ChatGPT",
-    "canonicalName": "ChatGPT",
-    "sourceUrl": "https://www.futurepedia.io/tool/chatgpt"
+    "rawName": "Upwave",
+    "canonicalName": "Upwave",
+    "sourceUrl": "http://www.upwave.com"
   },
   {
-    "rawName": "#ai chatbots",
-    "canonicalName": "#ai chatbots",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/chatbots"
+    "rawName": "Plivo",
+    "canonicalName": "Plivo",
+    "sourceUrl": "https://plivo.com"
   },
   {
-    "rawName": "#research",
-    "canonicalName": "#research",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/research-assistant"
+    "rawName": "Thread",
+    "canonicalName": "Thread",
+    "sourceUrl": "http://thread.com"
   },
   {
-    "rawName": "#ai agents",
-    "canonicalName": "#ai agents",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/ai-agents"
+    "rawName": "RADAR",
+    "canonicalName": "RADAR",
+    "sourceUrl": "https://goradar.com"
   },
   {
-    "rawName": "Claude",
-    "canonicalName": "Claude",
-    "sourceUrl": "https://www.futurepedia.io/tool/claude"
+    "rawName": "Semantics3",
+    "canonicalName": "Semantics3",
+    "sourceUrl": "http://www.semantics3.com"
   },
   {
-    "rawName": "#code assistant",
-    "canonicalName": "#code assistant",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/code-assistant"
+    "rawName": "Casetext",
+    "canonicalName": "Casetext",
+    "sourceUrl": "http://casetext.com"
   },
   {
-    "rawName": "HubSpot AEO Sensor",
-    "canonicalName": "HubSpot AEO Sensor",
-    "sourceUrl": "https://www.futurepedia.io/tool/hubspot-aeo-sensor"
+    "rawName": "Cruise",
+    "canonicalName": "Cruise",
+    "sourceUrl": "http://getcruise.com"
   },
   {
-    "rawName": "#marketing",
-    "canonicalName": "#marketing",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/marketing"
+    "rawName": "Theorem",
+    "canonicalName": "Theorem",
+    "sourceUrl": "http://theoremlp.com"
   },
   {
-    "rawName": "#SEO",
-    "canonicalName": "#SEO",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/seo"
+    "rawName": "Liftigniter",
+    "canonicalName": "Liftigniter",
+    "sourceUrl": "http://liftigniter.com/"
   },
   {
-    "rawName": "Perplexity",
-    "canonicalName": "Perplexity",
-    "sourceUrl": "https://www.futurepedia.io/tool/perplexity-ai"
+    "rawName": "Unbabel",
+    "canonicalName": "Unbabel",
+    "sourceUrl": "http://unbabel.com"
   },
   {
-    "rawName": "#summarizer",
-    "canonicalName": "#summarizer",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/summarizer"
+    "rawName": "MixerBox",
+    "canonicalName": "MixerBox",
+    "sourceUrl": "http://mixerbox.com"
   },
   {
-    "rawName": "Google Gemini",
-    "canonicalName": "Google Gemini",
-    "sourceUrl": "https://www.futurepedia.io/tool/google-gemini"
+    "rawName": "OpenCurriculum",
+    "canonicalName": "OpenCurriculum",
+    "sourceUrl": "https://opencurriculum.org"
   },
   {
-    "rawName": "#writing generators",
-    "canonicalName": "#writing generators",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/writing-generators"
+    "rawName": "Dyspatch",
+    "canonicalName": "Dyspatch",
+    "sourceUrl": "https://www.dyspatch.io"
   },
   {
-    "rawName": "Midjourney",
-    "canonicalName": "Midjourney",
-    "sourceUrl": "https://www.futurepedia.io/tool/midjourney"
+    "rawName": "Whirlscape",
+    "canonicalName": "Whirlscape",
+    "sourceUrl": "http://getdango.com"
   },
   {
-    "rawName": "#text to image",
-    "canonicalName": "#text to image",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/text-to-image"
+    "rawName": "Framed Data",
+    "canonicalName": "Framed Data",
+    "sourceUrl": "http://www.framed.io"
   },
   {
-    "rawName": "#image editing",
-    "canonicalName": "#image editing",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/image-editing"
+    "rawName": "Checkr",
+    "canonicalName": "Checkr",
+    "sourceUrl": "http://www.checkr.com"
   },
   {
-    "rawName": "#video generators",
-    "canonicalName": "#video generators",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/video-generators"
+    "rawName": "MTailor",
+    "canonicalName": "MTailor",
+    "sourceUrl": "http://mtailor.com"
   },
   {
-    "rawName": "Grok",
-    "canonicalName": "Grok",
-    "sourceUrl": "https://www.futurepedia.io/tool/grok"
+    "rawName": "PicnicAI",
+    "canonicalName": "PicnicAI",
+    "sourceUrl": "https://picnic.ai"
   },
   {
-    "rawName": "Claim your free access",
-    "canonicalName": "Claim your free access",
-    "sourceUrl": "https://www.futurepedia.io/register?source=skillleap&course=skillleap-free-promo&return_to=https%3A%2F%2Fskillleap.futurepedia.io%2Fenroll%2F3784218%3Fprice_id%3D4742492&homepage_free_course_cta=1"
+    "rawName": "UserGems",
+    "canonicalName": "UserGems",
+    "sourceUrl": "https://www.usergems.com"
   },
   {
-    "rawName": "Marketing",
-    "canonicalName": "Marketing",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/marketing"
+    "rawName": "SalesSift",
+    "canonicalName": "SalesSift",
+    "sourceUrl": "https://salessift.com"
   },
   {
-    "rawName": "Productivity",
-    "canonicalName": "Productivity",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/productivity"
+    "rawName": "Tule",
+    "canonicalName": "Tule",
+    "sourceUrl": "http://tuletechnologies.com"
   },
   {
-    "rawName": "Design",
-    "canonicalName": "Design",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/design-generators"
+    "rawName": "Weave",
+    "canonicalName": "Weave",
+    "sourceUrl": "http://weave.in"
   },
   {
-    "rawName": "Video",
-    "canonicalName": "Video",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/video-generators"
+    "rawName": "Qventus",
+    "canonicalName": "Qventus",
+    "sourceUrl": "http://qventus.com"
   },
   {
-    "rawName": "Research",
-    "canonicalName": "Research",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/research-assistant"
+    "rawName": "Pomello",
+    "canonicalName": "Pomello",
+    "sourceUrl": "http://pomello.com"
   },
   {
-    "rawName": "Go to Channel",
-    "canonicalName": "Go to Channel",
-    "sourceUrl": "https://www.youtube.com/@futurepedia_io"
+    "rawName": "20n",
+    "canonicalName": "20n",
+    "sourceUrl": "http://20n.com"
   },
   {
-    "rawName": "Kevin HutsonAl Music & Video Expert",
-    "canonicalName": "Kevin HutsonAl Music & Video Expert",
-    "sourceUrl": "https://www.youtube.com/@futurepedia_io"
+    "rawName": "Akido Labs",
+    "canonicalName": "Akido Labs",
+    "sourceUrl": "http://akidolabs.com"
   },
   {
-    "rawName": "Saj AdibAl Productivity Specialist",
-    "canonicalName": "Saj AdibAl Productivity Specialist",
-    "sourceUrl": "https://www.youtube.com/@SkillLeapAI"
+    "rawName": "Numerion Labs",
+    "canonicalName": "Numerion Labs",
+    "sourceUrl": "https://www.numerionlabs.ai"
   },
   {
-    "rawName": "AI Image Tools",
-    "canonicalName": "AI Image Tools",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/image"
+    "rawName": "CyberFend",
+    "canonicalName": "CyberFend",
+    "sourceUrl": "http://cyberfend.com"
   },
   {
-    "rawName": "AI Business Tools",
-    "canonicalName": "AI Business Tools",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/business"
+    "rawName": "Zeitview",
+    "canonicalName": "Zeitview",
+    "sourceUrl": "https://www.zeitview.com/"
   },
   {
-    "rawName": "Automation Tools",
-    "canonicalName": "Automation Tools",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/automations"
+    "rawName": "Bankjoy",
+    "canonicalName": "Bankjoy",
+    "sourceUrl": "http://bankjoy.com"
   },
   {
-    "rawName": "AI Productivity Tools",
-    "canonicalName": "AI Productivity Tools",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/productivity"
+    "rawName": "Pachyderm",
+    "canonicalName": "Pachyderm",
+    "sourceUrl": "http://pachyderm.com"
   },
   {
-    "rawName": "AI Video Tools",
-    "canonicalName": "AI Video Tools",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/video"
+    "rawName": "Paperspace",
+    "canonicalName": "Paperspace",
+    "sourceUrl": "https://www.paperspace.com"
   },
   {
-    "rawName": "Misc AI Tools",
-    "canonicalName": "Misc AI Tools",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/misc-tools"
+    "rawName": "Smarking",
+    "canonicalName": "Smarking",
+    "sourceUrl": "http://smarking.com"
   },
   {
-    "rawName": "AI Art Generators",
-    "canonicalName": "AI Art Generators",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/art"
+    "rawName": "Tempo",
+    "canonicalName": "Tempo",
+    "sourceUrl": "https://tempo.fit/"
   },
   {
-    "rawName": "AI Text Generators",
-    "canonicalName": "AI Text Generators",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/text-generators"
+    "rawName": "Resolve",
+    "canonicalName": "Resolve",
+    "sourceUrl": "https://www.resolvebim.com"
   },
   {
-    "rawName": "AI Audio Generators",
-    "canonicalName": "AI Audio Generators",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/audio-generators"
+    "rawName": "YesGraph",
+    "canonicalName": "YesGraph",
+    "sourceUrl": "http://yesgraph.com"
   },
   {
-    "rawName": "AI Code Tools",
-    "canonicalName": "AI Code Tools",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/code"
+    "rawName": "Yhat",
+    "canonicalName": "Yhat",
+    "sourceUrl": "https://www.yhat.com"
   },
   {
-    "rawName": "AI tool directory",
-    "canonicalName": "AI tool directory",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools"
+    "rawName": "Dabble",
+    "canonicalName": "Dabble",
+    "sourceUrl": "https://dabble.so"
   },
   {
-    "rawName": "AI education platform",
-    "canonicalName": "AI education platform",
-    "sourceUrl": "https://skillleap.futurepedia.io/"
+    "rawName": "SigOpt",
+    "canonicalName": "SigOpt",
+    "sourceUrl": "https://sigopt.com"
   },
   {
-    "rawName": "29 courses",
-    "canonicalName": "29 courses",
-    "sourceUrl": "https://www.futurepedia.io/courses"
+    "rawName": "Standard Cyborg",
+    "canonicalName": "Standard Cyborg",
+    "sourceUrl": "http://standardcyborg.com"
   },
   {
-    "rawName": "14-Day AI Boot Camp",
-    "canonicalName": "14-Day AI Boot Camp",
-    "sourceUrl": "https://www.futurepedia.io/courses/14-day-ai-boot-camp"
+    "rawName": "Tara AI",
+    "canonicalName": "Tara AI",
+    "sourceUrl": "http://www.tara.ai"
   },
   {
-    "rawName": "Productivity Tools",
-    "canonicalName": "Productivity Tools",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/productivity"
+    "rawName": "Replika",
+    "canonicalName": "Replika",
+    "sourceUrl": "https://replika.ai/"
   },
   {
-    "rawName": "Image Generators",
-    "canonicalName": "Image Generators",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/image-generators"
+    "rawName": "Mashgin",
+    "canonicalName": "Mashgin",
+    "sourceUrl": "http://mashgin.com"
   },
   {
-    "rawName": "Text Generators",
-    "canonicalName": "Text Generators",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/text-generators"
+    "rawName": "Teleport",
+    "canonicalName": "Teleport",
+    "sourceUrl": "https://goteleport.com"
   },
   {
-    "rawName": "Video Tools",
-    "canonicalName": "Video Tools",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/video"
+    "rawName": "ROSS Intelligence",
+    "canonicalName": "ROSS Intelligence",
+    "sourceUrl": "http://rossintelligence.com"
   },
   {
-    "rawName": "Art Generators",
-    "canonicalName": "Art Generators",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/art"
+    "rawName": "SnapMagic",
+    "canonicalName": "SnapMagic",
+    "sourceUrl": "https://www.snapmagic.com"
   },
   {
-    "rawName": "Audio Generators",
-    "canonicalName": "Audio Generators",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/audio-generators"
+    "rawName": "Shotput",
+    "canonicalName": "Shotput",
+    "sourceUrl": "http://theshotput.com"
   },
   {
-    "rawName": "All AI Tools",
-    "canonicalName": "All AI Tools",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools"
+    "rawName": "Tesorio",
+    "canonicalName": "Tesorio",
+    "sourceUrl": "https://www.tesorio.com"
   },
   {
-    "rawName": "Best AI Art Generators",
-    "canonicalName": "Best AI Art Generators",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/art-generators/best"
+    "rawName": "Thrive Agritech",
+    "canonicalName": "Thrive Agritech",
+    "sourceUrl": "http://www.thriveagritech.com"
   },
   {
-    "rawName": "Best AI Image Generators",
-    "canonicalName": "Best AI Image Generators",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/image-generators/best"
+    "rawName": "Verge Genomics",
+    "canonicalName": "Verge Genomics",
+    "sourceUrl": "http://vergegenomics.com"
   },
   {
-    "rawName": "Best AI Chatbots",
-    "canonicalName": "Best AI Chatbots",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/chatbots/best"
+    "rawName": "Drip Capital",
+    "canonicalName": "Drip Capital",
+    "sourceUrl": "http://dripcapital.com"
   },
   {
-    "rawName": "Best AI Text Generators",
-    "canonicalName": "Best AI Text Generators",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/text-generators/best"
+    "rawName": "Reduced Energy Microsystems",
+    "canonicalName": "Reduced Energy Microsystems",
+    "sourceUrl": "http://remicro.com"
   },
   {
-    "rawName": "Best AI 3D Generators",
-    "canonicalName": "Best AI 3D Generators",
-    "sourceUrl": "https://www.futurepedia.io/ai-tools/3D-generator/best"
+    "rawName": "Traversal Networks",
+    "canonicalName": "Traversal Networks",
+    "sourceUrl": "http://traversalnetworks.com"
   },
   {
-    "rawName": "All Resources",
-    "canonicalName": "All Resources",
-    "sourceUrl": "https://www.futurepedia.io/resources"
+    "rawName": "Klarismo",
+    "canonicalName": "Klarismo",
+    "sourceUrl": "http://klarismo.com"
   },
   {
-    "rawName": "Skill Leap",
-    "canonicalName": "Skill Leap",
-    "sourceUrl": "https://skillleap.futurepedia.io/?utm_source=futurepedia.io&utm_medium=footer&utm_campaign=skillleap_link"
+    "rawName": "VOIQ",
+    "canonicalName": "VOIQ",
+    "sourceUrl": "http://voiq.com"
   },
   {
-    "rawName": "About Us",
-    "canonicalName": "About Us",
-    "sourceUrl": "https://www.futurepedia.io/about-us"
+    "rawName": "Deepgram",
+    "canonicalName": "Deepgram",
+    "sourceUrl": "https://www.deepgram.com"
   },
   {
-    "rawName": "Contact Us",
-    "canonicalName": "Contact Us",
-    "sourceUrl": "https://www.futurepedia.io/contact"
+    "rawName": "iSono Health",
+    "canonicalName": "iSono Health",
+    "sourceUrl": "http://www.isonohealth.com"
   },
   {
-    "rawName": "Submit a Tool",
-    "canonicalName": "Submit a Tool",
-    "sourceUrl": "https://www.futurepedia.io/submit-tool"
+    "rawName": "Daily",
+    "canonicalName": "Daily",
+    "sourceUrl": "https://daily.co"
   },
   {
-    "rawName": "Update a Tool",
-    "canonicalName": "Update a Tool",
-    "sourceUrl": "https://www.futurepedia.io/update-a-tool"
+    "rawName": "Algoriz",
+    "canonicalName": "Algoriz",
+    "sourceUrl": "http://www.algoriz.com"
   },
   {
-    "rawName": "Editorial Guidelines",
-    "canonicalName": "Editorial Guidelines",
-    "sourceUrl": "https://www.futurepedia.io/editorial-guidelines"
+    "rawName": "Pulpix",
+    "canonicalName": "Pulpix",
+    "sourceUrl": "https://www.pulpix.com"
   },
   {
-    "rawName": "Sign up for free",
-    "canonicalName": "Sign up for free",
-    "sourceUrl": "https://www.futurepedia.io/register"
+    "rawName": "Revl",
+    "canonicalName": "Revl",
+    "sourceUrl": "https://revl.com/"
   },
   {
-    "rawName": "Linkedin",
-    "canonicalName": "Linkedin",
-    "sourceUrl": "https://www.linkedin.com/company/futurepedia"
+    "rawName": "Netomi",
+    "canonicalName": "Netomi",
+    "sourceUrl": "https://netomi.com"
   },
   {
-    "rawName": "Twitter",
-    "canonicalName": "Twitter",
-    "sourceUrl": "https://x.com/futurepedia_io"
+    "rawName": "Superside",
+    "canonicalName": "Superside",
+    "sourceUrl": "http://www.superside.com"
   },
   {
-    "rawName": "YouTube",
-    "canonicalName": "YouTube",
-    "sourceUrl": "https://www.youtube.com/@futurepedia_io"
+    "rawName": "Luciq (formerly Instabug)",
+    "canonicalName": "Luciq (formerly Instabug)",
+    "sourceUrl": "https://luciq.ai"
   },
   {
-    "rawName": "TikTok",
-    "canonicalName": "TikTok",
-    "sourceUrl": "https://www.tiktok.com/@futurepediaio"
+    "rawName": "Pave",
+    "canonicalName": "Pave",
+    "sourceUrl": "https://www.paveai.com/"
   },
   {
-    "rawName": "Instagram",
-    "canonicalName": "Instagram",
-    "sourceUrl": "https://www.instagram.com/futurepedia_io/"
+    "rawName": "Podium",
+    "canonicalName": "Podium",
+    "sourceUrl": "https://podium.com"
   },
   {
-    "rawName": "Facebook",
-    "canonicalName": "Facebook",
-    "sourceUrl": "https://www.facebook.com/futurepediadotio/"
+    "rawName": "Gecko Robotics",
+    "canonicalName": "Gecko Robotics",
+    "sourceUrl": "https://www.geckorobotics.com"
   },
   {
-    "rawName": "Privacy Policy",
-    "canonicalName": "Privacy Policy",
-    "sourceUrl": "https://legal.hubspot.com/privacy-policy"
+    "rawName": "HistoWiz",
+    "canonicalName": "HistoWiz",
+    "sourceUrl": "http://histowiz.com"
   },
   {
-    "rawName": "HubSpot Website Terms of Use",
-    "canonicalName": "HubSpot Website Terms of Use",
-    "sourceUrl": "https://legal.hubspot.com/website-terms-of-use"
+    "rawName": "Caper",
+    "canonicalName": "Caper",
+    "sourceUrl": "https://www.caper.ai/"
+  },
+  {
+    "rawName": "Sendbird",
+    "canonicalName": "Sendbird",
+    "sourceUrl": "https://sendbird.com"
+  },
+  {
+    "rawName": "Relativity Space",
+    "canonicalName": "Relativity Space",
+    "sourceUrl": "http://relativityspace.com"
+  },
+  {
+    "rawName": "Nova",
+    "canonicalName": "Nova",
+    "sourceUrl": "http://www.nova.ai"
+  },
+  {
+    "rawName": "Farmstead",
+    "canonicalName": "Farmstead",
+    "sourceUrl": "http://farmsteadapp.com"
+  },
+  {
+    "rawName": "Sway Finance",
+    "canonicalName": "Sway Finance",
+    "sourceUrl": "https://www.swayfinance.com"
+  },
+  {
+    "rawName": "Iris Automation",
+    "canonicalName": "Iris Automation",
+    "sourceUrl": "http://www.irisonboard.com"
+  },
+  {
+    "rawName": "OneChronos",
+    "canonicalName": "OneChronos",
+    "sourceUrl": "https://www.onechronos.com/"
+  },
+  {
+    "rawName": "garten",
+    "canonicalName": "garten",
+    "sourceUrl": "https://garten.co/"
+  },
+  {
+    "rawName": "Mosaix.ai",
+    "canonicalName": "Mosaix.ai",
+    "sourceUrl": "https://mosaix.ai"
+  },
+  {
+    "rawName": "NeoWize",
+    "canonicalName": "NeoWize",
+    "sourceUrl": "http://www.neowize.com"
+  },
+  {
+    "rawName": "Airo Health",
+    "canonicalName": "Airo Health",
+    "sourceUrl": "http://www.airohealth.com"
+  },
+  {
+    "rawName": "Synvivia",
+    "canonicalName": "Synvivia",
+    "sourceUrl": "https://www.synvivia.com"
+  },
+  {
+    "rawName": "Seerslab",
+    "canonicalName": "Seerslab",
+    "sourceUrl": "http://www.argear.io"
+  },
+  {
+    "rawName": "Miso",
+    "canonicalName": "Miso",
+    "sourceUrl": "http://miso.kr"
+  },
+  {
+    "rawName": "Athelas",
+    "canonicalName": "Athelas",
+    "sourceUrl": "http://athelas.com"
+  },
+  {
+    "rawName": "CrowdAI",
+    "canonicalName": "CrowdAI",
+    "sourceUrl": "https://crowdai.com/"
+  },
+  {
+    "rawName": "Saleswhale",
+    "canonicalName": "Saleswhale",
+    "sourceUrl": "https://www.saleswhale.com/"
+  },
+  {
+    "rawName": "Scale AI",
+    "canonicalName": "Scale AI",
+    "sourceUrl": "http://scale.com"
+  },
+  {
+    "rawName": "People.ai",
+    "canonicalName": "People.ai",
+    "sourceUrl": "https://people.ai"
+  },
+  {
+    "rawName": "Voiceops",
+    "canonicalName": "Voiceops",
+    "sourceUrl": "https://voiceops.com"
+  },
+  {
+    "rawName": "Speak",
+    "canonicalName": "Speak",
+    "sourceUrl": "http://speak.com"
+  },
+  {
+    "rawName": "Bountiful",
+    "canonicalName": "Bountiful",
+    "sourceUrl": "https://bountiful.ag/"
+  },
+  {
+    "rawName": "Cowlar",
+    "canonicalName": "Cowlar",
+    "sourceUrl": "http://www.cowlar.com"
+  },
+  {
+    "rawName": "Scribe",
+    "canonicalName": "Scribe",
+    "sourceUrl": "http://tryscribe.com/"
+  },
+  {
+    "rawName": "Pit.AI",
+    "canonicalName": "Pit.AI",
+    "sourceUrl": "https://www.pit.ai"
+  },
+  {
+    "rawName": "MDalgorithms Inc.",
+    "canonicalName": "MDalgorithms Inc.",
+    "sourceUrl": "https://www.mdalgorithms.com"
+  },
+  {
+    "rawName": "Entry",
+    "canonicalName": "Entry",
+    "sourceUrl": "http://getentry.com"
+  },
+  {
+    "rawName": "RankScience",
+    "canonicalName": "RankScience",
+    "sourceUrl": "https://www.rankscience.com"
+  },
+  {
+    "rawName": "Ambient.ai",
+    "canonicalName": "Ambient.ai",
+    "sourceUrl": "https://ambient.ai"
+  },
+  {
+    "rawName": "Penny",
+    "canonicalName": "Penny",
+    "sourceUrl": "https://www.pennyapp.io"
+  },
+  {
+    "rawName": "Veryfi, Inc.",
+    "canonicalName": "Veryfi, Inc.",
+    "sourceUrl": "https://www.veryfi.com/"
+  },
+  {
+    "rawName": "AlemHealth",
+    "canonicalName": "AlemHealth",
+    "sourceUrl": "https://www.alemhealth.com"
+  },
+  {
+    "rawName": "Tetra",
+    "canonicalName": "Tetra",
+    "sourceUrl": "https://asktetra.com"
+  },
+  {
+    "rawName": "FloydHub",
+    "canonicalName": "FloydHub",
+    "sourceUrl": "http://www.floydhub.com/"
+  },
+  {
+    "rawName": "BIOS Health",
+    "canonicalName": "BIOS Health",
+    "sourceUrl": "https://www.bios.health"
+  },
+  {
+    "rawName": "NanoNets",
+    "canonicalName": "NanoNets",
+    "sourceUrl": "https://nanonets.com"
+  },
+  {
+    "rawName": "Bicycle AI",
+    "canonicalName": "Bicycle AI",
+    "sourceUrl": "http://bicycleai.com"
+  },
+  {
+    "rawName": "Faire",
+    "canonicalName": "Faire",
+    "sourceUrl": "https://www.faire.com/"
+  },
+  {
+    "rawName": "Ridecell",
+    "canonicalName": "Ridecell",
+    "sourceUrl": "https://www.ridecell.com"
+  },
+  {
+    "rawName": "Mirror AI",
+    "canonicalName": "Mirror AI",
+    "sourceUrl": "http://mirror-ai.com"
+  },
+  {
+    "rawName": "Helix Nanotechnologies",
+    "canonicalName": "Helix Nanotechnologies",
+    "sourceUrl": "http://helixnano.com"
+  },
+  {
+    "rawName": "ScopeAI",
+    "canonicalName": "ScopeAI",
+    "sourceUrl": "https://www.getscopeai.com"
+  },
+  {
+    "rawName": "Jerry",
+    "canonicalName": "Jerry",
+    "sourceUrl": "https://jerry.ai/"
+  },
+  {
+    "rawName": "Skyways",
+    "canonicalName": "Skyways",
+    "sourceUrl": "http://skyways.com"
+  },
+  {
+    "rawName": "VergeSense",
+    "canonicalName": "VergeSense",
+    "sourceUrl": "http://www.vergesense.com"
+  },
+  {
+    "rawName": "UpCodes",
+    "canonicalName": "UpCodes",
+    "sourceUrl": "https://up.codes/"
+  },
+  {
+    "rawName": "Standard AI",
+    "canonicalName": "Standard AI",
+    "sourceUrl": "https://standard.ai"
+  },
+  {
+    "rawName": "Nimble",
+    "canonicalName": "Nimble",
+    "sourceUrl": "http://www.hirenimble.com"
+  },
+  {
+    "rawName": "Darmiyan",
+    "canonicalName": "Darmiyan",
+    "sourceUrl": "https://www.darmiyan.com/"
+  },
+  {
+    "rawName": "Flock Safety",
+    "canonicalName": "Flock Safety",
+    "sourceUrl": "http://www.flocksafety.com"
+  },
+  {
+    "rawName": "Mystro",
+    "canonicalName": "Mystro",
+    "sourceUrl": "http://www.mystrodriver.com"
+  },
+  {
+    "rawName": "Semantix",
+    "canonicalName": "Semantix",
+    "sourceUrl": "https://www.semantix.ai"
+  },
+  {
+    "rawName": "Upfort",
+    "canonicalName": "Upfort",
+    "sourceUrl": "https://www.upfort.com"
+  },
+  {
+    "rawName": "Plasticity",
+    "canonicalName": "Plasticity",
+    "sourceUrl": "https://www.plasticity.ai"
+  },
+  {
+    "rawName": "Cairns Health",
+    "canonicalName": "Cairns Health",
+    "sourceUrl": "https://www.cairns.ai"
+  },
+  {
+    "rawName": "Spect",
+    "canonicalName": "Spect",
+    "sourceUrl": "http://www.getspect.com"
+  },
+  {
+    "rawName": "D-ID",
+    "canonicalName": "D-ID",
+    "sourceUrl": "http://www.d-id.com"
+  },
+  {
+    "rawName": "Percept.AI",
+    "canonicalName": "Percept.AI",
+    "sourceUrl": "https://www.percept.ai/"
+  },
+  {
+    "rawName": "Sourceress",
+    "canonicalName": "Sourceress",
+    "sourceUrl": "http://sourceress.com/"
+  },
+  {
+    "rawName": "Headstart",
+    "canonicalName": "Headstart",
+    "sourceUrl": "https://www.headstart.io"
+  },
+  {
+    "rawName": "May Mobility",
+    "canonicalName": "May Mobility",
+    "sourceUrl": "http://maymobility.com"
+  },
+  {
+    "rawName": "Commissary Club (formerly 70 Million Jobs)",
+    "canonicalName": "Commissary Club (formerly 70 Million Jobs)",
+    "sourceUrl": "https://www.Commissary.Club"
+  },
+  {
+    "rawName": "AssemblyAI",
+    "canonicalName": "AssemblyAI",
+    "sourceUrl": "https://www.assemblyai.com"
+  },
+  {
+    "rawName": "Lyrebird",
+    "canonicalName": "Lyrebird",
+    "sourceUrl": "https://lyrebird.ai/"
+  },
+  {
+    "rawName": "Social Construct",
+    "canonicalName": "Social Construct",
+    "sourceUrl": "http://socialconstructco.com"
+  },
+  {
+    "rawName": "10 By 10",
+    "canonicalName": "10 By 10",
+    "sourceUrl": "https://10by10.io"
+  },
+  {
+    "rawName": "Thematic",
+    "canonicalName": "Thematic",
+    "sourceUrl": "http://www.getthematic.com"
+  },
+  {
+    "rawName": "FollowUpThen",
+    "canonicalName": "FollowUpThen",
+    "sourceUrl": "https://www.followupthen.com/"
+  },
+  {
+    "rawName": "Candidately",
+    "canonicalName": "Candidately",
+    "sourceUrl": "https://www.candidately.com/"
+  },
+  {
+    "rawName": "Proven Group",
+    "canonicalName": "Proven Group",
+    "sourceUrl": "https://www.provenskincare.com"
+  },
+  {
+    "rawName": "Precious",
+    "canonicalName": "Precious",
+    "sourceUrl": "https://preciousapp.com/"
+  },
+  {
+    "rawName": "Spellbrush",
+    "canonicalName": "Spellbrush",
+    "sourceUrl": "https://spellbrush.com"
+  },
+  {
+    "rawName": "Jasper.ai",
+    "canonicalName": "Jasper.ai",
+    "sourceUrl": "https://jasper.ai"
+  },
+  {
+    "rawName": "Assembly",
+    "canonicalName": "Assembly",
+    "sourceUrl": "https://www.assembly.com"
+  },
+  {
+    "rawName": "Observant AI",
+    "canonicalName": "Observant AI",
+    "sourceUrl": "https://www.observantai.com"
+  },
+  {
+    "rawName": "Fondo",
+    "canonicalName": "Fondo",
+    "sourceUrl": "https://fondo.com"
+  },
+  {
+    "rawName": "Slite",
+    "canonicalName": "Slite",
+    "sourceUrl": "https://slite.com/"
+  },
+  {
+    "rawName": "ClearBrain",
+    "canonicalName": "ClearBrain",
+    "sourceUrl": "https://clearbrain.com/"
+  },
+  {
+    "rawName": "Sepsis Scout",
+    "canonicalName": "Sepsis Scout",
+    "sourceUrl": "https://sepsisscout.com"
+  },
+  {
+    "rawName": "Promise",
+    "canonicalName": "Promise",
+    "sourceUrl": "http://promise-pay.com"
+  },
+  {
+    "rawName": "Reverie Labs",
+    "canonicalName": "Reverie Labs",
+    "sourceUrl": "http://www.reverielabs.com"
+  },
+  {
+    "rawName": "Nuvocargo",
+    "canonicalName": "Nuvocargo",
+    "sourceUrl": "http://www.nuvocargo.com"
+  },
+  {
+    "rawName": "Evolve (makers of Podcast App & Rest)",
+    "canonicalName": "Evolve (makers of Podcast App & Rest)",
+    "sourceUrl": "https://getrest.app"
+  },
+  {
+    "rawName": "Edwin",
+    "canonicalName": "Edwin",
+    "sourceUrl": "https://edwin.ai"
+  },
+  {
+    "rawName": "Acely",
+    "canonicalName": "Acely",
+    "sourceUrl": "https://acely.com"
+  },
+  {
+    "rawName": "Cognition IP",
+    "canonicalName": "Cognition IP",
+    "sourceUrl": "https://www.cognitionip.com"
+  },
+  {
+    "rawName": "Vathys",
+    "canonicalName": "Vathys",
+    "sourceUrl": "http://vathys.ai"
+  },
+  {
+    "rawName": "Naborly",
+    "canonicalName": "Naborly",
+    "sourceUrl": "https://naborly.com"
+  },
+  {
+    "rawName": "Weekend (fmr. Volley)",
+    "canonicalName": "Weekend (fmr. Volley)",
+    "sourceUrl": "https://weekend.com"
+  },
+  {
+    "rawName": "SharpestMinds",
+    "canonicalName": "SharpestMinds",
+    "sourceUrl": "http://sharpestminds.com"
+  },
+  {
+    "rawName": "Tilt (f.k.a. Delphia)",
+    "canonicalName": "Tilt (f.k.a. Delphia)",
+    "sourceUrl": "http://tilt.io"
+  },
+  {
+    "rawName": "Orangewood Labs",
+    "canonicalName": "Orangewood Labs",
+    "sourceUrl": "http://www.orangewood.co"
+  },
+  {
+    "rawName": "Memora Health",
+    "canonicalName": "Memora Health",
+    "sourceUrl": "https://memorahealth.com"
+  },
+  {
+    "rawName": "Zyper",
+    "canonicalName": "Zyper",
+    "sourceUrl": "https://zyper.com/"
+  },
+  {
+    "rawName": "AlgoSurg Inc",
+    "canonicalName": "AlgoSurg Inc",
+    "sourceUrl": "http://www.algosurg.com"
+  },
+  {
+    "rawName": "Voicery",
+    "canonicalName": "Voicery",
+    "sourceUrl": "http://www.voicery.com"
+  },
+  {
+    "rawName": "Point API",
+    "canonicalName": "Point API",
+    "sourceUrl": "https://pointapi.com"
+  },
+  {
+    "rawName": "Jido Maps",
+    "canonicalName": "Jido Maps",
+    "sourceUrl": "https://jidomaps.com/"
+  },
+  {
+    "rawName": "Observe.AI",
+    "canonicalName": "Observe.AI",
+    "sourceUrl": "https://observe.ai"
+  },
+  {
+    "rawName": "Helloverify",
+    "canonicalName": "Helloverify",
+    "sourceUrl": "https://www.helloverify.ae"
+  },
+  {
+    "rawName": "Swayable",
+    "canonicalName": "Swayable",
+    "sourceUrl": "http://swayable.com"
+  },
+  {
+    "rawName": "Phiar",
+    "canonicalName": "Phiar",
+    "sourceUrl": "https://www.phiar.net"
+  },
+  {
+    "rawName": "OWNY",
+    "canonicalName": "OWNY",
+    "sourceUrl": "https://www.owny.com"
+  },
+  {
+    "rawName": "Within",
+    "canonicalName": "Within",
+    "sourceUrl": "http://within.ai"
+  },
+  {
+    "rawName": "numericcal, inc.",
+    "canonicalName": "numericcal, inc.",
+    "sourceUrl": "http://numericcal.com/"
+  },
+  {
+    "rawName": "Searchlight",
+    "canonicalName": "Searchlight",
+    "sourceUrl": "https://www.searchlight.ai/"
+  },
+  {
+    "rawName": "Activeloop",
+    "canonicalName": "Activeloop",
+    "sourceUrl": "https://activeloop.ai/"
+  },
+  {
+    "rawName": "Titan",
+    "canonicalName": "Titan",
+    "sourceUrl": "http://www.titan.com"
+  },
+  {
+    "rawName": "Data Driven Bioscience",
+    "canonicalName": "Data Driven Bioscience",
+    "sourceUrl": "http://datadrivenbioscience.com"
+  },
+  {
+    "rawName": "Inscribe",
+    "canonicalName": "Inscribe",
+    "sourceUrl": "https://www.inscribe.ai/"
+  },
+  {
+    "rawName": "JITX",
+    "canonicalName": "JITX",
+    "sourceUrl": "http://www.jitx.com"
+  },
+  {
+    "rawName": "64x Bio",
+    "canonicalName": "64x Bio",
+    "sourceUrl": "http://www.64xbio.com"
+  },
+  {
+    "rawName": "Anima App",
+    "canonicalName": "Anima App",
+    "sourceUrl": "https://www.animaapp.com"
+  },
+  {
+    "rawName": "LabelFlow",
+    "canonicalName": "LabelFlow",
+    "sourceUrl": "https://labelflow.ai/"
+  },
+  {
+    "rawName": "Regology",
+    "canonicalName": "Regology",
+    "sourceUrl": "http://regology.com"
+  },
+  {
+    "rawName": "Quickchat AI",
+    "canonicalName": "Quickchat AI",
+    "sourceUrl": "https://quickchat.ai/"
+  },
+  {
+    "rawName": "Rain Neuromorphics",
+    "canonicalName": "Rain Neuromorphics",
+    "sourceUrl": "http://www.rain-neuromorphics.com"
+  },
+  {
+    "rawName": "Alpha Vantage",
+    "canonicalName": "Alpha Vantage",
+    "sourceUrl": "https://www.alphavantage.co/"
+  },
+  {
+    "rawName": "MentalHappy",
+    "canonicalName": "MentalHappy",
+    "sourceUrl": "http://www.MentalHappy.com"
+  },
+  {
+    "rawName": "Prodigal",
+    "canonicalName": "Prodigal",
+    "sourceUrl": "https://prodigaltech.com/"
+  },
+  {
+    "rawName": "TENDERD",
+    "canonicalName": "TENDERD",
+    "sourceUrl": "https://www.tenderd.com/"
+  },
+  {
+    "rawName": "Nestor",
+    "canonicalName": "Nestor",
+    "sourceUrl": "https://nestorup.com"
+  },
+  {
+    "rawName": "Shelf Engine",
+    "canonicalName": "Shelf Engine",
+    "sourceUrl": "http://www.shelfengine.com"
+  },
+  {
+    "rawName": "Eden",
+    "canonicalName": "Eden",
+    "sourceUrl": "https://edenmed.com"
+  },
+  {
+    "rawName": "BrainHi",
+    "canonicalName": "BrainHi",
+    "sourceUrl": "https://www.brainhi.com"
+  },
+  {
+    "rawName": "Kobo360",
+    "canonicalName": "Kobo360",
+    "sourceUrl": "http://www.kobo360.com"
+  },
+  {
+    "rawName": "Mutiny",
+    "canonicalName": "Mutiny",
+    "sourceUrl": "https://www.mutinyhq.com"
+  },
+  {
+    "rawName": "Leena AI",
+    "canonicalName": "Leena AI",
+    "sourceUrl": "https://www.leena.ai"
+  },
+  {
+    "rawName": "SPATE",
+    "canonicalName": "SPATE",
+    "sourceUrl": "https://www.spate.nyc"
+  },
+  {
+    "rawName": "LemonBox",
+    "canonicalName": "LemonBox",
+    "sourceUrl": "http://www.lemonbox.com/"
+  },
+  {
+    "rawName": "iLabService",
+    "canonicalName": "iLabService",
+    "sourceUrl": "https://www.ilabservice.ai"
+  },
+  {
+    "rawName": "Aesthetic",
+    "canonicalName": "Aesthetic",
+    "sourceUrl": "https://www.aesthetic.com"
+  },
+  {
+    "rawName": "Kunduz",
+    "canonicalName": "Kunduz",
+    "sourceUrl": "https://kunduz.com/"
+  },
+  {
+    "rawName": "Overview",
+    "canonicalName": "Overview",
+    "sourceUrl": "https://overview.ai"
+  },
+  {
+    "rawName": "Flockjay",
+    "canonicalName": "Flockjay",
+    "sourceUrl": "https://flockjay.com"
+  },
+  {
+    "rawName": "AllSome Fulfillment",
+    "canonicalName": "AllSome Fulfillment",
+    "sourceUrl": "https://www.allsome.com"
+  },
+  {
+    "rawName": "Pachama",
+    "canonicalName": "Pachama",
+    "sourceUrl": "http://pachama.com"
+  },
+  {
+    "rawName": "Keeper",
+    "canonicalName": "Keeper",
+    "sourceUrl": "https://keepertax.com"
+  },
+  {
+    "rawName": "Centaur",
+    "canonicalName": "Centaur",
+    "sourceUrl": "https://centaur.ai/"
+  },
+  {
+    "rawName": "Windsor",
+    "canonicalName": "Windsor",
+    "sourceUrl": "https://windsor.io"
+  },
+  {
+    "rawName": "Hatch",
+    "canonicalName": "Hatch",
+    "sourceUrl": "http://usehatch.ai"
+  },
+  {
+    "rawName": "BrainKey",
+    "canonicalName": "BrainKey",
+    "sourceUrl": "https://www.brainkey.ai/"
+  },
+  {
+    "rawName": "MedCrypt",
+    "canonicalName": "MedCrypt",
+    "sourceUrl": "https://www.medcrypt.co"
+  },
+  {
+    "rawName": "GoLinks",
+    "canonicalName": "GoLinks",
+    "sourceUrl": "https://www.golinks.io"
+  },
+  {
+    "rawName": "Tailornova/Couturme",
+    "canonicalName": "Tailornova/Couturme",
+    "sourceUrl": "http://patternfast.com"
+  },
+  {
+    "rawName": "Community Phone Company",
+    "canonicalName": "Community Phone Company",
+    "sourceUrl": "https://www.communityphone.org/"
+  },
+  {
+    "rawName": "Basilica",
+    "canonicalName": "Basilica",
+    "sourceUrl": "https://www.basilica.ai"
+  },
+  {
+    "rawName": "Sapling.ai",
+    "canonicalName": "Sapling.ai",
+    "sourceUrl": "https://sapling.ai"
+  },
+  {
+    "rawName": "Demodesk",
+    "canonicalName": "Demodesk",
+    "sourceUrl": "https://demodesk.com"
+  },
+  {
+    "rawName": "AI Insurance",
+    "canonicalName": "AI Insurance",
+    "sourceUrl": "https://www.aiinsurance.io"
+  },
+  {
+    "rawName": "Evo.Do",
+    "canonicalName": "Evo.Do",
+    "sourceUrl": "http://www.evo.do/"
+  },
+  {
+    "rawName": "Docucharm",
+    "canonicalName": "Docucharm",
+    "sourceUrl": "http://www.docucharm.com"
+  },
+  {
+    "rawName": "Askdata",
+    "canonicalName": "Askdata",
+    "sourceUrl": "http://www.askdata.com"
+  },
+  {
+    "rawName": "Probably Genetic",
+    "canonicalName": "Probably Genetic",
+    "sourceUrl": "https://www.probablygenetic.com/"
+  },
+  {
+    "rawName": "Superorder",
+    "canonicalName": "Superorder",
+    "sourceUrl": "https://superorder.com/"
+  },
+  {
+    "rawName": "Bunkerhill Health",
+    "canonicalName": "Bunkerhill Health",
+    "sourceUrl": "http://bunkerhillhealth.com"
+  },
+  {
+    "rawName": "Landed",
+    "canonicalName": "Landed",
+    "sourceUrl": "https://www.gotlanded.com"
+  },
+  {
+    "rawName": "Autodial prev Qwest",
+    "canonicalName": "Autodial prev Qwest",
+    "sourceUrl": "https://www.autodial.com"
+  },
+  {
+    "rawName": "Pyxai",
+    "canonicalName": "Pyxai",
+    "sourceUrl": "https://www.pyxai.com"
+  },
+  {
+    "rawName": "Aura Vision",
+    "canonicalName": "Aura Vision",
+    "sourceUrl": "https://auravision.ai"
+  },
+  {
+    "rawName": "Hypnos",
+    "canonicalName": "Hypnos",
+    "sourceUrl": "http://hypnos.ai"
+  },
+  {
+    "rawName": "Superb AI",
+    "canonicalName": "Superb AI",
+    "sourceUrl": "https://www.superb-ai.com"
+  },
+  {
+    "rawName": "Traverse Technologies",
+    "canonicalName": "Traverse Technologies",
+    "sourceUrl": "https://traverse.ai"
+  },
+  {
+    "rawName": "Upsolve",
+    "canonicalName": "Upsolve",
+    "sourceUrl": "https://upsolve.org/learn/should-i-file-for-chapter-7-bankruptcy/"
+  },
+  {
+    "rawName": "Glide",
+    "canonicalName": "Glide",
+    "sourceUrl": "https://www.glideapps.com"
+  },
+  {
+    "rawName": "AXDRAFT",
+    "canonicalName": "AXDRAFT",
+    "sourceUrl": "https://axdraft.com"
+  },
+  {
+    "rawName": "Sublime Black",
+    "canonicalName": "Sublime Black",
+    "sourceUrl": "http://sublimeblack.com"
+  },
+  {
+    "rawName": "Mars Auto",
+    "canonicalName": "Mars Auto",
+    "sourceUrl": "https://marsauto.com"
+  },
+  {
+    "rawName": "Allure Systems",
+    "canonicalName": "Allure Systems",
+    "sourceUrl": "http://www.alluresystems.com/"
+  },
+  {
+    "rawName": "Tailor-ED",
+    "canonicalName": "Tailor-ED",
+    "sourceUrl": "https://www.tailor-ed.com/"
+  },
+  {
+    "rawName": "Cosmic",
+    "canonicalName": "Cosmic",
+    "sourceUrl": "https://www.cosmicjs.com"
+  },
+  {
+    "rawName": "OutRival, Inc.",
+    "canonicalName": "OutRival, Inc.",
+    "sourceUrl": "https://outrival.com/"
+  },
+  {
+    "rawName": "1910",
+    "canonicalName": "1910",
+    "sourceUrl": "http://1910.ai"
+  },
+  {
+    "rawName": "rct AI",
+    "canonicalName": "rct AI",
+    "sourceUrl": "http://rct.ai"
+  },
+  {
+    "rawName": "Spiral Genetics",
+    "canonicalName": "Spiral Genetics",
+    "sourceUrl": "http://www.spiralgenetics.com"
+  },
+  {
+    "rawName": "Playground",
+    "canonicalName": "Playground",
+    "sourceUrl": "https://playground.com"
+  },
+  {
+    "rawName": "Shiru",
+    "canonicalName": "Shiru",
+    "sourceUrl": "https://www.shiru.com/"
+  },
+  {
+    "rawName": "Figments",
+    "canonicalName": "Figments",
+    "sourceUrl": "https://plotdrive.com"
+  },
+  {
+    "rawName": "Palifer",
+    "canonicalName": "Palifer",
+    "sourceUrl": "https://www.palifer.com"
+  },
+  {
+    "rawName": "Symplex",
+    "canonicalName": "Symplex",
+    "sourceUrl": "https://www.ycombinator.com/companies/symplex"
+  },
+  {
+    "rawName": "Kraftful",
+    "canonicalName": "Kraftful",
+    "sourceUrl": "http://www.kraftful.com/"
+  },
+  {
+    "rawName": "Well Principled",
+    "canonicalName": "Well Principled",
+    "sourceUrl": "https://wellprincipled.com"
+  },
+  {
+    "rawName": "Short Story",
+    "canonicalName": "Short Story",
+    "sourceUrl": "https://shortstorybox.com"
+  },
+  {
+    "rawName": "Pair Team",
+    "canonicalName": "Pair Team",
+    "sourceUrl": "https://pairteam.com/"
+  },
+  {
+    "rawName": "TRM Labs",
+    "canonicalName": "TRM Labs",
+    "sourceUrl": "https://trmlabs.com/"
+  },
+  {
+    "rawName": "Soteris",
+    "canonicalName": "Soteris",
+    "sourceUrl": "http://www.soteris.co"
+  },
+  {
+    "rawName": "Lantern",
+    "canonicalName": "Lantern",
+    "sourceUrl": "https://www.lantern.so"
+  },
+  {
+    "rawName": "AudioFocus",
+    "canonicalName": "AudioFocus",
+    "sourceUrl": "http://audiofocus.io"
+  },
+  {
+    "rawName": "Prolific",
+    "canonicalName": "Prolific",
+    "sourceUrl": "https://www.prolific.com"
+  },
+  {
+    "rawName": "Dashblock",
+    "canonicalName": "Dashblock",
+    "sourceUrl": "https://dashblock.com"
+  },
+  {
+    "rawName": "GEn1E Lifesciences",
+    "canonicalName": "GEn1E Lifesciences",
+    "sourceUrl": "https://www.gen1e.com"
+  },
+  {
+    "rawName": "Embrace",
+    "canonicalName": "Embrace",
+    "sourceUrl": "https://embrace.io"
+  },
+  {
+    "rawName": "Mindset Health",
+    "canonicalName": "Mindset Health",
+    "sourceUrl": "https://www.mindsethealth.com"
+  },
+  {
+    "rawName": "Yummy Future",
+    "canonicalName": "Yummy Future",
+    "sourceUrl": "https://yummy-future.com"
+  },
+  {
+    "rawName": "ZETA SURGICAL",
+    "canonicalName": "ZETA SURGICAL",
+    "sourceUrl": "http://zetasurgical.com"
+  },
+  {
+    "rawName": "Milo",
+    "canonicalName": "Milo",
+    "sourceUrl": "http://www.joinmilo.com"
+  },
+  {
+    "rawName": "Downtobid",
+    "canonicalName": "Downtobid",
+    "sourceUrl": "https://downtobid.com"
+  },
+  {
+    "rawName": "Rosebud AI",
+    "canonicalName": "Rosebud AI",
+    "sourceUrl": "http://rosebud.ai"
+  },
+  {
+    "rawName": "Arpeggio Bio",
+    "canonicalName": "Arpeggio Bio",
+    "sourceUrl": "http://www.arpeggiobio.com"
+  },
+  {
+    "rawName": "EARTH AI",
+    "canonicalName": "EARTH AI",
+    "sourceUrl": "http://www.earth-ai.com"
+  },
+  {
+    "rawName": "CoLab",
+    "canonicalName": "CoLab",
+    "sourceUrl": "http://colabsoftware.com"
+  },
+  {
+    "rawName": "Chaos Genius",
+    "canonicalName": "Chaos Genius",
+    "sourceUrl": "http://www.chaosgenius.io"
+  },
+  {
+    "rawName": "Tensil",
+    "canonicalName": "Tensil",
+    "sourceUrl": "https://www.tensil.ai"
+  },
+  {
+    "rawName": "Vahan",
+    "canonicalName": "Vahan",
+    "sourceUrl": "https://vahan.ai"
+  },
+  {
+    "rawName": "Finlens",
+    "canonicalName": "Finlens",
+    "sourceUrl": "https://finlens.app"
+  },
+  {
+    "rawName": "Ramen VR",
+    "canonicalName": "Ramen VR",
+    "sourceUrl": "https://ramenvr.com/"
+  },
+  {
+    "rawName": "Demand Curve",
+    "canonicalName": "Demand Curve",
+    "sourceUrl": "https://www.demandcurve.com"
+  },
+  {
+    "rawName": "Hightouch",
+    "canonicalName": "Hightouch",
+    "sourceUrl": "https://hightouch.com/"
+  },
+  {
+    "rawName": "PredictLeads",
+    "canonicalName": "PredictLeads",
+    "sourceUrl": "https://predictleads.com"
+  },
+  {
+    "rawName": "Tranqui Finanzas",
+    "canonicalName": "Tranqui Finanzas",
+    "sourceUrl": "https://tranquifinanzas.com/"
+  },
+  {
+    "rawName": "Traces",
+    "canonicalName": "Traces",
+    "sourceUrl": "https://www.traces.ai"
+  },
+  {
+    "rawName": "zeroheight",
+    "canonicalName": "zeroheight",
+    "sourceUrl": "https://zeroheight.com"
+  },
+  {
+    "rawName": "Flowbot",
+    "canonicalName": "Flowbot",
+    "sourceUrl": "https://www.getflowbot.com"
+  },
+  {
+    "rawName": "Deepnote",
+    "canonicalName": "Deepnote",
+    "sourceUrl": "https://www.deepnote.com/"
+  },
+  {
+    "rawName": "Meridian Industries",
+    "canonicalName": "Meridian Industries",
+    "sourceUrl": "https://mora.com"
+  },
+  {
+    "rawName": "Taskade",
+    "canonicalName": "Taskade",
+    "sourceUrl": "https://www.taskade.com"
+  },
+  {
+    "rawName": "Motion",
+    "canonicalName": "Motion",
+    "sourceUrl": "https://www.usemotion.com/"
+  },
+  {
+    "rawName": "GitStart",
+    "canonicalName": "GitStart",
+    "sourceUrl": "https://www.gitstart.com"
+  },
+  {
+    "rawName": "Vendr",
+    "canonicalName": "Vendr",
+    "sourceUrl": "http://www.vendr.com"
+  },
+  {
+    "rawName": "Flowglad",
+    "canonicalName": "Flowglad",
+    "sourceUrl": "https://flowglad.com"
+  },
+  {
+    "rawName": "Phonic",
+    "canonicalName": "Phonic",
+    "sourceUrl": "https://phonic.ai"
+  },
+  {
+    "rawName": "Abalone Bio",
+    "canonicalName": "Abalone Bio",
+    "sourceUrl": "https://www.abalonebio.com"
+  },
+  {
+    "rawName": "StratumAI",
+    "canonicalName": "StratumAI",
+    "sourceUrl": "https://www.stratum.ai"
+  },
+  {
+    "rawName": "MindsDB",
+    "canonicalName": "MindsDB",
+    "sourceUrl": "https://www.mindsdb.com/"
+  },
+  {
+    "rawName": "FitnessAI",
+    "canonicalName": "FitnessAI",
+    "sourceUrl": "https://fitnessai.com"
+  },
+  {
+    "rawName": "Segmed",
+    "canonicalName": "Segmed",
+    "sourceUrl": "https://segmed.ai"
+  },
+  {
+    "rawName": "Explo",
+    "canonicalName": "Explo",
+    "sourceUrl": "https://explo.co/"
+  },
+  {
+    "rawName": "Letterdrop",
+    "canonicalName": "Letterdrop",
+    "sourceUrl": "https://letterdrop.com"
+  },
+  {
+    "rawName": "Taiv",
+    "canonicalName": "Taiv",
+    "sourceUrl": "https://taiv.tv"
+  },
+  {
+    "rawName": "Orbiter",
+    "canonicalName": "Orbiter",
+    "sourceUrl": "http://www.getorbiter.com"
+  },
+  {
+    "rawName": "Glisten AI",
+    "canonicalName": "Glisten AI",
+    "sourceUrl": "http://glisten.ai"
+  },
+  {
+    "rawName": "Ardis AI",
+    "canonicalName": "Ardis AI",
+    "sourceUrl": "http://www.ardis.ai"
+  },
+  {
+    "rawName": "Perceptive Technologies",
+    "canonicalName": "Perceptive Technologies",
+    "sourceUrl": "https://www.perceptive.io"
+  },
+  {
+    "rawName": "Handoff",
+    "canonicalName": "Handoff",
+    "sourceUrl": "https://www.handoff.ai/"
+  },
+  {
+    "rawName": "Nextmv",
+    "canonicalName": "Nextmv",
+    "sourceUrl": "https://nextmv.io"
+  },
+  {
+    "rawName": "Aden",
+    "canonicalName": "Aden",
+    "sourceUrl": "https://adenhq.com/"
+  },
+  {
+    "rawName": "Terrasoft",
+    "canonicalName": "Terrasoft",
+    "sourceUrl": "https://www.ycombinator.com/companies/terrasoft"
+  },
+  {
+    "rawName": "Datasaur",
+    "canonicalName": "Datasaur",
+    "sourceUrl": "https://datasaur.ai"
+  },
+  {
+    "rawName": "Dashworks",
+    "canonicalName": "Dashworks",
+    "sourceUrl": "http://www.dashworks.ai"
+  },
+  {
+    "rawName": "Replicate",
+    "canonicalName": "Replicate",
+    "sourceUrl": "https://replicate.com"
+  },
+  {
+    "rawName": "Basedash",
+    "canonicalName": "Basedash",
+    "sourceUrl": "https://www.basedash.com"
+  },
+  {
+    "rawName": "Clayboard",
+    "canonicalName": "Clayboard",
+    "sourceUrl": "http://clayboard.com"
+  },
+  {
+    "rawName": "Visual One",
+    "canonicalName": "Visual One",
+    "sourceUrl": "https://www.visualone.tech"
+  },
+  {
+    "rawName": "Signadot",
+    "canonicalName": "Signadot",
+    "sourceUrl": "https://www.signadot.com/"
+  },
+  {
+    "rawName": "Operator.io",
+    "canonicalName": "Operator.io",
+    "sourceUrl": "http://operator.io"
+  },
+  {
+    "rawName": "Scout",
+    "canonicalName": "Scout",
+    "sourceUrl": "https://www.scout.ml/"
+  },
+  {
+    "rawName": "Medicare Vox (fka Fair Square)",
+    "canonicalName": "Medicare Vox (fka Fair Square)",
+    "sourceUrl": "https://www.medicarevox.com"
+  },
+  {
+    "rawName": "Turing Labs Inc.",
+    "canonicalName": "Turing Labs Inc.",
+    "sourceUrl": "http://www.turingsaas.com"
+  },
+  {
+    "rawName": "Ello",
+    "canonicalName": "Ello",
+    "sourceUrl": "https://www.ello.com"
+  },
+  {
+    "rawName": "QueryPie AI",
+    "canonicalName": "QueryPie AI",
+    "sourceUrl": "https://www.querypie.com"
+  },
+  {
+    "rawName": "Typedream",
+    "canonicalName": "Typedream",
+    "sourceUrl": "https://typedream.com/"
+  },
+  {
+    "rawName": "Kinter",
+    "canonicalName": "Kinter",
+    "sourceUrl": "https://kinter.ai"
+  },
+  {
+    "rawName": "Dropbase",
+    "canonicalName": "Dropbase",
+    "sourceUrl": "https://dropbase.io"
+  },
+  {
+    "rawName": "Trident Bioscience",
+    "canonicalName": "Trident Bioscience",
+    "sourceUrl": "https://trident.bio"
+  },
+  {
+    "rawName": "Photoroom",
+    "canonicalName": "Photoroom",
+    "sourceUrl": "https://photoroom.com/"
+  },
+  {
+    "rawName": "Modernbanc",
+    "canonicalName": "Modernbanc",
+    "sourceUrl": "https://modernbanc.com"
+  },
+  {
+    "rawName": "AIOS",
+    "canonicalName": "AIOS",
+    "sourceUrl": "https://www.aiosmedical.com/"
+  },
+  {
+    "rawName": "Skypher",
+    "canonicalName": "Skypher",
+    "sourceUrl": "https://skypher.co"
+  },
+  {
+    "rawName": "Recurrency",
+    "canonicalName": "Recurrency",
+    "sourceUrl": "http://www.recurrency.com"
+  },
+  {
+    "rawName": "PostEra",
+    "canonicalName": "PostEra",
+    "sourceUrl": "https://postera.ai/"
+  },
+  {
+    "rawName": "DeepSource",
+    "canonicalName": "DeepSource",
+    "sourceUrl": "https://deepsource.com/"
+  },
+  {
+    "rawName": "UrbanKisaan",
+    "canonicalName": "UrbanKisaan",
+    "sourceUrl": "https://www.urbankisaan.com"
+  },
+  {
+    "rawName": "PillarPlus",
+    "canonicalName": "PillarPlus",
+    "sourceUrl": "https://pillarplus.com"
+  },
+  {
+    "rawName": "SprintAI",
+    "canonicalName": "SprintAI",
+    "sourceUrl": "https://www.getsprint.ai/"
+  },
+  {
+    "rawName": "Zumo Labs",
+    "canonicalName": "Zumo Labs",
+    "sourceUrl": "https://zumolabs.ai/"
+  },
+  {
+    "rawName": "Easyplan",
+    "canonicalName": "Easyplan",
+    "sourceUrl": "https://easyplan.in/"
+  },
+  {
+    "rawName": "adyn",
+    "canonicalName": "adyn",
+    "sourceUrl": "https://adyn.com"
+  },
+  {
+    "rawName": "Overfit",
+    "canonicalName": "Overfit",
+    "sourceUrl": "https://overfit.com"
+  },
+  {
+    "rawName": "Oda",
+    "canonicalName": "Oda",
+    "sourceUrl": "https://www.odastudio.ai/?ref=yc"
+  },
+  {
+    "rawName": "BeGo",
+    "canonicalName": "BeGo",
+    "sourceUrl": "http://www.bego.ai"
+  },
+  {
+    "rawName": "GuruHotel",
+    "canonicalName": "GuruHotel",
+    "sourceUrl": "https://guruhotel.com"
+  },
+  {
+    "rawName": "Recall.ai",
+    "canonicalName": "Recall.ai",
+    "sourceUrl": "https://www.recall.ai"
+  },
+  {
+    "rawName": "Atmo",
+    "canonicalName": "Atmo",
+    "sourceUrl": "http://atmo.ai"
+  },
+  {
+    "rawName": "PowerX",
+    "canonicalName": "PowerX",
+    "sourceUrl": "http://www.powerx.co"
+  },
+  {
+    "rawName": "Airbyte",
+    "canonicalName": "Airbyte",
+    "sourceUrl": "https://airbyte.com/"
+  },
+  {
+    "rawName": "Tasker AI",
+    "canonicalName": "Tasker AI",
+    "sourceUrl": "http://www.tasker.ai"
+  },
+  {
+    "rawName": "Menten AI",
+    "canonicalName": "Menten AI",
+    "sourceUrl": "http://menten.ai"
+  },
+  {
+    "rawName": "Legionfarm",
+    "canonicalName": "Legionfarm",
+    "sourceUrl": "https://lfcarry.com/"
+  },
+  {
+    "rawName": "Algen Biotechnologies",
+    "canonicalName": "Algen Biotechnologies",
+    "sourceUrl": "https://www.algenbio.com/"
+  },
+  {
+    "rawName": "Command AI",
+    "canonicalName": "Command AI",
+    "sourceUrl": "https://command.ai"
+  },
+  {
+    "rawName": "Roboflow",
+    "canonicalName": "Roboflow",
+    "sourceUrl": "https://roboflow.com"
+  },
+  {
+    "rawName": "Bandit ML",
+    "canonicalName": "Bandit ML",
+    "sourceUrl": "https://www.banditml.com/"
+  },
+  {
+    "rawName": "inFeedo AI",
+    "canonicalName": "inFeedo AI",
+    "sourceUrl": "https://infeedo.ai"
+  },
+  {
+    "rawName": "Datafold",
+    "canonicalName": "Datafold",
+    "sourceUrl": "https://datafold.com"
+  },
+  {
+    "rawName": "Blue Onion",
+    "canonicalName": "Blue Onion",
+    "sourceUrl": "https://www.blueonion.ai/"
+  },
+  {
+    "rawName": "Shuttle",
+    "canonicalName": "Shuttle",
+    "sourceUrl": "https://www.shuttle.dev"
+  },
+  {
+    "rawName": "Hypermile",
+    "canonicalName": "Hypermile",
+    "sourceUrl": "https://hypermile.ai"
+  },
+  {
+    "rawName": "Explorex",
+    "canonicalName": "Explorex",
+    "sourceUrl": "https://explorex.co"
+  },
+  {
+    "rawName": "Known Medicine",
+    "canonicalName": "Known Medicine",
+    "sourceUrl": "http://knownmed.com"
+  },
+  {
+    "rawName": "Hypotenuse AI",
+    "canonicalName": "Hypotenuse AI",
+    "sourceUrl": "https://hypotenuse.ai/"
+  },
+  {
+    "rawName": "Kernal Biologics",
+    "canonicalName": "Kernal Biologics",
+    "sourceUrl": "https://www.kernalbio.com/"
+  },
+  {
+    "rawName": "CoreCare",
+    "canonicalName": "CoreCare",
+    "sourceUrl": "https://corecare.ai"
+  },
+  {
+    "rawName": "Swif.ai",
+    "canonicalName": "Swif.ai",
+    "sourceUrl": "https://www.swif.ai"
+  },
+  {
+    "rawName": "Humanloop",
+    "canonicalName": "Humanloop",
+    "sourceUrl": "https://humanloop.com"
+  },
+  {
+    "rawName": "Omni",
+    "canonicalName": "Omni",
+    "sourceUrl": "https://addomni.com"
+  },
+  {
+    "rawName": "Blissway",
+    "canonicalName": "Blissway",
+    "sourceUrl": "https://www.blissway.com/"
+  },
+  {
+    "rawName": "Atomic",
+    "canonicalName": "Atomic",
+    "sourceUrl": "https://www.atomicvest.com/"
+  },
+  {
+    "rawName": "Osmind",
+    "canonicalName": "Osmind",
+    "sourceUrl": "https://osmind.org/"
+  },
+  {
+    "rawName": "Nextera Robotics | DIDGE.ai",
+    "canonicalName": "Nextera Robotics | DIDGE.ai",
+    "sourceUrl": "https://nexterarobotics.com"
+  },
+  {
+    "rawName": "Nabla Bio",
+    "canonicalName": "Nabla Bio",
+    "sourceUrl": "https://www.nabla.bio"
+  },
+  {
+    "rawName": "Hyper Online",
+    "canonicalName": "Hyper Online",
+    "sourceUrl": "https://www.hyper.online/"
+  },
+  {
+    "rawName": "Tydo",
+    "canonicalName": "Tydo",
+    "sourceUrl": "https://www.tydo.com"
+  },
+  {
+    "rawName": "BIK",
+    "canonicalName": "BIK",
+    "sourceUrl": "https://bik.ai/"
+  },
+  {
+    "rawName": "Aquarium Learning",
+    "canonicalName": "Aquarium Learning",
+    "sourceUrl": "https://www.aquariumlearning.com/"
+  },
+  {
+    "rawName": "Mailwarm",
+    "canonicalName": "Mailwarm",
+    "sourceUrl": "https://www.mailwarm.com"
+  },
+  {
+    "rawName": "Intelligent",
+    "canonicalName": "Intelligent",
+    "sourceUrl": "https://www.intelligent.services/"
+  },
+  {
+    "rawName": "Liyfe",
+    "canonicalName": "Liyfe",
+    "sourceUrl": "https://www.ycombinator.com/companies/liyfe"
+  },
+  {
+    "rawName": "Nephrogen",
+    "canonicalName": "Nephrogen",
+    "sourceUrl": "http://www.nephrogenbiotech.com"
+  },
+  {
+    "rawName": "Cohere",
+    "canonicalName": "Cohere",
+    "sourceUrl": "https://cohere.io"
+  },
+  {
+    "rawName": "Dataland",
+    "canonicalName": "Dataland",
+    "sourceUrl": "https://dataland.io"
+  },
+  {
+    "rawName": "Akiflow",
+    "canonicalName": "Akiflow",
+    "sourceUrl": "https://akiflow.com"
+  },
+  {
+    "rawName": "HENRY",
+    "canonicalName": "HENRY",
+    "sourceUrl": "https://www.soyhenry.com/hiring-en"
+  },
+  {
+    "rawName": "Taktile",
+    "canonicalName": "Taktile",
+    "sourceUrl": "http://www.taktile.com"
+  },
+  {
+    "rawName": "Mito",
+    "canonicalName": "Mito",
+    "sourceUrl": "http://trymito.io"
+  },
+  {
+    "rawName": "Draftwise",
+    "canonicalName": "Draftwise",
+    "sourceUrl": "https://www.draftwise.com/"
+  },
+  {
+    "rawName": "AI.Fashion",
+    "canonicalName": "AI.Fashion",
+    "sourceUrl": "https://www.ai.fashion"
+  },
+  {
+    "rawName": "Glimpse",
+    "canonicalName": "Glimpse",
+    "sourceUrl": "https://tryglimpse.com/"
+  },
+  {
+    "rawName": "Warmly,",
+    "canonicalName": "Warmly,",
+    "sourceUrl": "https://www.warmly.ai/"
+  },
+  {
+    "rawName": "Parade",
+    "canonicalName": "Parade",
+    "sourceUrl": "https://www.getparade.com"
+  },
+  {
+    "rawName": "Fieldguide",
+    "canonicalName": "Fieldguide",
+    "sourceUrl": "http://fieldguide.io"
+  },
+  {
+    "rawName": "Heron Data",
+    "canonicalName": "Heron Data",
+    "sourceUrl": "https://www.herondata.io"
+  },
+  {
+    "rawName": "Clau",
+    "canonicalName": "Clau",
+    "sourceUrl": "https://clau.com"
+  },
+  {
+    "rawName": "Quell",
+    "canonicalName": "Quell",
+    "sourceUrl": "https://playquell.com"
+  },
+  {
+    "rawName": "Payflow",
+    "canonicalName": "Payflow",
+    "sourceUrl": "https://www.payflow.ai"
+  },
+  {
+    "rawName": "Brevy",
+    "canonicalName": "Brevy",
+    "sourceUrl": "https://brevy.com/"
+  },
+  {
+    "rawName": "Degrees of Freedom",
+    "canonicalName": "Degrees of Freedom",
+    "sourceUrl": "https://www.DegreesOfFreedom.org"
+  },
+  {
+    "rawName": "cloud humans",
+    "canonicalName": "cloud humans",
+    "sourceUrl": "https://www.cloudhumans.com"
+  },
+  {
+    "rawName": "Atomic Industries",
+    "canonicalName": "Atomic Industries",
+    "sourceUrl": "http://atomic.industries"
+  },
+  {
+    "rawName": "authzed",
+    "canonicalName": "authzed",
+    "sourceUrl": "https://authzed.com"
+  },
+  {
+    "rawName": "Humaans",
+    "canonicalName": "Humaans",
+    "sourceUrl": "https://humaans.io"
+  },
+  {
+    "rawName": "DreamWorld",
+    "canonicalName": "DreamWorld",
+    "sourceUrl": "https://www.playdreamworld.com/"
+  },
+  {
+    "rawName": "RocketSDR",
+    "canonicalName": "RocketSDR",
+    "sourceUrl": "https://rocketsdr.ai"
+  },
+  {
+    "rawName": "Quadrant Eye",
+    "canonicalName": "Quadrant Eye",
+    "sourceUrl": "https://quadranteye.com"
+  },
+  {
+    "rawName": "SBX Robotics",
+    "canonicalName": "SBX Robotics",
+    "sourceUrl": "https://www.sbxrobotics.com/"
+  },
+  {
+    "rawName": "arnata",
+    "canonicalName": "arnata",
+    "sourceUrl": "https://arnata.com"
+  },
+  {
+    "rawName": "Pibit.ai",
+    "canonicalName": "Pibit.ai",
+    "sourceUrl": "https://pibit.ai"
+  },
+  {
+    "rawName": "Vogent",
+    "canonicalName": "Vogent",
+    "sourceUrl": "https://vogent.ai"
+  },
+  {
+    "rawName": "Moichor",
+    "canonicalName": "Moichor",
+    "sourceUrl": "https://moichor.com/"
+  },
+  {
+    "rawName": "Flux Auto",
+    "canonicalName": "Flux Auto",
+    "sourceUrl": "https://fluxauto.ai"
+  },
+  {
+    "rawName": "Fountain9",
+    "canonicalName": "Fountain9",
+    "sourceUrl": "https://www.fountain9.com"
+  },
+  {
+    "rawName": "Avocado",
+    "canonicalName": "Avocado",
+    "sourceUrl": "https://avocadopos.com"
+  },
+  {
+    "rawName": "Pragmatic Leaders (Ankai Inc)",
+    "canonicalName": "Pragmatic Leaders (Ankai Inc)",
+    "sourceUrl": "https://pragmaticleaders.io, https://ostronaut.com"
+  },
+  {
+    "rawName": "Segments.ai",
+    "canonicalName": "Segments.ai",
+    "sourceUrl": "https://segments.ai"
+  },
+  {
+    "rawName": "Encord",
+    "canonicalName": "Encord",
+    "sourceUrl": "https://encord.com"
+  },
+  {
+    "rawName": "ClipDrop",
+    "canonicalName": "ClipDrop",
+    "sourceUrl": "https://clipdrop.co"
+  },
+  {
+    "rawName": "Sivo",
+    "canonicalName": "Sivo",
+    "sourceUrl": "https://sivo.com"
+  },
+  {
+    "rawName": "HyperGlue",
+    "canonicalName": "HyperGlue",
+    "sourceUrl": "https://www.hyperglue.com"
+  },
+  {
+    "rawName": "Cyble",
+    "canonicalName": "Cyble",
+    "sourceUrl": "https://cyble.com/"
+  },
+  {
+    "rawName": "Supadock",
+    "canonicalName": "Supadock",
+    "sourceUrl": "https://getsupadock.com"
+  },
+  {
+    "rawName": "Expent Inc",
+    "canonicalName": "Expent Inc",
+    "sourceUrl": "https://www.expent.ai/"
+  },
+  {
+    "rawName": "Version Story Compare",
+    "canonicalName": "Version Story Compare",
+    "sourceUrl": "https://versionstory.com/"
+  },
+  {
+    "rawName": "Per Diem",
+    "canonicalName": "Per Diem",
+    "sourceUrl": "https://tryperdiem.com"
+  },
+  {
+    "rawName": "Promoted.ai",
+    "canonicalName": "Promoted.ai",
+    "sourceUrl": "http://www.promoted.ai"
+  },
+  {
+    "rawName": "Emerge Tools",
+    "canonicalName": "Emerge Tools",
+    "sourceUrl": "https://www.emergetools.com/"
+  },
+  {
+    "rawName": "Parsagon",
+    "canonicalName": "Parsagon",
+    "sourceUrl": "https://parsagon.io"
+  },
+  {
+    "rawName": "Alinea",
+    "canonicalName": "Alinea",
+    "sourceUrl": "https://alinea-invest.com/"
+  },
+  {
+    "rawName": "Vapi",
+    "canonicalName": "Vapi",
+    "sourceUrl": "https://vapi.ai"
+  },
+  {
+    "rawName": "Quadrant Health",
+    "canonicalName": "Quadrant Health",
+    "sourceUrl": "https://quadrant.health"
+  },
+  {
+    "rawName": "Mindee",
+    "canonicalName": "Mindee",
+    "sourceUrl": "https://mindee.com"
+  },
+  {
+    "rawName": "Popl",
+    "canonicalName": "Popl",
+    "sourceUrl": "https://popl.co/"
+  },
+  {
+    "rawName": "Fathom",
+    "canonicalName": "Fathom",
+    "sourceUrl": "https://www.fathom.ai"
+  },
+  {
+    "rawName": "Outpaint.com",
+    "canonicalName": "Outpaint.com",
+    "sourceUrl": "https://outpaint.com/"
+  },
+  {
+    "rawName": "FirstSupport.ai",
+    "canonicalName": "FirstSupport.ai",
+    "sourceUrl": "https://firstsupport.ai"
+  },
+  {
+    "rawName": "Rinsed",
+    "canonicalName": "Rinsed",
+    "sourceUrl": "https://www.rinsed.com"
+  },
+  {
+    "rawName": "Verak",
+    "canonicalName": "Verak",
+    "sourceUrl": "http://verak.in"
+  },
+  {
+    "rawName": "LiveFlow",
+    "canonicalName": "LiveFlow",
+    "sourceUrl": "https://www.liveflow.com"
+  },
+  {
+    "rawName": "Invoid",
+    "canonicalName": "Invoid",
+    "sourceUrl": "https://www.invoid.co/"
+  },
+  {
+    "rawName": "Datrics",
+    "canonicalName": "Datrics",
+    "sourceUrl": "https://datrics.ai"
+  },
+  {
+    "rawName": "OpenCode",
+    "canonicalName": "OpenCode",
+    "sourceUrl": "https://opencode.ai"
+  },
+  {
+    "rawName": "Topline Pro",
+    "canonicalName": "Topline Pro",
+    "sourceUrl": "https://www.toplinepro.com"
+  },
+  {
+    "rawName": "Codingal",
+    "canonicalName": "Codingal",
+    "sourceUrl": "https://www.codingal.com/?utm_source=yc"
+  },
+  {
+    "rawName": "Nimbus",
+    "canonicalName": "Nimbus",
+    "sourceUrl": "https://nimbus.dev"
+  },
+  {
+    "rawName": "Tractian",
+    "canonicalName": "Tractian",
+    "sourceUrl": "https://tractian.com"
+  },
+  {
+    "rawName": "Enable Us",
+    "canonicalName": "Enable Us",
+    "sourceUrl": "https://www.enableus.com"
+  },
+  {
+    "rawName": "Milk Video",
+    "canonicalName": "Milk Video",
+    "sourceUrl": "https://milkvideo.com"
+  },
+  {
+    "rawName": "Simplify",
+    "canonicalName": "Simplify",
+    "sourceUrl": "https://simplify.jobs/"
+  },
+  {
+    "rawName": "InpharmD",
+    "canonicalName": "InpharmD",
+    "sourceUrl": "https://www.inpharmd.com"
+  },
+  {
+    "rawName": "Tint",
+    "canonicalName": "Tint",
+    "sourceUrl": "http://www.tint.ai"
+  },
+  {
+    "rawName": "unSurvey",
+    "canonicalName": "unSurvey",
+    "sourceUrl": "http://www.unsurvey.ai"
+  },
+  {
+    "rawName": "ZOKO",
+    "canonicalName": "ZOKO",
+    "sourceUrl": "https://www.zoko.io/"
+  },
+  {
+    "rawName": "TaoFi",
+    "canonicalName": "TaoFi",
+    "sourceUrl": "https://taofi.com"
+  },
+  {
+    "rawName": "Reclaim Protocol",
+    "canonicalName": "Reclaim Protocol",
+    "sourceUrl": "https://reclaimprotocol.org"
+  },
+  {
+    "rawName": "BotBuilt",
+    "canonicalName": "BotBuilt",
+    "sourceUrl": "https://www.botbuilt.com"
+  },
+  {
+    "rawName": "Biodock",
+    "canonicalName": "Biodock",
+    "sourceUrl": "https://www.biodock.ai"
+  },
+  {
+    "rawName": "Venu AI",
+    "canonicalName": "Venu AI",
+    "sourceUrl": "https://www.venu3d.com"
+  },
+  {
+    "rawName": "Compose.ai",
+    "canonicalName": "Compose.ai",
+    "sourceUrl": "https://compose.ai"
+  },
+  {
+    "rawName": "Lamar Health",
+    "canonicalName": "Lamar Health",
+    "sourceUrl": "http://www.lamarhealth.com"
+  },
+  {
+    "rawName": "HomeBreeze",
+    "canonicalName": "HomeBreeze",
+    "sourceUrl": "https://www.homebreeze.ai/"
+  },
+  {
+    "rawName": "Codeball",
+    "canonicalName": "Codeball",
+    "sourceUrl": "https://codeball.ai"
+  },
+  {
+    "rawName": "Chatwoot",
+    "canonicalName": "Chatwoot",
+    "sourceUrl": "https://www.chatwoot.com"
+  },
+  {
+    "rawName": "Dataherald",
+    "canonicalName": "Dataherald",
+    "sourceUrl": "http://dataherald.com/"
+  },
+  {
+    "rawName": "Rejoy Health",
+    "canonicalName": "Rejoy Health",
+    "sourceUrl": "https://www.rejoyhealth.com/"
+  },
+  {
+    "rawName": "inBalance",
+    "canonicalName": "inBalance",
+    "sourceUrl": "https://inbalanceresearch.com"
+  },
+  {
+    "rawName": "Treinta",
+    "canonicalName": "Treinta",
+    "sourceUrl": "https://www.treinta.co"
+  },
+  {
+    "rawName": "Spline",
+    "canonicalName": "Spline",
+    "sourceUrl": "http://spline.design/"
+  },
+  {
+    "rawName": "BusinessOnBot",
+    "canonicalName": "BusinessOnBot",
+    "sourceUrl": "https://www.businessonbot.com/"
+  },
+  {
+    "rawName": "Gigs",
+    "canonicalName": "Gigs",
+    "sourceUrl": "https://gigs.com"
+  },
+  {
+    "rawName": "Friz",
+    "canonicalName": "Friz",
+    "sourceUrl": "https://www.usefriz.com"
+  },
+  {
+    "rawName": "Mystic",
+    "canonicalName": "Mystic",
+    "sourceUrl": "https://www.mystic.ai/"
+  },
+  {
+    "rawName": "Estoca",
+    "canonicalName": "Estoca",
+    "sourceUrl": "https://www.estoca.com.br/"
+  },
+  {
+    "rawName": "MarqVision",
+    "canonicalName": "MarqVision",
+    "sourceUrl": "https://www.marqvision.com/"
+  },
+  {
+    "rawName": "Routine",
+    "canonicalName": "Routine",
+    "sourceUrl": "http://routine.co"
+  },
+  {
+    "rawName": "Moonvalley",
+    "canonicalName": "Moonvalley",
+    "sourceUrl": "https://www.moonvalley.com"
+  },
+  {
+    "rawName": "MindPortal",
+    "canonicalName": "MindPortal",
+    "sourceUrl": "https://www.mindportal.com"
+  },
+  {
+    "rawName": "Waydev",
+    "canonicalName": "Waydev",
+    "sourceUrl": "https://waydev.co/"
+  },
+  {
+    "rawName": "Triomics",
+    "canonicalName": "Triomics",
+    "sourceUrl": "https://triomics.com/"
+  },
+  {
+    "rawName": "Clear",
+    "canonicalName": "Clear",
+    "sourceUrl": "https://getclearapp.com/"
+  },
+  {
+    "rawName": "PipeBio",
+    "canonicalName": "PipeBio",
+    "sourceUrl": "https://pipebio.com"
+  },
+  {
+    "rawName": "AXAR AI",
+    "canonicalName": "AXAR AI",
+    "sourceUrl": "https://www.ycombinator.com/companies/axar-ai"
+  },
+  {
+    "rawName": "Ollama",
+    "canonicalName": "Ollama",
+    "sourceUrl": "https://ollama.com"
+  },
+  {
+    "rawName": "Humance",
+    "canonicalName": "Humance",
+    "sourceUrl": "https://www.humance.tech/"
+  },
+  {
+    "rawName": "Journey",
+    "canonicalName": "Journey",
+    "sourceUrl": "http://journey.io"
+  },
+  {
+    "rawName": "Openlayer",
+    "canonicalName": "Openlayer",
+    "sourceUrl": "https://openlayer.com"
+  },
+  {
+    "rawName": "Slope",
+    "canonicalName": "Slope",
+    "sourceUrl": "http://www.slopepay.com"
+  },
+  {
+    "rawName": "Legion Health",
+    "canonicalName": "Legion Health",
+    "sourceUrl": "https://legionhealth.com"
+  },
+  {
+    "rawName": "Superwall",
+    "canonicalName": "Superwall",
+    "sourceUrl": "https://superwall.com"
+  },
+  {
+    "rawName": "Mindstate Design Labs",
+    "canonicalName": "Mindstate Design Labs",
+    "sourceUrl": "http://mindstate.design"
+  },
+  {
+    "rawName": "Serif Health",
+    "canonicalName": "Serif Health",
+    "sourceUrl": "https://www.serifhealth.com"
+  },
+  {
+    "rawName": "Abstra",
+    "canonicalName": "Abstra",
+    "sourceUrl": "https://abstra.io"
+  },
+  {
+    "rawName": "Varos",
+    "canonicalName": "Varos",
+    "sourceUrl": "http://varos.com"
+  },
+  {
+    "rawName": "Concord Materials",
+    "canonicalName": "Concord Materials",
+    "sourceUrl": "https://concordmaterials.com"
+  },
+  {
+    "rawName": "Jestor",
+    "canonicalName": "Jestor",
+    "sourceUrl": "https://jestor.com"
+  },
+  {
+    "rawName": "Potion",
+    "canonicalName": "Potion",
+    "sourceUrl": "https://www.potion.ai"
+  },
+  {
+    "rawName": "Replo",
+    "canonicalName": "Replo",
+    "sourceUrl": "https://replo.app/"
+  },
+  {
+    "rawName": "FirstQuadrant",
+    "canonicalName": "FirstQuadrant",
+    "sourceUrl": "https://firstquadrant.ai"
+  },
+  {
+    "rawName": "Buzzle",
+    "canonicalName": "Buzzle",
+    "sourceUrl": "https://buzzle.ai"
+  },
+  {
+    "rawName": "Kalam Labs",
+    "canonicalName": "Kalam Labs",
+    "sourceUrl": "http://www.kalamlabs.in"
+  },
+  {
+    "rawName": "Affogato AI",
+    "canonicalName": "Affogato AI",
+    "sourceUrl": "https://affogato.ai"
+  },
+  {
+    "rawName": "Coulomb AI",
+    "canonicalName": "Coulomb AI",
+    "sourceUrl": "https://coulomb.ai/"
+  },
+  {
+    "rawName": "Zeit Medical",
+    "canonicalName": "Zeit Medical",
+    "sourceUrl": "https://www.zeitmedical.com/"
+  },
+  {
+    "rawName": "Confido",
+    "canonicalName": "Confido",
+    "sourceUrl": "https://www.confidotech.com"
+  },
+  {
+    "rawName": "Instalab",
+    "canonicalName": "Instalab",
+    "sourceUrl": "https://www.instalab.com/"
+  },
+  {
+    "rawName": "Zaz OS",
+    "canonicalName": "Zaz OS",
+    "sourceUrl": "https://www.zazos.com/"
+  },
+  {
+    "rawName": "Swipe",
+    "canonicalName": "Swipe",
+    "sourceUrl": "https://getswipe.in"
+  },
+  {
+    "rawName": "Neodocs",
+    "canonicalName": "Neodocs",
+    "sourceUrl": "https://www.neodocs.in"
+  },
+  {
+    "rawName": "MobileBoost",
+    "canonicalName": "MobileBoost",
+    "sourceUrl": "https://www.mobileboost.io/yc"
+  },
+  {
+    "rawName": "Sleek",
+    "canonicalName": "Sleek",
+    "sourceUrl": "https://www.onsleek.com/"
+  },
+  {
+    "rawName": "Soco",
+    "canonicalName": "Soco",
+    "sourceUrl": "https://socosearch.com/"
+  },
+  {
+    "rawName": "Bite Ninja",
+    "canonicalName": "Bite Ninja",
+    "sourceUrl": "http://www.biteninja.com"
+  },
+  {
+    "rawName": "Anakin",
+    "canonicalName": "Anakin",
+    "sourceUrl": "https://anakin.io"
+  },
+  {
+    "rawName": "SnapCalorie",
+    "canonicalName": "SnapCalorie",
+    "sourceUrl": "https://www.snapcalorie.com/"
+  },
+  {
+    "rawName": "Lago",
+    "canonicalName": "Lago",
+    "sourceUrl": "https://www.getlago.com/"
+  },
+  {
+    "rawName": "Dailybot",
+    "canonicalName": "Dailybot",
+    "sourceUrl": "https://www.dailybot.com/"
+  },
+  {
+    "rawName": "Lariat Data",
+    "canonicalName": "Lariat Data",
+    "sourceUrl": "https://www.lariatdata.com"
+  },
+  {
+    "rawName": "Patterns",
+    "canonicalName": "Patterns",
+    "sourceUrl": "https://patterns.app/"
+  },
+  {
+    "rawName": "Tavus",
+    "canonicalName": "Tavus",
+    "sourceUrl": "https://www.tavus.io"
+  },
+  {
+    "rawName": "Konta.com",
+    "canonicalName": "Konta.com",
+    "sourceUrl": "http://konta.com/"
+  },
+  {
+    "rawName": "Fitia",
+    "canonicalName": "Fitia",
+    "sourceUrl": "https://fitia.app/"
+  },
+  {
+    "rawName": "Verihubs",
+    "canonicalName": "Verihubs",
+    "sourceUrl": "https://verihubs.com"
+  },
+  {
+    "rawName": "Secoda",
+    "canonicalName": "Secoda",
+    "sourceUrl": "https://secoda.co"
+  },
+  {
+    "rawName": "Kaya",
+    "canonicalName": "Kaya",
+    "sourceUrl": "https://www.usekaya.com/"
+  },
+  {
+    "rawName": "SalaryBox",
+    "canonicalName": "SalaryBox",
+    "sourceUrl": "https://salarybox.in/"
+  },
+  {
+    "rawName": "Redbean",
+    "canonicalName": "Redbean",
+    "sourceUrl": "https://redbean.ai"
+  },
+  {
+    "rawName": "Sentiyen",
+    "canonicalName": "Sentiyen",
+    "sourceUrl": "https://www.sentiyen.com"
+  },
+  {
+    "rawName": "Jovian",
+    "canonicalName": "Jovian",
+    "sourceUrl": "https://www.jovian.com"
+  },
+  {
+    "rawName": "Hyperbrowser",
+    "canonicalName": "Hyperbrowser",
+    "sourceUrl": "https://hyperbrowser.ai"
+  },
+  {
+    "rawName": "SenpAI.GG",
+    "canonicalName": "SenpAI.GG",
+    "sourceUrl": "https://senpai.gg/"
+  },
+  {
+    "rawName": "Pideaky",
+    "canonicalName": "Pideaky",
+    "sourceUrl": "https://pideaky.com/en/"
+  },
+  {
+    "rawName": "Warpfy",
+    "canonicalName": "Warpfy",
+    "sourceUrl": "https://warpfy.com/"
+  },
+  {
+    "rawName": "Tiriel AI",
+    "canonicalName": "Tiriel AI",
+    "sourceUrl": "https://tiriel.ai"
+  },
+  {
+    "rawName": "DigiBuild",
+    "canonicalName": "DigiBuild",
+    "sourceUrl": "https://digibuild.com"
+  },
+  {
+    "rawName": "OneStopKitchen",
+    "canonicalName": "OneStopKitchen",
+    "sourceUrl": "https://onestopkitchen.com/"
+  },
+  {
+    "rawName": "Cero",
+    "canonicalName": "Cero",
+    "sourceUrl": "https://cero.ai"
+  },
+  {
+    "rawName": "Ruta Health",
+    "canonicalName": "Ruta Health",
+    "sourceUrl": "https://www.rutahealth.com/"
+  },
+  {
+    "rawName": "WarpBuild",
+    "canonicalName": "WarpBuild",
+    "sourceUrl": "https://www.warpbuild.com"
+  },
+  {
+    "rawName": "Geostar",
+    "canonicalName": "Geostar",
+    "sourceUrl": "https://www.geostar.ai"
+  },
+  {
+    "rawName": "MindFi",
+    "canonicalName": "MindFi",
+    "sourceUrl": "https://www.mindfi.co"
+  },
+  {
+    "rawName": "Scispot",
+    "canonicalName": "Scispot",
+    "sourceUrl": "https://scispot.io"
+  },
+  {
+    "rawName": "Coinrule",
+    "canonicalName": "Coinrule",
+    "sourceUrl": "https://coinrule.com/"
+  },
+  {
+    "rawName": "Sequin",
+    "canonicalName": "Sequin",
+    "sourceUrl": "https://sequinai.com"
+  },
+  {
+    "rawName": "Malloc Inc",
+    "canonicalName": "Malloc Inc",
+    "sourceUrl": "https://mallocprivacy.com/"
+  },
+  {
+    "rawName": "Milky Way AI",
+    "canonicalName": "Milky Way AI",
+    "sourceUrl": "https://milkyway.ai/"
+  },
+  {
+    "rawName": "ShipBlu",
+    "canonicalName": "ShipBlu",
+    "sourceUrl": "http://www.shipblu.com"
+  },
+  {
+    "rawName": "GetDot",
+    "canonicalName": "GetDot",
+    "sourceUrl": "https://getdot.ai"
+  },
+  {
+    "rawName": "CoLoop",
+    "canonicalName": "CoLoop",
+    "sourceUrl": "https://coloop.ai/"
+  },
+  {
+    "rawName": "Miniloop",
+    "canonicalName": "Miniloop",
+    "sourceUrl": "https://miniloop.ai"
+  },
+  {
+    "rawName": "OneSchema",
+    "canonicalName": "OneSchema",
+    "sourceUrl": "https://www.oneschema.co"
+  },
+  {
+    "rawName": "Stardex",
+    "canonicalName": "Stardex",
+    "sourceUrl": "https://www.stardex.com"
+  },
+  {
+    "rawName": "Forage Mail",
+    "canonicalName": "Forage Mail",
+    "sourceUrl": "https://foragemail.com"
+  },
+  {
+    "rawName": "Protex AI",
+    "canonicalName": "Protex AI",
+    "sourceUrl": "https://www.protex.ai"
+  },
+  {
+    "rawName": "Mine",
+    "canonicalName": "Mine",
+    "sourceUrl": "https://usemine.com/"
+  },
+  {
+    "rawName": "Makani Science",
+    "canonicalName": "Makani Science",
+    "sourceUrl": "http://makaniscience.net/"
+  },
+  {
+    "rawName": "Zensors",
+    "canonicalName": "Zensors",
+    "sourceUrl": "https://www.zensors.com"
+  },
+  {
+    "rawName": "Evidently AI",
+    "canonicalName": "Evidently AI",
+    "sourceUrl": "https://evidentlyai.com"
+  },
+  {
+    "rawName": "aSim",
+    "canonicalName": "aSim",
+    "sourceUrl": "https://asim.sh/"
+  },
+  {
+    "rawName": "Spark Studio",
+    "canonicalName": "Spark Studio",
+    "sourceUrl": "https://sparkstudio.co"
+  },
+  {
+    "rawName": "Mentum",
+    "canonicalName": "Mentum",
+    "sourceUrl": "http://getmentum.com"
+  },
+  {
+    "rawName": "outloud.ai",
+    "canonicalName": "outloud.ai",
+    "sourceUrl": "https://www.outloud.ai/"
+  },
+  {
+    "rawName": "Writesonic",
+    "canonicalName": "Writesonic",
+    "sourceUrl": "https://writesonic.com/"
+  },
+  {
+    "rawName": "The Breakaway",
+    "canonicalName": "The Breakaway",
+    "sourceUrl": "https://www.breakaway.app/"
+  },
+  {
+    "rawName": "Mach9",
+    "canonicalName": "Mach9",
+    "sourceUrl": "https://www.mach9.ai/"
+  },
+  {
+    "rawName": "RMFG",
+    "canonicalName": "RMFG",
+    "sourceUrl": "https://www.rmfg.com"
+  },
+  {
+    "rawName": "Revery AI",
+    "canonicalName": "Revery AI",
+    "sourceUrl": "https://revery.ai"
+  },
+  {
+    "rawName": "Litnerd",
+    "canonicalName": "Litnerd",
+    "sourceUrl": "https://litnerd.com/"
+  },
+  {
+    "rawName": "Noloco",
+    "canonicalName": "Noloco",
+    "sourceUrl": "https://noloco.io"
+  },
+  {
+    "rawName": "Tenyks",
+    "canonicalName": "Tenyks",
+    "sourceUrl": "http://tenyks.ai/"
+  },
+  {
+    "rawName": "Adni",
+    "canonicalName": "Adni",
+    "sourceUrl": "https://www.adni.co/"
+  },
+  {
+    "rawName": "Telmai",
+    "canonicalName": "Telmai",
+    "sourceUrl": "https://www.telm.ai/"
+  },
+  {
+    "rawName": "Hudson Labs (formerly Bedrock AI)",
+    "canonicalName": "Hudson Labs (formerly Bedrock AI)",
+    "sourceUrl": "https://www.hudson-labs.com/"
+  },
+  {
+    "rawName": "Waterplan",
+    "canonicalName": "Waterplan",
+    "sourceUrl": "http://waterplan.com"
+  },
+  {
+    "rawName": "Ferveret",
+    "canonicalName": "Ferveret",
+    "sourceUrl": "http://www.ferveret.com"
+  },
+  {
+    "rawName": "Zuma",
+    "canonicalName": "Zuma",
+    "sourceUrl": "https://www.getzuma.com/"
+  },
+  {
+    "rawName": "Vibe Kanban",
+    "canonicalName": "Vibe Kanban",
+    "sourceUrl": "https://vibekanban.com"
+  },
+  {
+    "rawName": "Caire Health",
+    "canonicalName": "Caire Health",
+    "sourceUrl": "http://cairehealth.com"
+  },
+  {
+    "rawName": "Baubap",
+    "canonicalName": "Baubap",
+    "sourceUrl": "https://www.baubap.com"
+  },
+  {
+    "rawName": "Shape",
+    "canonicalName": "Shape",
+    "sourceUrl": "https://shape.xyz"
+  },
+  {
+    "rawName": "Ruth Health",
+    "canonicalName": "Ruth Health",
+    "sourceUrl": "https://www.ruthhealth.com/"
+  },
+  {
+    "rawName": "Byte Kitchen",
+    "canonicalName": "Byte Kitchen",
+    "sourceUrl": "https://www.bytekitchen.io/"
+  },
+  {
+    "rawName": "ContraForce",
+    "canonicalName": "ContraForce",
+    "sourceUrl": "https://www.contraforce.com"
+  },
+  {
+    "rawName": "Output Biosciences",
+    "canonicalName": "Output Biosciences",
+    "sourceUrl": "https://www.outputbio.com/"
+  },
+  {
+    "rawName": "CellChorus",
+    "canonicalName": "CellChorus",
+    "sourceUrl": "https://cellchorus.com"
+  },
+  {
+    "rawName": "Plai",
+    "canonicalName": "Plai",
+    "sourceUrl": "https://www.plai.io/"
+  },
+  {
+    "rawName": "Hirebolt",
+    "canonicalName": "Hirebolt",
+    "sourceUrl": "https://hirebolt.com/"
+  },
+  {
+    "rawName": "Opkit",
+    "canonicalName": "Opkit",
+    "sourceUrl": "https://opkit.co/"
+  },
+  {
+    "rawName": "Squire.ai",
+    "canonicalName": "Squire.ai",
+    "sourceUrl": "https://squire.ai"
+  },
+  {
+    "rawName": "Spoken",
+    "canonicalName": "Spoken",
+    "sourceUrl": "http://www.spoken.io"
+  },
+  {
+    "rawName": "Bytebot",
+    "canonicalName": "Bytebot",
+    "sourceUrl": "https://www.bytebot.ai/"
+  },
+  {
+    "rawName": "Adravision",
+    "canonicalName": "Adravision",
+    "sourceUrl": "https://www.adra.ai"
+  },
+  {
+    "rawName": "Medium Biosciences",
+    "canonicalName": "Medium Biosciences",
+    "sourceUrl": "http://medium.bio"
+  },
+  {
+    "rawName": "FirstIgnite",
+    "canonicalName": "FirstIgnite",
+    "sourceUrl": "https://firstignite.com"
+  },
+  {
+    "rawName": "Lightly",
+    "canonicalName": "Lightly",
+    "sourceUrl": "https://lightly.ai/"
+  },
+  {
+    "rawName": "Safer Management",
+    "canonicalName": "Safer Management",
+    "sourceUrl": "https://www.safermgmt.com/"
+  },
+  {
+    "rawName": "Exa",
+    "canonicalName": "Exa",
+    "sourceUrl": "https://exa.ai"
+  },
+  {
+    "rawName": "Sully.ai",
+    "canonicalName": "Sully.ai",
+    "sourceUrl": "https://www.sully.ai"
+  },
+  {
+    "rawName": "Andi",
+    "canonicalName": "Andi",
+    "sourceUrl": "https://AndiAI.com"
+  },
+  {
+    "rawName": "Attack Capital",
+    "canonicalName": "Attack Capital",
+    "sourceUrl": "https://attack.capital/"
+  },
+  {
+    "rawName": "Uberduck",
+    "canonicalName": "Uberduck",
+    "sourceUrl": "https://www.uberduck.ai"
+  },
+  {
+    "rawName": "Compra Rápida",
+    "canonicalName": "Compra Rápida",
+    "sourceUrl": "https://www.comprarapida.co/"
+  },
+  {
+    "rawName": "SilkChart",
+    "canonicalName": "SilkChart",
+    "sourceUrl": "https://www.silkchart.com"
+  },
+  {
+    "rawName": "TigerEye",
+    "canonicalName": "TigerEye",
+    "sourceUrl": "http://tigereye.com/"
+  },
+  {
+    "rawName": "Agave",
+    "canonicalName": "Agave",
+    "sourceUrl": "https://www.useagave.com"
+  },
+  {
+    "rawName": "Strac",
+    "canonicalName": "Strac",
+    "sourceUrl": "https://www.strac.io/"
+  },
+  {
+    "rawName": "Moots",
+    "canonicalName": "Moots",
+    "sourceUrl": "https://www.moots.ai/"
+  },
+  {
+    "rawName": "Capuchin",
+    "canonicalName": "Capuchin",
+    "sourceUrl": "https://capuchin.ai/"
+  },
+  {
+    "rawName": "Sieve",
+    "canonicalName": "Sieve",
+    "sourceUrl": "https://sievedata.com/"
+  },
+  {
+    "rawName": "PolicyFly",
+    "canonicalName": "PolicyFly",
+    "sourceUrl": "https://www.policyfly.com"
+  },
+  {
+    "rawName": "Lumina",
+    "canonicalName": "Lumina",
+    "sourceUrl": "https://www.lumibot.com"
+  },
+  {
+    "rawName": "Trellus",
+    "canonicalName": "Trellus",
+    "sourceUrl": "https://www.trellus.ai"
+  },
+  {
+    "rawName": "Trébol",
+    "canonicalName": "Trébol",
+    "sourceUrl": "https://gotrebol.com/"
+  },
+  {
+    "rawName": "WeReno",
+    "canonicalName": "WeReno",
+    "sourceUrl": "https://WeReno.com"
+  },
+  {
+    "rawName": "VantedgeAI",
+    "canonicalName": "VantedgeAI",
+    "sourceUrl": "https://www.vantedgeai.com/"
+  },
+  {
+    "rawName": "Starling",
+    "canonicalName": "Starling",
+    "sourceUrl": "https://starlingmedical.com/"
+  },
+  {
+    "rawName": "Momento",
+    "canonicalName": "Momento",
+    "sourceUrl": "https://www.tumomento.com/"
+  },
+  {
+    "rawName": "PromptLoop",
+    "canonicalName": "PromptLoop",
+    "sourceUrl": "https://www.promptloop.com/"
+  },
+  {
+    "rawName": "Craniometrix",
+    "canonicalName": "Craniometrix",
+    "sourceUrl": "https://craniometrix.com"
+  },
+  {
+    "rawName": "Cherry Recommends",
+    "canonicalName": "Cherry Recommends",
+    "sourceUrl": "https://cherry.ai/"
+  },
+  {
+    "rawName": "Cozmo AI",
+    "canonicalName": "Cozmo AI",
+    "sourceUrl": "https://www.hellocozmo.ai/"
+  },
+  {
+    "rawName": "Sota2",
+    "canonicalName": "Sota2",
+    "sourceUrl": "https://www.sota2.com"
+  },
+  {
+    "rawName": "Stably AI (Orca)",
+    "canonicalName": "Stably AI (Orca)",
+    "sourceUrl": "http://onorca.dev/"
+  },
+  {
+    "rawName": "CoffeeAI",
+    "canonicalName": "CoffeeAI",
+    "sourceUrl": "https://www.get-coffee.ai"
+  },
+  {
+    "rawName": "Sei AI",
+    "canonicalName": "Sei AI",
+    "sourceUrl": "https://seiright.com/"
+  },
+  {
+    "rawName": "Brown Foods",
+    "canonicalName": "Brown Foods",
+    "sourceUrl": "https://unrealmilk.com/"
+  },
+  {
+    "rawName": "Axross Pte Ltd",
+    "canonicalName": "Axross Pte Ltd",
+    "sourceUrl": "https://www.axross.co/"
+  },
+  {
+    "rawName": "Sarus",
+    "canonicalName": "Sarus",
+    "sourceUrl": "https://www.sarus.tech"
+  },
+  {
+    "rawName": "Blaze",
+    "canonicalName": "Blaze",
+    "sourceUrl": "https://withblaze.app/"
+  },
+  {
+    "rawName": "Spinach AI",
+    "canonicalName": "Spinach AI",
+    "sourceUrl": "https://spinach.ai"
+  },
+  {
+    "rawName": "Nyckel",
+    "canonicalName": "Nyckel",
+    "sourceUrl": "https://www.nyckel.com"
+  },
+  {
+    "rawName": "Gym Class",
+    "canonicalName": "Gym Class",
+    "sourceUrl": "https://gymclass.com"
+  },
+  {
+    "rawName": "InferEdge",
+    "canonicalName": "InferEdge",
+    "sourceUrl": "https://www.inferedge.com"
+  },
+  {
+    "rawName": "Sekilo",
+    "canonicalName": "Sekilo",
+    "sourceUrl": "https://sekilo.com/en/"
+  },
+  {
+    "rawName": "HomeRoom",
+    "canonicalName": "HomeRoom",
+    "sourceUrl": "https://livehomeroom.com/"
+  },
+  {
+    "rawName": "Dynamo AI",
+    "canonicalName": "Dynamo AI",
+    "sourceUrl": "https://dynamo.ai"
+  },
+  {
+    "rawName": "Invert",
+    "canonicalName": "Invert",
+    "sourceUrl": "http://www.invertbio.com/"
+  },
+  {
+    "rawName": "Industrial Next",
+    "canonicalName": "Industrial Next",
+    "sourceUrl": "https://www.industrialnext.ai"
+  },
+  {
+    "rawName": "Rownd",
+    "canonicalName": "Rownd",
+    "sourceUrl": "https://rownd.ai"
+  },
+  {
+    "rawName": "Kaso",
+    "canonicalName": "Kaso",
+    "sourceUrl": "https://www.kaso.ai"
+  },
+  {
+    "rawName": "HypaHub",
+    "canonicalName": "HypaHub",
+    "sourceUrl": "https://www.hypahub.com"
+  },
+  {
+    "rawName": "Atlas",
+    "canonicalName": "Atlas",
+    "sourceUrl": "https://atlas.so"
+  },
+  {
+    "rawName": "Dioptra",
+    "canonicalName": "Dioptra",
+    "sourceUrl": "https://dioptra.ai/"
+  },
+  {
+    "rawName": "Bobidi",
+    "canonicalName": "Bobidi",
+    "sourceUrl": "http://www.upswell.ai"
+  },
+  {
+    "rawName": "Iron Leap",
+    "canonicalName": "Iron Leap",
+    "sourceUrl": "https://getironleap.io/"
+  },
+  {
+    "rawName": "Ankr Health",
+    "canonicalName": "Ankr Health",
+    "sourceUrl": "https://ankr.us"
+  },
+  {
+    "rawName": "MySivi",
+    "canonicalName": "MySivi",
+    "sourceUrl": "https://www.mysivi.ai/"
+  },
+  {
+    "rawName": "Unlayer",
+    "canonicalName": "Unlayer",
+    "sourceUrl": "https://unlayer.com"
+  },
+  {
+    "rawName": "Lenk",
+    "canonicalName": "Lenk",
+    "sourceUrl": "https://getlenk.com/"
+  },
+  {
+    "rawName": "Criya",
+    "canonicalName": "Criya",
+    "sourceUrl": "https://criya.co"
+  },
+  {
+    "rawName": "haddock",
+    "canonicalName": "haddock",
+    "sourceUrl": "https://haddock.app"
+  },
+  {
+    "rawName": "Fintelite",
+    "canonicalName": "Fintelite",
+    "sourceUrl": "http://www.fintelite.ai"
+  },
+  {
+    "rawName": "Cerebrium",
+    "canonicalName": "Cerebrium",
+    "sourceUrl": "https://www.cerebrium.ai/"
+  },
+  {
+    "rawName": "Lexter.ai",
+    "canonicalName": "Lexter.ai",
+    "sourceUrl": "https://www.lexter.ai"
+  },
+  {
+    "rawName": "Versable",
+    "canonicalName": "Versable",
+    "sourceUrl": "https://www.versableai.com/"
+  },
+  {
+    "rawName": "MosaicVoice",
+    "canonicalName": "MosaicVoice",
+    "sourceUrl": "https://mosaicvoice.ai/"
+  },
+  {
+    "rawName": "LanceDB",
+    "canonicalName": "LanceDB",
+    "sourceUrl": "https://lancedb.com"
+  },
+  {
+    "rawName": "RDash",
+    "canonicalName": "RDash",
+    "sourceUrl": "https://www.rdash.io"
+  },
+  {
+    "rawName": "Zorba",
+    "canonicalName": "Zorba",
+    "sourceUrl": "https://www.getzorba.com/"
+  },
+  {
+    "rawName": "Beam",
+    "canonicalName": "Beam",
+    "sourceUrl": "https://beam.cloud"
+  },
+  {
+    "rawName": "Sophys",
+    "canonicalName": "Sophys",
+    "sourceUrl": "https://www.sophyshealth.com/"
+  },
+  {
+    "rawName": "Armilla AI",
+    "canonicalName": "Armilla AI",
+    "sourceUrl": "http://www.armilla.ai"
+  },
+  {
+    "rawName": "Dart",
+    "canonicalName": "Dart",
+    "sourceUrl": "https://www.dartai.com"
+  },
+  {
+    "rawName": "Emobi",
+    "canonicalName": "Emobi",
+    "sourceUrl": "https://www.emobi.ai"
+  },
+  {
+    "rawName": "Reforged Labs",
+    "canonicalName": "Reforged Labs",
+    "sourceUrl": "https://reforgedlabs.com/"
+  },
+  {
+    "rawName": "Axis",
+    "canonicalName": "Axis",
+    "sourceUrl": "http://axis.xyz"
+  },
+  {
+    "rawName": "Flagright",
+    "canonicalName": "Flagright",
+    "sourceUrl": "https://flagright.com"
+  },
+  {
+    "rawName": "RedBrick AI",
+    "canonicalName": "RedBrick AI",
+    "sourceUrl": "https://redbrickai.com"
+  },
+  {
+    "rawName": "Gauss",
+    "canonicalName": "Gauss",
+    "sourceUrl": "https://gauss.money"
+  },
+  {
+    "rawName": "T3 Chat",
+    "canonicalName": "T3 Chat",
+    "sourceUrl": "https://t3.chat"
+  },
+  {
+    "rawName": "Speechly",
+    "canonicalName": "Speechly",
+    "sourceUrl": "https://www.speechly.com/"
+  },
+  {
+    "rawName": "Sphere",
+    "canonicalName": "Sphere",
+    "sourceUrl": "https://www.getsphere.com/"
+  },
+  {
+    "rawName": "SkyLink",
+    "canonicalName": "SkyLink",
+    "sourceUrl": "http://www.tryskylink.com"
+  },
+  {
+    "rawName": "Suggestr",
+    "canonicalName": "Suggestr",
+    "sourceUrl": "https://suggestr.co"
+  },
+  {
+    "rawName": "RefineTrain AI",
+    "canonicalName": "RefineTrain AI",
+    "sourceUrl": "https://www.refinetrain.ai/"
+  },
+  {
+    "rawName": "PermitFlow",
+    "canonicalName": "PermitFlow",
+    "sourceUrl": "http://www.permitflow.com"
+  },
+  {
+    "rawName": "NearWave",
+    "canonicalName": "NearWave",
+    "sourceUrl": "http://nearwave.co"
+  },
+  {
+    "rawName": "Siftly",
+    "canonicalName": "Siftly",
+    "sourceUrl": "https://siftly.ai/"
+  },
+  {
+    "rawName": "Tuva Health",
+    "canonicalName": "Tuva Health",
+    "sourceUrl": "https://tuvahealth.com/"
+  },
+  {
+    "rawName": "Velt",
+    "canonicalName": "Velt",
+    "sourceUrl": "https://velt.dev"
+  },
+  {
+    "rawName": "Cogram",
+    "canonicalName": "Cogram",
+    "sourceUrl": "https://cogram.com"
+  },
+  {
+    "rawName": "Toko",
+    "canonicalName": "Toko",
+    "sourceUrl": "https://tokotutor.com/"
+  },
+  {
+    "rawName": "Posh",
+    "canonicalName": "Posh",
+    "sourceUrl": "https://www.poshenergy.com"
+  },
+  {
+    "rawName": "Sero",
+    "canonicalName": "Sero",
+    "sourceUrl": "https://www.sero.so"
+  },
+  {
+    "rawName": "Cotera",
+    "canonicalName": "Cotera",
+    "sourceUrl": "https://cotera.co"
+  },
+  {
+    "rawName": "SpadeWorks",
+    "canonicalName": "SpadeWorks",
+    "sourceUrl": "https://www.spadeworks.co"
+  },
+  {
+    "rawName": "LunaJoy Health",
+    "canonicalName": "LunaJoy Health",
+    "sourceUrl": "http://HelloLunaJoy.com"
+  },
+  {
+    "rawName": "Curacel",
+    "canonicalName": "Curacel",
+    "sourceUrl": "https://curacel.co"
+  },
+  {
+    "rawName": "voize",
+    "canonicalName": "voize",
+    "sourceUrl": "https://voize.de/"
+  },
+  {
+    "rawName": "Agency",
+    "canonicalName": "Agency",
+    "sourceUrl": "https://GetAgency.com"
+  },
+  {
+    "rawName": "Finnt",
+    "canonicalName": "Finnt",
+    "sourceUrl": "https://finnt.com"
+  },
+  {
+    "rawName": "Strong Compute",
+    "canonicalName": "Strong Compute",
+    "sourceUrl": "https://strongcompute.com"
+  },
+  {
+    "rawName": "Lovage",
+    "canonicalName": "Lovage",
+    "sourceUrl": "https://getlovage.com"
+  },
+  {
+    "rawName": "Sendme, Inc",
+    "canonicalName": "Sendme, Inc",
+    "sourceUrl": "http://www.sendme.ng"
+  },
+  {
+    "rawName": "Sprites",
+    "canonicalName": "Sprites",
+    "sourceUrl": "https://sprites.ai/"
+  },
+  {
+    "rawName": "SmartHelio",
+    "canonicalName": "SmartHelio",
+    "sourceUrl": "https://www.smarthelio.com/"
+  },
+  {
+    "rawName": "goodfin",
+    "canonicalName": "goodfin",
+    "sourceUrl": "http://www.goodfin.com"
+  },
+  {
+    "rawName": "Airwork",
+    "canonicalName": "Airwork",
+    "sourceUrl": "https://www.airworkhq.com"
+  },
+  {
+    "rawName": "Cinder",
+    "canonicalName": "Cinder",
+    "sourceUrl": "https://cinder.ai"
+  },
+  {
+    "rawName": "BotCity",
+    "canonicalName": "BotCity",
+    "sourceUrl": "https://botcity.dev"
+  },
+  {
+    "rawName": "Lifecast",
+    "canonicalName": "Lifecast",
+    "sourceUrl": "http://www.lifecastvr.com"
+  },
+  {
+    "rawName": "Vimmerse",
+    "canonicalName": "Vimmerse",
+    "sourceUrl": "https://vimmerse.net"
+  },
+  {
+    "rawName": "Broccoli AI",
+    "canonicalName": "Broccoli AI",
+    "sourceUrl": "https://www.broccoli.com/"
+  },
+  {
+    "rawName": "Bemlo",
+    "canonicalName": "Bemlo",
+    "sourceUrl": "https://www.bemlo.com/en"
+  },
+  {
+    "rawName": "Talentropy.ai",
+    "canonicalName": "Talentropy.ai",
+    "sourceUrl": "https://talentropy.ai/"
+  },
+  {
+    "rawName": "mutable.ai",
+    "canonicalName": "mutable.ai",
+    "sourceUrl": "https://mutable.ai"
+  },
+  {
+    "rawName": "Kular",
+    "canonicalName": "Kular",
+    "sourceUrl": "https://www.kular.ai"
+  },
+  {
+    "rawName": "Theneo",
+    "canonicalName": "Theneo",
+    "sourceUrl": "https://theneo.io"
+  },
+  {
+    "rawName": "Ponyrun",
+    "canonicalName": "Ponyrun",
+    "sourceUrl": "http://www.ponyrun.ai"
+  },
+  {
+    "rawName": "Top Road",
+    "canonicalName": "Top Road",
+    "sourceUrl": "https://toproad.ai"
+  },
+  {
+    "rawName": "PINA",
+    "canonicalName": "PINA",
+    "sourceUrl": "https://pina.id"
+  },
+  {
+    "rawName": "AvairSense",
+    "canonicalName": "AvairSense",
+    "sourceUrl": "https://www.avairsense.com/"
+  },
+  {
+    "rawName": "Trueplace",
+    "canonicalName": "Trueplace",
+    "sourceUrl": "https://www.trueplace.ca/"
+  },
+  {
+    "rawName": "IoTFlows Inc",
+    "canonicalName": "IoTFlows Inc",
+    "sourceUrl": "https://www.iotflows.com/"
+  },
+  {
+    "rawName": "Nophin",
+    "canonicalName": "Nophin",
+    "sourceUrl": "https://www.nophin.com"
+  },
+  {
+    "rawName": "HOAi",
+    "canonicalName": "HOAi",
+    "sourceUrl": "https://www.hoai.com"
+  },
+  {
+    "rawName": "Spade",
+    "canonicalName": "Spade",
+    "sourceUrl": "https://www.spade.com"
+  },
+  {
+    "rawName": "Status",
+    "canonicalName": "Status",
+    "sourceUrl": "https://www.statusai.com/"
+  },
+  {
+    "rawName": "Shaped",
+    "canonicalName": "Shaped",
+    "sourceUrl": "https://shaped.ai"
+  },
+  {
+    "rawName": "amiloz",
+    "canonicalName": "amiloz",
+    "sourceUrl": "https://www.beloz.com.mx/"
+  },
+  {
+    "rawName": "Ploomber",
+    "canonicalName": "Ploomber",
+    "sourceUrl": "https://ploomber.io/"
+  },
+  {
+    "rawName": "GoJom",
+    "canonicalName": "GoJom",
+    "sourceUrl": "https://gojom.com"
+  },
+  {
+    "rawName": "Housewarming",
+    "canonicalName": "Housewarming",
+    "sourceUrl": "https://housewarming.me"
+  },
+  {
+    "rawName": "RTHM",
+    "canonicalName": "RTHM",
+    "sourceUrl": "https://www.rthm.com"
+  },
+  {
+    "rawName": "Blink",
+    "canonicalName": "Blink",
+    "sourceUrl": "https://blink.new"
+  },
+  {
+    "rawName": "Humand",
+    "canonicalName": "Humand",
+    "sourceUrl": "https://humand.co"
+  },
+  {
+    "rawName": "Workflow86",
+    "canonicalName": "Workflow86",
+    "sourceUrl": "https://www.workflow86.com"
+  },
+  {
+    "rawName": "Codec",
+    "canonicalName": "Codec",
+    "sourceUrl": "https://codec.io"
+  },
+  {
+    "rawName": "Postal",
+    "canonicalName": "Postal",
+    "sourceUrl": "https://usepostal.com"
+  },
+  {
+    "rawName": "Finku",
+    "canonicalName": "Finku",
+    "sourceUrl": "http://finku.id"
+  },
+  {
+    "rawName": "AYC Fund",
+    "canonicalName": "AYC Fund",
+    "sourceUrl": "http://www.AYCFund.com/"
+  },
+  {
+    "rawName": "Heptabase",
+    "canonicalName": "Heptabase",
+    "sourceUrl": "https://heptabase.com/"
+  },
+  {
+    "rawName": "Kenobi",
+    "canonicalName": "Kenobi",
+    "sourceUrl": "https://kenobi.ai"
+  },
+  {
+    "rawName": "Nara",
+    "canonicalName": "Nara",
+    "sourceUrl": "https://trynara.com"
+  },
+  {
+    "rawName": "Powerhouse AI",
+    "canonicalName": "Powerhouse AI",
+    "sourceUrl": "https://www.powerhouseai.com"
+  },
+  {
+    "rawName": "Query Vary",
+    "canonicalName": "Query Vary",
+    "sourceUrl": "https://queryvary.com"
+  },
+  {
+    "rawName": "Impossible Metals",
+    "canonicalName": "Impossible Metals",
+    "sourceUrl": "https://impossiblemetals.com"
+  },
+  {
+    "rawName": "Cellbyte",
+    "canonicalName": "Cellbyte",
+    "sourceUrl": "https://www.cellbyte.com/"
+  },
+  {
+    "rawName": "GovDash",
+    "canonicalName": "GovDash",
+    "sourceUrl": "https://govdash.com/"
+  },
+  {
+    "rawName": "KorrAI",
+    "canonicalName": "KorrAI",
+    "sourceUrl": "https://www.korrai.com"
+  },
+  {
+    "rawName": "MSPilot",
+    "canonicalName": "MSPilot",
+    "sourceUrl": "https://mspilot.io"
+  },
+  {
+    "rawName": "Flike",
+    "canonicalName": "Flike",
+    "sourceUrl": "https://flike.app/"
+  },
+  {
+    "rawName": "Eventual",
+    "canonicalName": "Eventual",
+    "sourceUrl": "https://www.daft.ai/"
+  },
+  {
+    "rawName": "Reality Defender",
+    "canonicalName": "Reality Defender",
+    "sourceUrl": "http://www.realitydefender.com"
+  },
+  {
+    "rawName": "Mindbase",
+    "canonicalName": "Mindbase",
+    "sourceUrl": "https://mymindbase.ai"
+  },
+  {
+    "rawName": "WhiteLab Genomics",
+    "canonicalName": "WhiteLab Genomics",
+    "sourceUrl": "https://whitelabgx.com"
+  },
+  {
+    "rawName": "Poly",
+    "canonicalName": "Poly",
+    "sourceUrl": "https://poly.app"
+  },
+  {
+    "rawName": "Layerup",
+    "canonicalName": "Layerup",
+    "sourceUrl": "https://www.uselayerup.com/"
+  },
+  {
+    "rawName": "Wolfia",
+    "canonicalName": "Wolfia",
+    "sourceUrl": "https://wolfia.com"
+  },
+  {
+    "rawName": "Instant",
+    "canonicalName": "Instant",
+    "sourceUrl": "https://instantdb.com"
+  },
+  {
+    "rawName": "Stream",
+    "canonicalName": "Stream",
+    "sourceUrl": "http://www.stream.claims"
+  },
+  {
+    "rawName": "Paces",
+    "canonicalName": "Paces",
+    "sourceUrl": "https://paces.com"
+  },
+  {
+    "rawName": "Airtrain AI",
+    "canonicalName": "Airtrain AI",
+    "sourceUrl": "https://airtrain.ai"
+  },
+  {
+    "rawName": "Star",
+    "canonicalName": "Star",
+    "sourceUrl": "https://buildwithstar.com"
+  },
+  {
+    "rawName": "Elessar",
+    "canonicalName": "Elessar",
+    "sourceUrl": "https://www.getelessar.com/"
+  },
+  {
+    "rawName": "Mercator",
+    "canonicalName": "Mercator",
+    "sourceUrl": "http://www.mercator.tech"
+  },
+  {
+    "rawName": "Julius",
+    "canonicalName": "Julius",
+    "sourceUrl": "https://julius.ai"
+  },
+  {
+    "rawName": "Ciro",
+    "canonicalName": "Ciro",
+    "sourceUrl": "https://www.ciro.io/"
+  },
+  {
+    "rawName": "Dialect",
+    "canonicalName": "Dialect",
+    "sourceUrl": "https://www.usedialect.com"
+  },
+  {
+    "rawName": "Birch Biosciences",
+    "canonicalName": "Birch Biosciences",
+    "sourceUrl": "http://www.birchbiosciences.com"
+  },
+  {
+    "rawName": "Penguin AI",
+    "canonicalName": "Penguin AI",
+    "sourceUrl": "http://penguinai.app"
+  },
+  {
+    "rawName": "Truva",
+    "canonicalName": "Truva",
+    "sourceUrl": "https://www.truva.ai/"
+  },
+  {
+    "rawName": "SigmaMind AI",
+    "canonicalName": "SigmaMind AI",
+    "sourceUrl": "https://sigmamind.ai?utm_source=yc&utm_medium=web"
+  },
+  {
+    "rawName": "Two Dots",
+    "canonicalName": "Two Dots",
+    "sourceUrl": "https://www.twodots.com"
+  },
+  {
+    "rawName": "Superpowered AI",
+    "canonicalName": "Superpowered AI",
+    "sourceUrl": "https://superpowered.ai"
+  },
+  {
+    "rawName": "Makeasite",
+    "canonicalName": "Makeasite",
+    "sourceUrl": "https://makeasite.io"
+  },
+  {
+    "rawName": "Tailor",
+    "canonicalName": "Tailor",
+    "sourceUrl": "https://www.tailor.tech/"
+  },
+  {
+    "rawName": "CodeCanary",
+    "canonicalName": "CodeCanary",
+    "sourceUrl": "https://www.codecanary.ai"
+  },
+  {
+    "rawName": "Pasito",
+    "canonicalName": "Pasito",
+    "sourceUrl": "https://pasito.ai"
+  },
+  {
+    "rawName": "Blitz",
+    "canonicalName": "Blitz",
+    "sourceUrl": "https://www.blitznocode.com/"
+  },
+  {
+    "rawName": "Cerrion",
+    "canonicalName": "Cerrion",
+    "sourceUrl": "https://www.cerrion.com/"
+  },
+  {
+    "rawName": "Impractical",
+    "canonicalName": "Impractical",
+    "sourceUrl": "https://impractical.ai"
+  },
+  {
+    "rawName": "CustomerOS",
+    "canonicalName": "CustomerOS",
+    "sourceUrl": "https://customeros.ai"
+  },
+  {
+    "rawName": "ECSA",
+    "canonicalName": "ECSA",
+    "sourceUrl": "http://ecsa.finance/"
+  },
+  {
+    "rawName": "Champ",
+    "canonicalName": "Champ",
+    "sourceUrl": "https://trychamp.co/"
+  },
+  {
+    "rawName": "BricksAI",
+    "canonicalName": "BricksAI",
+    "sourceUrl": "https://www.trybricks.ai/"
+  },
+  {
+    "rawName": "Roxels",
+    "canonicalName": "Roxels",
+    "sourceUrl": "https://www.roxels.ai/"
+  },
+  {
+    "rawName": "Serinus Biosciences",
+    "canonicalName": "Serinus Biosciences",
+    "sourceUrl": "http://www.serinus.bio"
+  },
+  {
+    "rawName": "Fetii",
+    "canonicalName": "Fetii",
+    "sourceUrl": "https://www.fetii.com/"
+  },
+  {
+    "rawName": "Craze",
+    "canonicalName": "Craze",
+    "sourceUrl": "https://www.craze.ai/?utm_source=yc"
+  },
+  {
+    "rawName": "Paragon AI",
+    "canonicalName": "Paragon AI",
+    "sourceUrl": "https://paragon.ai"
+  },
+  {
+    "rawName": "Boostly",
+    "canonicalName": "Boostly",
+    "sourceUrl": "https://boostly.com"
+  },
+  {
+    "rawName": "Ballerine",
+    "canonicalName": "Ballerine",
+    "sourceUrl": "http://www.ballerine.com"
+  },
+  {
+    "rawName": "NuMind",
+    "canonicalName": "NuMind",
+    "sourceUrl": "https://www.numind.ai"
+  },
+  {
+    "rawName": "Sunlight",
+    "canonicalName": "Sunlight",
+    "sourceUrl": "https://www.sunlightapi.com/"
+  },
+  {
+    "rawName": "Midplane",
+    "canonicalName": "Midplane",
+    "sourceUrl": "https://midplane.ai/"
+  },
+  {
+    "rawName": "Overwatch",
+    "canonicalName": "Overwatch",
+    "sourceUrl": "http://www.overwatchdata.ai"
+  },
+  {
+    "rawName": "Blee",
+    "canonicalName": "Blee",
+    "sourceUrl": "https://www.blee.com"
+  },
+  {
+    "rawName": "Raven",
+    "canonicalName": "Raven",
+    "sourceUrl": "https://startraven.com"
+  },
+  {
+    "rawName": "Activepieces",
+    "canonicalName": "Activepieces",
+    "sourceUrl": "https://www.activepieces.com"
+  },
+  {
+    "rawName": "Popsy",
+    "canonicalName": "Popsy",
+    "sourceUrl": "https://popsy.ai"
+  },
+  {
+    "rawName": "Juicebox",
+    "canonicalName": "Juicebox",
+    "sourceUrl": "https://juicebox.ai/"
+  },
+  {
+    "rawName": "Apply Design",
+    "canonicalName": "Apply Design",
+    "sourceUrl": "http://www.applydesign.io"
+  },
+  {
+    "rawName": "Phind",
+    "canonicalName": "Phind",
+    "sourceUrl": "https://phind.com"
+  },
+  {
+    "rawName": "Aragorn AI",
+    "canonicalName": "Aragorn AI",
+    "sourceUrl": "https://www.aragorn.ai"
+  },
+  {
+    "rawName": "Namecard.ai",
+    "canonicalName": "Namecard.ai",
+    "sourceUrl": "https://namecard.ai/"
+  },
+  {
+    "rawName": "Flair Labs",
+    "canonicalName": "Flair Labs",
+    "sourceUrl": "https://www.flairlabs.ai/"
+  },
+  {
+    "rawName": "Unify",
+    "canonicalName": "Unify",
+    "sourceUrl": "https://unify.ai"
+  },
+  {
+    "rawName": "Mistle",
+    "canonicalName": "Mistle",
+    "sourceUrl": "https://mistle.dev"
+  },
+  {
+    "rawName": "Slidely AI",
+    "canonicalName": "Slidely AI",
+    "sourceUrl": "https://slidely.ai/"
+  },
+  {
+    "rawName": "Typewise",
+    "canonicalName": "Typewise",
+    "sourceUrl": "https://typewise.app"
+  },
+  {
+    "rawName": "NewsCatcher",
+    "canonicalName": "NewsCatcher",
+    "sourceUrl": "https://newscatcherapi.com/"
+  },
+  {
+    "rawName": "100x",
+    "canonicalName": "100x",
+    "sourceUrl": "https://100x.bot?utm_source=inbound&utm_medium=bookface&utm_campaign=yc&utm_id=122"
+  },
+  {
+    "rawName": "Provision",
+    "canonicalName": "Provision",
+    "sourceUrl": "https://provision.com"
+  },
+  {
+    "rawName": "Thera",
+    "canonicalName": "Thera",
+    "sourceUrl": "https://www.getthera.com"
+  },
+  {
+    "rawName": "Neosync",
+    "canonicalName": "Neosync",
+    "sourceUrl": "https://neosync.dev"
+  },
+  {
+    "rawName": "Peoplebox.ai",
+    "canonicalName": "Peoplebox.ai",
+    "sourceUrl": "https://www.peoplebox.ai"
+  },
+  {
+    "rawName": "Coris",
+    "canonicalName": "Coris",
+    "sourceUrl": "https://coris.ai/"
+  },
+  {
+    "rawName": "Hedgehog",
+    "canonicalName": "Hedgehog",
+    "sourceUrl": "http://hedgehogfoods.com"
+  },
+  {
+    "rawName": "Alphawatch AI",
+    "canonicalName": "Alphawatch AI",
+    "sourceUrl": "https://alphawatch.ai"
+  },
+  {
+    "rawName": "AnythingLLM",
+    "canonicalName": "AnythingLLM",
+    "sourceUrl": "https://anythingllm.com"
+  },
+  {
+    "rawName": "Latent Space",
+    "canonicalName": "Latent Space",
+    "sourceUrl": "https://latentspace.sh/"
+  },
+  {
+    "rawName": "AviaryAI",
+    "canonicalName": "AviaryAI",
+    "sourceUrl": "http://www.helloaviary.ai"
+  },
+  {
+    "rawName": "FlyCode",
+    "canonicalName": "FlyCode",
+    "sourceUrl": "https://www.flycode.com"
+  },
+  {
+    "rawName": "Maya Labs",
+    "canonicalName": "Maya Labs",
+    "sourceUrl": "https://mayalabs.io"
+  },
+  {
+    "rawName": "Rima AI (formerly Garage)",
+    "canonicalName": "Rima AI (formerly Garage)",
+    "sourceUrl": "https://www.getrima.ai"
+  },
+  {
+    "rawName": "Quinn",
+    "canonicalName": "Quinn",
+    "sourceUrl": "https://www.quinnbio.com"
+  },
+  {
+    "rawName": "Aurelian",
+    "canonicalName": "Aurelian",
+    "sourceUrl": "https://www.aurelian.com/"
+  },
+  {
+    "rawName": "Metriport",
+    "canonicalName": "Metriport",
+    "sourceUrl": "https://metriport.com/"
+  },
+  {
+    "rawName": "Fini",
+    "canonicalName": "Fini",
+    "sourceUrl": "https://www.usefini.com"
+  },
+  {
+    "rawName": "Cobbery",
+    "canonicalName": "Cobbery",
+    "sourceUrl": "https://cobbery.com"
+  },
+  {
+    "rawName": "Grai",
+    "canonicalName": "Grai",
+    "sourceUrl": "https://www.grai.io"
+  },
+  {
+    "rawName": "Feather",
+    "canonicalName": "Feather",
+    "sourceUrl": "https://featherhq.com"
+  },
+  {
+    "rawName": "Artemis Search",
+    "canonicalName": "Artemis Search",
+    "sourceUrl": "https://search-artemis.com/"
+  },
+  {
+    "rawName": "Argovox",
+    "canonicalName": "Argovox",
+    "sourceUrl": "https://www.argovox.com/"
+  },
+  {
+    "rawName": "Unthread",
+    "canonicalName": "Unthread",
+    "sourceUrl": "https://unthread.io"
+  },
+  {
+    "rawName": "Roforco",
+    "canonicalName": "Roforco",
+    "sourceUrl": "https://www.ycombinator.com/companies/roforco"
+  },
+  {
+    "rawName": "Lamin",
+    "canonicalName": "Lamin",
+    "sourceUrl": "https://lamin.ai"
+  },
+  {
+    "rawName": "Findly",
+    "canonicalName": "Findly",
+    "sourceUrl": "https://www.findly.ai/join"
+  },
+  {
+    "rawName": "Sanifu",
+    "canonicalName": "Sanifu",
+    "sourceUrl": "https://sanifu.ai"
+  },
+  {
+    "rawName": "HOMLI",
+    "canonicalName": "HOMLI",
+    "sourceUrl": "https://thehomli.com"
+  },
+  {
+    "rawName": "Boton",
+    "canonicalName": "Boton",
+    "sourceUrl": "https://www.botonapp.com/"
+  },
+  {
+    "rawName": "Avina",
+    "canonicalName": "Avina",
+    "sourceUrl": "https://avina.io"
+  },
+  {
+    "rawName": "Invofox",
+    "canonicalName": "Invofox",
+    "sourceUrl": "https://invofox.com"
+  },
+  {
+    "rawName": "TypeLess",
+    "canonicalName": "TypeLess",
+    "sourceUrl": "https://apps.apple.com/us/app/typeless-ai-messenger/id6478489620"
+  },
+  {
+    "rawName": "Firecrawl",
+    "canonicalName": "Firecrawl",
+    "sourceUrl": "https://www.firecrawl.dev"
+  },
+  {
+    "rawName": "Superbar",
+    "canonicalName": "Superbar",
+    "sourceUrl": "http://www.superbar.ai"
+  },
+  {
+    "rawName": "Sonnet",
+    "canonicalName": "Sonnet",
+    "sourceUrl": "https://www.ycombinator.com/companies/sonnet"
+  },
+  {
+    "rawName": "Jasmine Energy",
+    "canonicalName": "Jasmine Energy",
+    "sourceUrl": "http://www.jasmine.energy"
+  },
+  {
+    "rawName": "Oneleet",
+    "canonicalName": "Oneleet",
+    "sourceUrl": "https://www.oneleet.com/?utm_source=yc&utm_medium=bookface"
+  },
+  {
+    "rawName": "Entvin",
+    "canonicalName": "Entvin",
+    "sourceUrl": "http://entvin.com?utm_source=yc"
+  },
+  {
+    "rawName": "Wondercraft",
+    "canonicalName": "Wondercraft",
+    "sourceUrl": "https://wondercraft.ai/"
+  },
+  {
+    "rawName": "Clearline",
+    "canonicalName": "Clearline",
+    "sourceUrl": "https://useclearline.com"
+  },
+  {
+    "rawName": "Monterey AI",
+    "canonicalName": "Monterey AI",
+    "sourceUrl": "http://www.monterey.ai"
+  },
+  {
+    "rawName": "Slingshot",
+    "canonicalName": "Slingshot",
+    "sourceUrl": "https://slingshotml.com"
+  },
+  {
+    "rawName": "Pump.co",
+    "canonicalName": "Pump.co",
+    "sourceUrl": "https://www.pump.co/"
+  },
+  {
+    "rawName": "Knowtex",
+    "canonicalName": "Knowtex",
+    "sourceUrl": "http://www.knowtex.ai/"
+  },
+  {
+    "rawName": "Sculpt",
+    "canonicalName": "Sculpt",
+    "sourceUrl": "https://www.sculptcosting.com/"
+  },
+  {
+    "rawName": "Lavo Life Sciences",
+    "canonicalName": "Lavo Life Sciences",
+    "sourceUrl": "https://www.lavo.ai/"
+  },
+  {
+    "rawName": "Kashin",
+    "canonicalName": "Kashin",
+    "sourceUrl": "https://kashin.app/"
+  },
+  {
+    "rawName": "Delfino AI",
+    "canonicalName": "Delfino AI",
+    "sourceUrl": "https://www.delfino.ai/"
+  },
+  {
+    "rawName": "CAPSULE",
+    "canonicalName": "CAPSULE",
+    "sourceUrl": "https://www.shopcapsule.ai/"
+  },
+  {
+    "rawName": "InVision Medical Technology",
+    "canonicalName": "InVision Medical Technology",
+    "sourceUrl": "http://invisionmedtech.com/"
+  },
+  {
+    "rawName": "Cambio",
+    "canonicalName": "Cambio",
+    "sourceUrl": "https://www.cambio.ai/"
+  },
+  {
+    "rawName": "Axle",
+    "canonicalName": "Axle",
+    "sourceUrl": "https://axle.insure"
+  },
+  {
+    "rawName": "Landeed",
+    "canonicalName": "Landeed",
+    "sourceUrl": "https://www.landeed.com/"
+  },
+  {
+    "rawName": "Chima",
+    "canonicalName": "Chima",
+    "sourceUrl": "https://www.withchima.com/"
+  },
+  {
+    "rawName": "Intuned",
+    "canonicalName": "Intuned",
+    "sourceUrl": "https://intunedhq.com"
+  },
+  {
+    "rawName": "Coverage Cat",
+    "canonicalName": "Coverage Cat",
+    "sourceUrl": "https://www.coveragecat.com/"
+  },
+  {
+    "rawName": "Integrated Reasoning",
+    "canonicalName": "Integrated Reasoning",
+    "sourceUrl": "https://integrated-reasoning.com"
+  },
+  {
+    "rawName": "Dev Tools AI",
+    "canonicalName": "Dev Tools AI",
+    "sourceUrl": "https://dev-tools.ai"
+  },
+  {
+    "rawName": "Polymath Robotics",
+    "canonicalName": "Polymath Robotics",
+    "sourceUrl": "http://www.polymathrobotics.com"
+  },
+  {
+    "rawName": "Sameday",
+    "canonicalName": "Sameday",
+    "sourceUrl": "https://www.gosameday.com/"
+  },
+  {
+    "rawName": "zudo.work",
+    "canonicalName": "zudo.work",
+    "sourceUrl": "https://zudo.work/"
+  },
+  {
+    "rawName": "Rubbrband",
+    "canonicalName": "Rubbrband",
+    "sourceUrl": "https://rubbrband.com"
+  },
+  {
+    "rawName": "Middleware",
+    "canonicalName": "Middleware",
+    "sourceUrl": "https://www.middleware.io"
+  },
+  {
+    "rawName": "StackAI",
+    "canonicalName": "StackAI",
+    "sourceUrl": "https://www.stackai.com"
+  },
+  {
+    "rawName": "Designbase",
+    "canonicalName": "Designbase",
+    "sourceUrl": "https://www.designbase.com/"
+  },
+  {
+    "rawName": "Finvest",
+    "canonicalName": "Finvest",
+    "sourceUrl": "https://www.getfinvest.com/"
+  },
+  {
+    "rawName": "Blyss",
+    "canonicalName": "Blyss",
+    "sourceUrl": "https://blyss.dev/"
+  },
+  {
+    "rawName": "Reflex",
+    "canonicalName": "Reflex",
+    "sourceUrl": "https://reflex.dev"
+  },
+  {
+    "rawName": "Linum",
+    "canonicalName": "Linum",
+    "sourceUrl": "https://www.linum.ai/"
+  },
+  {
+    "rawName": "Cardinal",
+    "canonicalName": "Cardinal",
+    "sourceUrl": "http://cardinalapp.io"
+  },
+  {
+    "rawName": "Traceloop",
+    "canonicalName": "Traceloop",
+    "sourceUrl": "https://www.traceloop.com"
+  },
+  {
+    "rawName": "Trigger.dev",
+    "canonicalName": "Trigger.dev",
+    "sourceUrl": "https://trigger.dev"
+  },
+  {
+    "rawName": "Versori",
+    "canonicalName": "Versori",
+    "sourceUrl": "https://www.versori.com/"
+  },
+  {
+    "rawName": "Struct",
+    "canonicalName": "Struct",
+    "sourceUrl": "https://struct.app"
+  },
+  {
+    "rawName": "Syncly",
+    "canonicalName": "Syncly",
+    "sourceUrl": "https://syncly.app/"
+  },
+  {
+    "rawName": "DrDroid",
+    "canonicalName": "DrDroid",
+    "sourceUrl": "https://drdroid.io/"
+  },
+  {
+    "rawName": "Layup",
+    "canonicalName": "Layup",
+    "sourceUrl": "http://www.layuplabs.ai"
+  },
+  {
+    "rawName": "Credal.ai",
+    "canonicalName": "Credal.ai",
+    "sourceUrl": "https://credal.ai"
+  },
+  {
+    "rawName": "Magic Patterns",
+    "canonicalName": "Magic Patterns",
+    "sourceUrl": "https://www.magicpatterns.com/"
+  },
+  {
+    "rawName": "Rollstack",
+    "canonicalName": "Rollstack",
+    "sourceUrl": "https://www.rollstack.com"
+  },
+  {
+    "rawName": "Paperplane",
+    "canonicalName": "Paperplane",
+    "sourceUrl": "https://www.paperplane.ai/"
+  },
+  {
+    "rawName": "Novelcare",
+    "canonicalName": "Novelcare",
+    "sourceUrl": "https://www.novel.care"
+  },
+  {
+    "rawName": "Lume",
+    "canonicalName": "Lume",
+    "sourceUrl": "https://www.lume.ai"
+  },
+  {
+    "rawName": "Concourse",
+    "canonicalName": "Concourse",
+    "sourceUrl": "https://concourse.co/"
+  },
+  {
+    "rawName": "Latent",
+    "canonicalName": "Latent",
+    "sourceUrl": "https://latenthealth.com"
+  },
+  {
+    "rawName": "Backdrop",
+    "canonicalName": "Backdrop",
+    "sourceUrl": "https://www.backdropagent.com"
+  },
+  {
+    "rawName": "Mulligan",
+    "canonicalName": "Mulligan",
+    "sourceUrl": "https://insurestack.ai/"
+  },
+  {
+    "rawName": "Dashdive",
+    "canonicalName": "Dashdive",
+    "sourceUrl": "https://dashdive.com"
+  },
+  {
+    "rawName": "Indexical",
+    "canonicalName": "Indexical",
+    "sourceUrl": "https://indexical.dev/"
+  },
+  {
+    "rawName": "Demospace",
+    "canonicalName": "Demospace",
+    "sourceUrl": "https://www.demospace.ai"
+  },
+  {
+    "rawName": "Brewit",
+    "canonicalName": "Brewit",
+    "sourceUrl": "https://brewit.ai/"
+  },
+  {
+    "rawName": "Lynx",
+    "canonicalName": "Lynx",
+    "sourceUrl": "https://uselynx.ai"
+  },
+  {
+    "rawName": "Palomma",
+    "canonicalName": "Palomma",
+    "sourceUrl": "http://www.palomma.com/"
+  },
+  {
+    "rawName": "Parabolic",
+    "canonicalName": "Parabolic",
+    "sourceUrl": "https://www.growparabolic.com/"
+  },
+  {
+    "rawName": "Rubber Ducky Labs",
+    "canonicalName": "Rubber Ducky Labs",
+    "sourceUrl": "https://www.rubberduckylabs.io/"
+  },
+  {
+    "rawName": "Pair AI",
+    "canonicalName": "Pair AI",
+    "sourceUrl": "https://www.pairai.com/"
+  },
+  {
+    "rawName": "Ohm",
+    "canonicalName": "Ohm",
+    "sourceUrl": "https://www.ohm.ai"
+  },
+  {
+    "rawName": "Double – Coding Copilot",
+    "canonicalName": "Double – Coding Copilot",
+    "sourceUrl": "https://double.bot"
+  },
+  {
+    "rawName": "Glass Health",
+    "canonicalName": "Glass Health",
+    "sourceUrl": "https://glass.health"
+  },
+  {
+    "rawName": "Versive",
+    "canonicalName": "Versive",
+    "sourceUrl": "https://www.getversive.com/"
+  },
+  {
+    "rawName": "Pledge Health",
+    "canonicalName": "Pledge Health",
+    "sourceUrl": "https://www.pledge.health/"
+  },
+  {
+    "rawName": "Salient",
+    "canonicalName": "Salient",
+    "sourceUrl": "https://www.trysalient.com"
+  },
+  {
+    "rawName": "Dataglade",
+    "canonicalName": "Dataglade",
+    "sourceUrl": "https://dataglade.com"
+  },
+  {
+    "rawName": "Narrative",
+    "canonicalName": "Narrative",
+    "sourceUrl": "https://www.trynarrative.com/"
+  },
+  {
+    "rawName": "OfOne",
+    "canonicalName": "OfOne",
+    "sourceUrl": "https://www.of.one"
+  },
+  {
+    "rawName": "OpenSight",
+    "canonicalName": "OpenSight",
+    "sourceUrl": "https://www.opensight.ai"
+  },
+  {
+    "rawName": "loopfour",
+    "canonicalName": "loopfour",
+    "sourceUrl": "https://www.loopfour.com"
+  },
+  {
+    "rawName": "Gluetrail",
+    "canonicalName": "Gluetrail",
+    "sourceUrl": "https://www.gluetrail.com"
+  },
+  {
+    "rawName": "infra.new",
+    "canonicalName": "infra.new",
+    "sourceUrl": "https://infra.new"
+  },
+  {
+    "rawName": "PoplarML",
+    "canonicalName": "PoplarML",
+    "sourceUrl": "http://poplarml.com"
+  },
+  {
+    "rawName": "CreatorML",
+    "canonicalName": "CreatorML",
+    "sourceUrl": "https://creatorml.com/"
+  },
+  {
+    "rawName": "Vooma",
+    "canonicalName": "Vooma",
+    "sourceUrl": "https://www.vooma.ai"
+  },
+  {
+    "rawName": "Scanbase",
+    "canonicalName": "Scanbase",
+    "sourceUrl": "https://www.scanbase.com"
+  },
+  {
+    "rawName": "Neptyne",
+    "canonicalName": "Neptyne",
+    "sourceUrl": "https://neptyne.com"
+  },
+  {
+    "rawName": "Bluebirds",
+    "canonicalName": "Bluebirds",
+    "sourceUrl": "https://www.bluebirds.ai"
+  },
+  {
+    "rawName": "LinkGrep",
+    "canonicalName": "LinkGrep",
+    "sourceUrl": "https://linkgrep.com"
+  },
+  {
+    "rawName": "Flower",
+    "canonicalName": "Flower",
+    "sourceUrl": "https://flower.ai"
+  },
+  {
+    "rawName": "Cosine",
+    "canonicalName": "Cosine",
+    "sourceUrl": "http://www.cosine.sh"
+  },
+  {
+    "rawName": "Alloy",
+    "canonicalName": "Alloy",
+    "sourceUrl": "https://alloy.app"
+  },
+  {
+    "rawName": "Gooseworks",
+    "canonicalName": "Gooseworks",
+    "sourceUrl": "https://gooseworks.ai/"
+  },
+  {
+    "rawName": "Cloudchipr",
+    "canonicalName": "Cloudchipr",
+    "sourceUrl": "https://cloudchipr.com/"
+  },
+  {
+    "rawName": "Frigade",
+    "canonicalName": "Frigade",
+    "sourceUrl": "https://frigade.com"
+  },
+  {
+    "rawName": "Haven",
+    "canonicalName": "Haven",
+    "sourceUrl": "https://www.usehaven.ai/"
+  },
+  {
+    "rawName": "coil inc.",
+    "canonicalName": "coil inc.",
+    "sourceUrl": "http://www.trycoil.com"
+  },
+  {
+    "rawName": "No Cap",
+    "canonicalName": "No Cap",
+    "sourceUrl": "https://www.nocap.so"
+  },
+  {
+    "rawName": "Dream3D",
+    "canonicalName": "Dream3D",
+    "sourceUrl": "https://dream3d.com"
+  },
+  {
+    "rawName": "DataSuite",
+    "canonicalName": "DataSuite",
+    "sourceUrl": "https://truthsuite.com"
+  },
+  {
+    "rawName": "Outerbase",
+    "canonicalName": "Outerbase",
+    "sourceUrl": "https://www.outerbase.com"
+  },
+  {
+    "rawName": "co.dev",
+    "canonicalName": "co.dev",
+    "sourceUrl": "https://co.dev/?ref=YC"
+  },
+  {
+    "rawName": "Langfuse",
+    "canonicalName": "Langfuse",
+    "sourceUrl": "https://langfuse.com"
+  },
+  {
+    "rawName": "Extend",
+    "canonicalName": "Extend",
+    "sourceUrl": "https://www.extend.ai/"
+  },
+  {
+    "rawName": "Floworks",
+    "canonicalName": "Floworks",
+    "sourceUrl": "https://floworks.ai/"
+  },
+  {
+    "rawName": "Iliad",
+    "canonicalName": "Iliad",
+    "sourceUrl": "https://iliad.ai"
+  },
+  {
+    "rawName": "OpenMeter",
+    "canonicalName": "OpenMeter",
+    "sourceUrl": "https://openmeter.io"
+  },
+  {
+    "rawName": "Inkeep",
+    "canonicalName": "Inkeep",
+    "sourceUrl": "https://inkeep.com"
+  },
+  {
+    "rawName": "Velos",
+    "canonicalName": "Velos",
+    "sourceUrl": "https://www.tryvelos.com"
+  },
+  {
+    "rawName": "EzDubs",
+    "canonicalName": "EzDubs",
+    "sourceUrl": "http://www.ezdubs.ai"
+  },
+  {
+    "rawName": "Wild Moose",
+    "canonicalName": "Wild Moose",
+    "sourceUrl": "https://wildmoose.ai"
+  },
+  {
+    "rawName": "ShortLoop",
+    "canonicalName": "ShortLoop",
+    "sourceUrl": "https://shortloop.dev/"
+  },
+  {
+    "rawName": "Booth AI",
+    "canonicalName": "Booth AI",
+    "sourceUrl": "https://booth.ai"
+  },
+  {
+    "rawName": "Truewind",
+    "canonicalName": "Truewind",
+    "sourceUrl": "https://truewind.ai"
+  },
+  {
+    "rawName": "TableFlow",
+    "canonicalName": "TableFlow",
+    "sourceUrl": "https://tableflow.com"
+  },
+  {
+    "rawName": "Orchid",
+    "canonicalName": "Orchid",
+    "sourceUrl": "https://orchid.health"
+  },
+  {
+    "rawName": "KV Cash",
+    "canonicalName": "KV Cash",
+    "sourceUrl": "https://kv.cash"
+  },
+  {
+    "rawName": "1stCollab",
+    "canonicalName": "1stCollab",
+    "sourceUrl": "https://1stcollab.com/"
+  },
+  {
+    "rawName": "Magicflow 𐂂",
+    "canonicalName": "Magicflow 𐂂",
+    "sourceUrl": "https://magicflow.ai"
+  },
+  {
+    "rawName": "Helicone",
+    "canonicalName": "Helicone",
+    "sourceUrl": "https://www.helicone.ai/"
+  },
+  {
+    "rawName": "Ariglad",
+    "canonicalName": "Ariglad",
+    "sourceUrl": "https://www.ariglad.com/"
+  },
+  {
+    "rawName": "222",
+    "canonicalName": "222",
+    "sourceUrl": "https://222.place"
+  },
+  {
+    "rawName": "Variance",
+    "canonicalName": "Variance",
+    "sourceUrl": "https://www.variance.com/"
+  },
+  {
+    "rawName": "Fintool",
+    "canonicalName": "Fintool",
+    "sourceUrl": "https://www.fintool.com/"
+  },
+  {
+    "rawName": "compliant-llm",
+    "canonicalName": "compliant-llm",
+    "sourceUrl": "https://www.compliantllm.com/"
+  },
+  {
+    "rawName": "Boundary",
+    "canonicalName": "Boundary",
+    "sourceUrl": "https://www.boundaryml.com"
+  },
+  {
+    "rawName": "FactIQ",
+    "canonicalName": "FactIQ",
+    "sourceUrl": "https://factiq.com/"
+  },
+  {
+    "rawName": "SensorSurf",
+    "canonicalName": "SensorSurf",
+    "sourceUrl": "https://www.technician.dev"
+  },
+  {
+    "rawName": "Hadrius",
+    "canonicalName": "Hadrius",
+    "sourceUrl": "https://www.hadrius.com"
+  },
+  {
+    "rawName": "Fairway Health",
+    "canonicalName": "Fairway Health",
+    "sourceUrl": "https://www.fairwayhealth.co/"
+  },
+  {
+    "rawName": "Shortbread",
+    "canonicalName": "Shortbread",
+    "sourceUrl": "https://www.shortbread.ai/"
+  },
+  {
+    "rawName": "Onshore",
+    "canonicalName": "Onshore",
+    "sourceUrl": "https://onshore.com"
+  },
+  {
+    "rawName": "Sherloq",
+    "canonicalName": "Sherloq",
+    "sourceUrl": "http://sherloqdata.io/"
+  },
+  {
+    "rawName": "Finic",
+    "canonicalName": "Finic",
+    "sourceUrl": "https://www.finic.ai"
+  },
+  {
+    "rawName": "Hippo Scribe",
+    "canonicalName": "Hippo Scribe",
+    "sourceUrl": "https://gethipposcribe.com"
+  },
+  {
+    "rawName": "nunu.ai",
+    "canonicalName": "nunu.ai",
+    "sourceUrl": "https://nunu.ai"
+  },
+  {
+    "rawName": "CombineHealth",
+    "canonicalName": "CombineHealth",
+    "sourceUrl": "https://www.combinehealth.ai/"
+  },
+  {
+    "rawName": "Echo",
+    "canonicalName": "Echo",
+    "sourceUrl": "https://www.echothat.ai/"
+  },
+  {
+    "rawName": "SuperKalam",
+    "canonicalName": "SuperKalam",
+    "sourceUrl": "https://superkalam.com"
+  },
+  {
+    "rawName": "Clueso",
+    "canonicalName": "Clueso",
+    "sourceUrl": "https://clueso.io"
+  },
+  {
+    "rawName": "Retape",
+    "canonicalName": "Retape",
+    "sourceUrl": "https://www.retape.ai/"
+  },
+  {
+    "rawName": "Coldreach",
+    "canonicalName": "Coldreach",
+    "sourceUrl": "https://coldreach.ai/"
+  },
+  {
+    "rawName": "Mantys",
+    "canonicalName": "Mantys",
+    "sourceUrl": "https://www.mantys.io/"
+  },
+  {
+    "rawName": "Univerbal",
+    "canonicalName": "Univerbal",
+    "sourceUrl": "https://univerbal.app"
+  },
+  {
+    "rawName": "Diffuse Bio",
+    "canonicalName": "Diffuse Bio",
+    "sourceUrl": "http://diffuse.bio"
+  },
+  {
+    "rawName": "Pylon",
+    "canonicalName": "Pylon",
+    "sourceUrl": "https://usepylon.com/?utm_source=bookface&utm_medium=referral&utm_campaign=pylon-profile"
+  },
+  {
+    "rawName": "Epsilon",
+    "canonicalName": "Epsilon",
+    "sourceUrl": "https://www.epsilon-ai.com"
+  },
+  {
+    "rawName": "Helios",
+    "canonicalName": "Helios",
+    "sourceUrl": "https://www.usehelios.ai/"
+  },
+  {
+    "rawName": "PlayAI",
+    "canonicalName": "PlayAI",
+    "sourceUrl": "https://play.ai/"
+  },
+  {
+    "rawName": "Corgi Labs",
+    "canonicalName": "Corgi Labs",
+    "sourceUrl": "https://www.corgilabs.ai"
+  },
+  {
+    "rawName": "DAGWorks Inc.",
+    "canonicalName": "DAGWorks Inc.",
+    "sourceUrl": "https://www.dagworks.io/"
+  },
+  {
+    "rawName": "Rivet",
+    "canonicalName": "Rivet",
+    "sourceUrl": "https://rivet.dev"
+  },
+  {
+    "rawName": "Maxi",
+    "canonicalName": "Maxi",
+    "sourceUrl": "https://www.usemaxi.app"
+  },
+  {
+    "rawName": "Hindsight",
+    "canonicalName": "Hindsight",
+    "sourceUrl": "https://www.usehindsight.com/"
+  },
+  {
+    "rawName": "OpenInt",
+    "canonicalName": "OpenInt",
+    "sourceUrl": "https://openint.dev"
+  },
+  {
+    "rawName": "Decohere",
+    "canonicalName": "Decohere",
+    "sourceUrl": "https://decohere.ai"
+  },
+  {
+    "rawName": "CodeParrot AI",
+    "canonicalName": "CodeParrot AI",
+    "sourceUrl": "https://codeparrot.ai/"
+  },
+  {
+    "rawName": "Conduit",
+    "canonicalName": "Conduit",
+    "sourceUrl": "http://helloconduit.com"
+  },
+  {
+    "rawName": "Berry",
+    "canonicalName": "Berry",
+    "sourceUrl": "https://berryai.com/"
+  },
+  {
+    "rawName": "Persist AI",
+    "canonicalName": "Persist AI",
+    "sourceUrl": "http://www.persist-ai.com"
+  },
+  {
+    "rawName": "Interlock",
+    "canonicalName": "Interlock",
+    "sourceUrl": "https://www.tryinterlock.com/"
+  },
+  {
+    "rawName": "rex.fit",
+    "canonicalName": "rex.fit",
+    "sourceUrl": "https://www.rex.fit"
+  },
+  {
+    "rawName": "Vocode",
+    "canonicalName": "Vocode",
+    "sourceUrl": "https://vocode.dev"
+  },
+  {
+    "rawName": "Fabius",
+    "canonicalName": "Fabius",
+    "sourceUrl": "https://fabius.io"
+  },
+  {
+    "rawName": "Benchmark",
+    "canonicalName": "Benchmark",
+    "sourceUrl": "https://withbenchmark.com/"
+  },
+  {
+    "rawName": "Edge",
+    "canonicalName": "Edge",
+    "sourceUrl": "https://withedge.com"
+  },
+  {
+    "rawName": "Luca",
+    "canonicalName": "Luca",
+    "sourceUrl": "https://www.askluca.com/"
+  },
+  {
+    "rawName": "Verata",
+    "canonicalName": "Verata",
+    "sourceUrl": "https://www.veratainsight.com/"
+  },
+  {
+    "rawName": "Pier",
+    "canonicalName": "Pier",
+    "sourceUrl": "http://www.pier-finance.com"
+  },
+  {
+    "rawName": "Vector",
+    "canonicalName": "Vector",
+    "sourceUrl": "https://vector.co"
+  },
+  {
+    "rawName": "Texel.ai",
+    "canonicalName": "Texel.ai",
+    "sourceUrl": "https://texel.ai"
+  },
+  {
+    "rawName": "Metal",
+    "canonicalName": "Metal",
+    "sourceUrl": "https://metal.ai/"
+  },
+  {
+    "rawName": "Atmeto",
+    "canonicalName": "Atmeto",
+    "sourceUrl": "https://www.atmeto.com"
+  },
+  {
+    "rawName": "Escape",
+    "canonicalName": "Escape",
+    "sourceUrl": "https://escape.tech"
+  },
+  {
+    "rawName": "Kyber",
+    "canonicalName": "Kyber",
+    "sourceUrl": "https://askkyber.com"
+  },
+  {
+    "rawName": "Persana AI",
+    "canonicalName": "Persana AI",
+    "sourceUrl": "https://www.persana.ai/"
+  },
+  {
+    "rawName": "Type",
+    "canonicalName": "Type",
+    "sourceUrl": "https://type.ai"
+  },
+  {
+    "rawName": "Lightski",
+    "canonicalName": "Lightski",
+    "sourceUrl": "https://www.lightski.com"
+  },
+  {
+    "rawName": "Vendora",
+    "canonicalName": "Vendora",
+    "sourceUrl": "https://www.vendora.io/"
+  },
+  {
+    "rawName": "Adri AI",
+    "canonicalName": "Adri AI",
+    "sourceUrl": "https://www.getadri.ai/"
+  },
+  {
+    "rawName": "Second",
+    "canonicalName": "Second",
+    "sourceUrl": "https://www.second.dev"
+  },
+  {
+    "rawName": "Warp",
+    "canonicalName": "Warp",
+    "sourceUrl": "https://www.warp.co/"
+  },
+  {
+    "rawName": "Fetchr",
+    "canonicalName": "Fetchr",
+    "sourceUrl": "https://www.fetchr.so"
+  },
+  {
+    "rawName": "Upfront",
+    "canonicalName": "Upfront",
+    "sourceUrl": "https://tryupfront.com"
+  },
+  {
+    "rawName": "Cercli",
+    "canonicalName": "Cercli",
+    "sourceUrl": "https://www.cercli.com"
+  },
+  {
+    "rawName": "LiteLLM",
+    "canonicalName": "LiteLLM",
+    "sourceUrl": "https://www.litellm.ai/"
+  },
+  {
+    "rawName": "Automat",
+    "canonicalName": "Automat",
+    "sourceUrl": "https://www.runautomat.com/"
+  },
+  {
+    "rawName": "Yuma AI",
+    "canonicalName": "Yuma AI",
+    "sourceUrl": "https://yuma.ai"
+  },
+  {
+    "rawName": "Vaero",
+    "canonicalName": "Vaero",
+    "sourceUrl": "https://vaero.ai"
+  },
+  {
+    "rawName": "Pando Bioscience",
+    "canonicalName": "Pando Bioscience",
+    "sourceUrl": "https://pando.bio/"
+  },
+  {
+    "rawName": "kapa.ai",
+    "canonicalName": "kapa.ai",
+    "sourceUrl": "https://www.kapa.ai"
+  },
+  {
+    "rawName": "Kino AI",
+    "canonicalName": "Kino AI",
+    "sourceUrl": "https://kino.ai"
+  },
+  {
+    "rawName": "Reworkd",
+    "canonicalName": "Reworkd",
+    "sourceUrl": "https://reworkd.ai"
+  },
+  {
+    "rawName": "Nectar",
+    "canonicalName": "Nectar",
+    "sourceUrl": "https://nectarclimate.com"
+  },
+  {
+    "rawName": "Branch AI",
+    "canonicalName": "Branch AI",
+    "sourceUrl": "https://www.branch-ai.com"
+  },
+  {
+    "rawName": "Ora AI",
+    "canonicalName": "Ora AI",
+    "sourceUrl": "http://oraai.com/"
+  },
+  {
+    "rawName": "Xeol",
+    "canonicalName": "Xeol",
+    "sourceUrl": "https://www.xeol.io/"
+  },
+  {
+    "rawName": "Metoro",
+    "canonicalName": "Metoro",
+    "sourceUrl": "https://metoro.io"
+  },
+  {
+    "rawName": "Clearest Health",
+    "canonicalName": "Clearest Health",
+    "sourceUrl": "https://clearesthealth.com/"
+  },
+  {
+    "rawName": "Elyos AI",
+    "canonicalName": "Elyos AI",
+    "sourceUrl": "https://www.elyos.ai/"
+  },
+  {
+    "rawName": "Accend",
+    "canonicalName": "Accend",
+    "sourceUrl": "https://www.withaccend.com/"
+  },
+  {
+    "rawName": "Deasy Labs",
+    "canonicalName": "Deasy Labs",
+    "sourceUrl": "https://www.deasylabs.com/"
+  },
+  {
+    "rawName": "Hyperbound",
+    "canonicalName": "Hyperbound",
+    "sourceUrl": "https://hyperbound.ai"
+  },
+  {
+    "rawName": "Watto AI",
+    "canonicalName": "Watto AI",
+    "sourceUrl": "https://www.watto.ai"
+  },
+  {
+    "rawName": "Linc.",
+    "canonicalName": "Linc.",
+    "sourceUrl": "https://www.linc-ai.com/"
+  },
+  {
+    "rawName": "Magic Loops",
+    "canonicalName": "Magic Loops",
+    "sourceUrl": "https://magicloops.dev"
+  },
+  {
+    "rawName": "Remy",
+    "canonicalName": "Remy",
+    "sourceUrl": "https://www.startremy.com/"
+  },
+  {
+    "rawName": "Sohar Health",
+    "canonicalName": "Sohar Health",
+    "sourceUrl": "https://www.soharhealth.com"
+  },
+  {
+    "rawName": "Bland AI",
+    "canonicalName": "Bland AI",
+    "sourceUrl": "https://bland.com"
+  },
+  {
+    "rawName": "Diligent",
+    "canonicalName": "Diligent",
+    "sourceUrl": "https://godiligent.ai"
+  },
+  {
+    "rawName": "Pointhound",
+    "canonicalName": "Pointhound",
+    "sourceUrl": "http://www.pointhound.com"
+  },
+  {
+    "rawName": "PropRise",
+    "canonicalName": "PropRise",
+    "sourceUrl": "https://www.proprise.ai/"
+  },
+  {
+    "rawName": "Readily",
+    "canonicalName": "Readily",
+    "sourceUrl": "https://readily.co"
+  },
+  {
+    "rawName": "Casca",
+    "canonicalName": "Casca",
+    "sourceUrl": "https://www.cascading.ai/"
+  },
+  {
+    "rawName": "Cedana",
+    "canonicalName": "Cedana",
+    "sourceUrl": "https://cedana.ai"
+  },
+  {
+    "rawName": "Lifelike",
+    "canonicalName": "Lifelike",
+    "sourceUrl": "https://lifelike.app/"
+  },
+  {
+    "rawName": "OpenTools",
+    "canonicalName": "OpenTools",
+    "sourceUrl": "https://opentools.com"
+  },
+  {
+    "rawName": "Atla",
+    "canonicalName": "Atla",
+    "sourceUrl": "https://www.atla-ai.com/"
+  },
+  {
+    "rawName": "Contour",
+    "canonicalName": "Contour",
+    "sourceUrl": "https://www.ycombinator.com/companies/contour"
+  },
+  {
+    "rawName": "Mandel AI",
+    "canonicalName": "Mandel AI",
+    "sourceUrl": "https://www.mandel.ai/"
+  },
+  {
+    "rawName": "Prosper",
+    "canonicalName": "Prosper",
+    "sourceUrl": "https://www.getprosper.ai?utm_source=yc&utm_medium=directory&utm_campaign=yc_directory"
+  },
+  {
+    "rawName": "Lio (formerly askLio)",
+    "canonicalName": "Lio (formerly askLio)",
+    "sourceUrl": "https://www.lio.ai"
+  },
+  {
+    "rawName": "Solve Intelligence",
+    "canonicalName": "Solve Intelligence",
+    "sourceUrl": "https://www.solveintelligence.com/"
+  },
+  {
+    "rawName": "Talc",
+    "canonicalName": "Talc",
+    "sourceUrl": "https://talc.ai"
+  },
+  {
+    "rawName": "Synch",
+    "canonicalName": "Synch",
+    "sourceUrl": "https://www.withsynch.com/"
+  },
+  {
+    "rawName": "CORE",
+    "canonicalName": "CORE",
+    "sourceUrl": "https://getcore.me"
+  },
+  {
+    "rawName": "Subsets",
+    "canonicalName": "Subsets",
+    "sourceUrl": "https://www.subsets.com"
+  },
+  {
+    "rawName": "GreenTally",
+    "canonicalName": "GreenTally",
+    "sourceUrl": "https://www.greentally.ai"
+  },
+  {
+    "rawName": "Spine AI",
+    "canonicalName": "Spine AI",
+    "sourceUrl": "https://www.getspine.ai"
+  },
+  {
+    "rawName": "Baud",
+    "canonicalName": "Baud",
+    "sourceUrl": "https://baudlabs.ai"
+  },
+  {
+    "rawName": "SID",
+    "canonicalName": "SID",
+    "sourceUrl": "https://www.sid.ai"
+  },
+  {
+    "rawName": "Alguna",
+    "canonicalName": "Alguna",
+    "sourceUrl": "https://alguna.com"
+  },
+  {
+    "rawName": "Campfire",
+    "canonicalName": "Campfire",
+    "sourceUrl": "https://campfire.ai"
+  },
+  {
+    "rawName": "Parea",
+    "canonicalName": "Parea",
+    "sourceUrl": "https://www.parea.ai"
+  },
+  {
+    "rawName": "Venta AI",
+    "canonicalName": "Venta AI",
+    "sourceUrl": "https://www.getventa.ai"
+  },
+  {
+    "rawName": "Punchcard",
+    "canonicalName": "Punchcard",
+    "sourceUrl": "https://www.punchcard.com"
+  },
+  {
+    "rawName": "Bronco AI",
+    "canonicalName": "Bronco AI",
+    "sourceUrl": "https://www.bronco.ai/"
+  },
+  {
+    "rawName": "Kite",
+    "canonicalName": "Kite",
+    "sourceUrl": "https://kite.video"
+  },
+  {
+    "rawName": "Obento Health",
+    "canonicalName": "Obento Health",
+    "sourceUrl": "https://www.getobento.com"
+  },
+  {
+    "rawName": "Docsum",
+    "canonicalName": "Docsum",
+    "sourceUrl": "https://www.docsum.ai/"
+  },
+  {
+    "rawName": "Arcimus",
+    "canonicalName": "Arcimus",
+    "sourceUrl": "https://www.arcimus.com/"
+  },
+  {
+    "rawName": "MICSI",
+    "canonicalName": "MICSI",
+    "sourceUrl": "https://www.micsi.co/"
+  },
+  {
+    "rawName": "Corgea",
+    "canonicalName": "Corgea",
+    "sourceUrl": "https://www.corgea.com/"
+  },
+  {
+    "rawName": "Serra",
+    "canonicalName": "Serra",
+    "sourceUrl": "https://www.serra.io/"
+  },
+  {
+    "rawName": "Outset",
+    "canonicalName": "Outset",
+    "sourceUrl": "https://outset.ai/"
+  },
+  {
+    "rawName": "Hegel AI",
+    "canonicalName": "Hegel AI",
+    "sourceUrl": "https://hegel-ai.com"
+  },
+  {
+    "rawName": "Shasta Health",
+    "canonicalName": "Shasta Health",
+    "sourceUrl": "https://www.shasta.health"
+  },
+  {
+    "rawName": "Health Harbor",
+    "canonicalName": "Health Harbor",
+    "sourceUrl": "https://healthharbor.co/"
+  },
+  {
+    "rawName": "Menza",
+    "canonicalName": "Menza",
+    "sourceUrl": "https://menza.ai/"
+  },
+  {
+    "rawName": "FleetWorks",
+    "canonicalName": "FleetWorks",
+    "sourceUrl": "https://fleetworks.ai"
+  },
+  {
+    "rawName": "Repaint",
+    "canonicalName": "Repaint",
+    "sourceUrl": "https://repaint.com"
+  },
+  {
+    "rawName": "Dialtone",
+    "canonicalName": "Dialtone",
+    "sourceUrl": "https://usedialtone.com"
+  },
+  {
+    "rawName": "Cardinal Gray",
+    "canonicalName": "Cardinal Gray",
+    "sourceUrl": "https://www.cardinalgray.com/"
+  },
+  {
+    "rawName": "Skyvern",
+    "canonicalName": "Skyvern",
+    "sourceUrl": "https://www.skyvern.com/"
+  },
+  {
+    "rawName": "Decoda Health",
+    "canonicalName": "Decoda Health",
+    "sourceUrl": "https://decodahealth.com/"
+  },
+  {
+    "rawName": "Numen",
+    "canonicalName": "Numen",
+    "sourceUrl": "https://www.numen.com"
+  },
+  {
+    "rawName": "VetRec",
+    "canonicalName": "VetRec",
+    "sourceUrl": "https://vetrec.io"
+  },
+  {
+    "rawName": "Lysto",
+    "canonicalName": "Lysto",
+    "sourceUrl": "https://lysto.ai/"
+  },
+  {
+    "rawName": "Epsilla",
+    "canonicalName": "Epsilla",
+    "sourceUrl": "https://www.epsilla.com/"
+  },
+  {
+    "rawName": "Sidenote",
+    "canonicalName": "Sidenote",
+    "sourceUrl": "https://www.sidenote.ai"
+  },
+  {
+    "rawName": "Unhaze",
+    "canonicalName": "Unhaze",
+    "sourceUrl": "https://unhaze.ai"
+  },
+  {
+    "rawName": "Surface Labs",
+    "canonicalName": "Surface Labs",
+    "sourceUrl": "https://withsurface.com"
+  },
+  {
+    "rawName": "Egress Health",
+    "canonicalName": "Egress Health",
+    "sourceUrl": "https://tryegress.com"
   }
 ]

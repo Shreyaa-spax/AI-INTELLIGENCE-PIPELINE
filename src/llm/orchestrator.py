@@ -1,6 +1,10 @@
 import os
+import sys
 import asyncio
 from dotenv import load_dotenv
+
+# Ensure local directory is in system path for sub-imports
+sys.path.append(os.path.dirname(__file__))
 
 from chunker import chunk_text
 

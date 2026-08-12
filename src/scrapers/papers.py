@@ -1,10 +1,14 @@
 import os
+import sys
 import asyncio
 import aiohttp
 import xml.etree.ElementTree as ET
 import json
 import ssl
 from datetime import datetime, timezone
+
+# Ensure local directory is in system path for sub-imports
+sys.path.append(os.path.dirname(__file__))
 
 from github_matcher import enrich_papers
 
@@ -46,7 +50,8 @@ def save_papers(papers):
 async def fetch_papers(
     session,
     start=0,
-    max_results=100
+    max_results=100,
+    max_retries=5
 ):
 
     params = {
@@ -57,19 +62,47 @@ async def fetch_papers(
         "sortOrder": "descending"
     }
 
-    async with session.get(
-        ARXIV_URL,
-        params=params,
-        timeout=60
-    ) as response:
+    import random
+    import time
 
-        print(
-            f"ArXiv batch {start + 1}-"
-            f"{start + max_results} | "
-            f"Status: {response.status}"
-        )
+    for attempt in range(max_retries):
+        try:
+            async with session.get(
+                ARXIV_URL,
+                params=params,
+                timeout=60
+            ) as response:
 
-        xml_data = await response.text()
+                print(
+                    f"ArXiv batch {start + 1}-"
+                    f"{start + max_results} | "
+                    f"Status: {response.status}"
+                )
+
+                if response.status == 200:
+                    xml_data = await response.text()
+                    break
+
+                if response.status == 429:
+                    retry_after = response.headers.get("Retry-After")
+                    if retry_after:
+                        wait = int(retry_after)
+                    else:
+                        wait = (2 ** attempt) + random.uniform(0.5, 1.5)
+                    print(f"ArXiv rate limit (429). Retrying in {wait:.2f} seconds...")
+                    await asyncio.sleep(wait)
+                    continue
+
+                # Handle other non-200 responses
+                print(f"ArXiv returned unexpected status: {response.status}")
+                if attempt == max_retries - 1:
+                    raise Exception(f"Failed to fetch papers after {max_retries} attempts.")
+                await asyncio.sleep((2 ** attempt) + random.uniform(0.5, 1.5))
+        except Exception as error:
+            print(f"Fetch papers connection attempt {attempt + 1} failed: {error}")
+            if attempt == max_retries - 1:
+                raise error
+            await asyncio.sleep((2 ** attempt) + random.uniform(0.5, 1.5))
 
     root = ET.fromstring(xml_data)
 
@@ -259,6 +292,17 @@ async def run_paper_pipeline():
     print("=" * 60)
     print("STARTING ARXIV PAPER PIPELINE")
     print("=" * 60)
+
+    # Check if we already have a valid dataset of 1,000 papers
+    if os.path.exists("data/papers.json"):
+        try:
+            with open("data/papers.json", "r", encoding="utf-8") as f:
+                existing_papers = json.load(f)
+            if len(existing_papers) >= 1000:
+                print("Found existing dataset with >= 1000 papers. Reusing to avoid ArXiv/GitHub rate limits.")
+                return existing_papers
+        except Exception as e:
+            print(f"Failed to load existing papers: {e}. Re-running download...")
 
     # ----------------------------------------------
     # STEP 1: Collect papers

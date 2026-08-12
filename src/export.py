@@ -105,7 +105,7 @@ def export_dataset(name, path):
         writer.writerows(rows)
 
     print(
-        f"{name}: {len(rows)} rows → {output}"
+        f"{name}: {len(rows)} rows -> {output}"
     )
 
 
