@@ -1,10 +1,10 @@
-import os
-from reportlab.lib.pagesizes import letter
 from reportlab.lib import colors
-from reportlab.lib.units import inch
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak, KeepTogether
+from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+from reportlab.lib.units import inch
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak
 from reportlab.pdfgen import canvas
+
 
 class NumberedCanvas(canvas.Canvas):
     def __init__(self, *args, **kwargs):
@@ -16,249 +16,143 @@ class NumberedCanvas(canvas.Canvas):
         self._startPage()
 
     def save(self):
-        num_pages = len(self._saved_page_states)
+        page_count = len(self._saved_page_states)
         for state in self._saved_page_states:
             self.__dict__.update(state)
-            self.draw_page_number(num_pages)
+            self.draw_page_number(page_count)
             canvas.Canvas.showPage(self)
         canvas.Canvas.save(self)
 
     def draw_page_number(self, page_count):
         self.saveState()
-        self.setFont("Helvetica", 9)
+        self.setFont("Helvetica", 8.5)
         self.setFillColor(colors.HexColor("#4B5563"))
-        
-        # Header (on all pages except the cover page if needed, but since it's a short doc, we print on all)
-        self.setStrokeColor(colors.HexColor("#E5E7EB"))
-        self.setLineWidth(0.5)
+        self.setStrokeColor(colors.HexColor("#D1D5DB"))
         self.line(54, 750, 558, 750)
-        self.drawString(54, 755, "AI Intelligence Pipeline - Technical Architecture")
-        
-        # Footer
-        self.line(54, 50, 558, 50)
-        page_text = f"Page {self._pageNumber} of {page_count}"
-        self.drawRightString(558, 38, page_text)
-        self.drawString(54, 38, "FrontierAtlas Data Intelligence Team")
+        self.drawString(54, 758, "AI Intelligence Pipeline | Technical Architecture")
+        self.line(54, 48, 558, 48)
+        self.drawString(54, 34, "Source-traceable AI ecosystem intelligence")
+        self.drawRightString(558, 34, f"Page {self._pageNumber} of {page_count}")
         self.restoreState()
 
+
 def build_pdf(filename="architecture.pdf"):
-    # Target path is the root directory
     doc = SimpleDocTemplate(
         filename,
         pagesize=letter,
         leftMargin=54,
         rightMargin=54,
-        topMargin=72,
-        bottomMargin=72
+        topMargin=78,
+        bottomMargin=66,
     )
-
     styles = getSampleStyleSheet()
-    
-    # Custom Styles for Sleek Aesthetics
-    title_style = ParagraphStyle(
-        'DocTitle',
-        parent=styles['Normal'],
-        fontName='Helvetica-Bold',
-        fontSize=24,
-        leading=28,
-        textColor=colors.HexColor("#1E3A8A"),
-        spaceAfter=6
-    )
-    
-    subtitle_style = ParagraphStyle(
-        'DocSubTitle',
-        parent=styles['Normal'],
-        fontName='Helvetica',
-        fontSize=12,
-        leading=16,
-        textColor=colors.HexColor("#4B5563"),
-        spaceAfter=20
-    )
+    title = ParagraphStyle("Title", parent=styles["Title"], fontName="Helvetica-Bold", fontSize=24,
+                           leading=28, textColor=colors.HexColor("#1E3A8A"), spaceAfter=6)
+    subtitle = ParagraphStyle("Subtitle", parent=styles["BodyText"], fontSize=11, leading=15,
+                              textColor=colors.HexColor("#4B5563"), spaceAfter=18)
+    h1 = ParagraphStyle("H1", parent=styles["Heading1"], fontName="Helvetica-Bold", fontSize=14,
+                        leading=18, textColor=colors.HexColor("#1E3A8A"), spaceBefore=10, spaceAfter=6)
+    h2 = ParagraphStyle("H2", parent=styles["Heading2"], fontName="Helvetica-Bold", fontSize=10.5,
+                        leading=14, textColor=colors.HexColor("#2563EB"), spaceBefore=7, spaceAfter=3)
+    body = ParagraphStyle("Body", parent=styles["BodyText"], fontName="Helvetica", fontSize=9.2,
+                          leading=13, textColor=colors.HexColor("#1F2937"), spaceAfter=6)
+    bullet = ParagraphStyle("Bullet", parent=body, leftIndent=14, firstLineIndent=-9, spaceAfter=4)
+    small = ParagraphStyle("Small", parent=body, fontSize=8.2, leading=11)
 
-    h1_style = ParagraphStyle(
-        'SectionH1',
-        parent=styles['Heading1'],
-        fontName='Helvetica-Bold',
-        fontSize=14,
-        leading=18,
-        textColor=colors.HexColor("#1E3A8A"),
-        spaceBefore=14,
-        spaceAfter=6,
-        keepWithNext=True
-    )
-    
-    h2_style = ParagraphStyle(
-        'SectionH2',
-        parent=styles['Heading2'],
-        fontName='Helvetica-Bold',
-        fontSize=11,
-        leading=15,
-        textColor=colors.HexColor("#2563EB"),
-        spaceBefore=10,
-        spaceAfter=4,
-        keepWithNext=True
-    )
+    story = [
+        Paragraph("AI Intelligence Pipeline", title),
+        Paragraph("Technical Architecture, Reliability & Scale Design", subtitle),
+        Paragraph("<b>Purpose.</b> Build a reproducible pipeline that collects AI ecosystem intelligence, validates source data, enriches records, resolves entities, and exports structured datasets.", body),
 
-    body_style = ParagraphStyle(
-        'DocBody',
-        parent=styles['BodyText'],
-        fontName='Helvetica',
-        fontSize=9.5,
-        leading=13.5,
-        textColor=colors.HexColor("#1F2937"),
-        spaceAfter=8
-    )
-
-    bullet_style = ParagraphStyle(
-        'DocBullet',
-        parent=body_style,
-        leftIndent=15,
-        firstLineIndent=-10,
-        spaceAfter=4
-    )
-
-    story = []
-
-    # Title & Metadata
-    story.append(Paragraph("AI Intelligence Pipeline", title_style))
-    story.append(Paragraph("Technical Architecture & Scale Design Document | FrontierAtlas Team", subtitle_style))
-    story.append(Spacer(1, 10))
-
-    # Executive Summary
-    story.append(Paragraph("1. Executive Summary", h1_style))
-    story.append(Paragraph(
-        "This document defines the production architecture for the FrontierAtlas AI Intelligence Pipeline, "
-        "designed to collect, normalize, enrich, resolve, and store multi-dimensional intelligence datasets. "
-        "The system targets five core verticals: startups, products, research papers, jobs, and news. "
-        "Through highly concurrent ingestion, resilient multi-tier LLM fallback, and deterministic entity resolution, "
-        "the pipeline converts unstructured web signals into a structured, unified entity graph.",
-        body_style
-    ))
-
-    # Architecture Overview Table/Flow
-    story.append(Paragraph("2. Conceptual Pipeline Workflow", h1_style))
-    story.append(Paragraph(
-        "The ingest engine operates asynchronously, processing raw inputs through a series of stages:",
-        body_style
-    ))
-    
-    workflow_data = [
-        ["Stage", "Components", "Primary Technology"],
-        ["1. Ingestion", "Async crawlers, API connectors, RSS feed parsers", "Python, asyncio, aiohttp"],
-        ["2. Rate Limiting", "Adaptive token buckets, proxy pools, headers matching", "Redis, Backoff + Jitter"],
-        ["3. Extraction", "Chunking engine, structured schema validators", "Pydantic, Multi-tier LLM Chain"],
-        ["4. Resolution", "Deterministic entity resolver, alias database matcher", "Regex normalizers, corporate parser"],
-        ["5. Storage", "Relational database, entity graphs, vector indexes", "PostgreSQL, Neo4j, pgvector"],
-        ["6. Delivery", "Automated CSV exports, synced Google Sheets", "Google Sheets API, python-csv"]
+        Paragraph("1. System Overview", h1),
+        Paragraph("The implemented pipeline separates source ingestion from enrichment and export. Network-bound collectors use asynchronous I/O where appropriate; jobs/news are normalized to UTC and filtered to a strict 24-hour freshness window. Every retained signal keeps a source URL so records remain traceable.", body),
     ]
-    
-    t = Table(workflow_data, colWidths=[1.2*inch, 2.8*inch, 2.5*inch])
-    t.setStyle(TableStyle([
-        ('BACKGROUND', (0,0), (-1,0), colors.HexColor("#1E3A8A")),
-        ('TEXTCOLOR', (0,0), (-1,0), colors.whitesmoke),
-        ('ALIGN', (0,0), (-1,-1), 'LEFT'),
-        ('FONTNAME', (0,0), (-1,0), 'Helvetica-Bold'),
-        ('FONTSIZE', (0,0), (-1,0), 9.5),
-        ('BOTTOMPADDING', (0,0), (-1,0), 6),
-        ('TOPPADDING', (0,0), (-1,0), 6),
-        ('BACKGROUND', (0,1), (-1,-1), colors.HexColor("#F9FAFB")),
-        ('ROWBACKGROUNDS', (0,1), (-1,-1), [colors.HexColor("#F9FAFB"), colors.HexColor("#F3F4F6")]),
-        ('GRID', (0,0), (-1,-1), 0.5, colors.HexColor("#E5E7EB")),
-        ('FONTNAME', (0,1), (-1,-1), 'Helvetica'),
-        ('FONTSIZE', (0,1), (-1,-1), 8.5),
-        ('BOTTOMPADDING', (0,1), (-1,-1), 5),
-        ('TOPPADDING', (0,1), (-1,-1), 5),
+
+    flow = [
+        ["Layer", "Implemented responsibility", "Output"],
+        ["Sources", "Startup/product directories, arXiv, GitHub, job feeds, news feeds", "Raw records"],
+        ["Ingestion", "asyncio + aiohttp requests, RSS/API parsing, timeouts", "Normalized source items"],
+        ["Quality", "Schema validation, UTC date parsing, 24-hour filter, deduplication", "Accepted records"],
+        ["Enrichment", "GitHub repository/star matching and LLM extraction/fallback", "Enriched records"],
+        ["Resolution", "Canonical names, suffix normalization, aliases", "Entity mappings"],
+        ["Delivery", "JSON + CSV export and source coverage report", "Submission datasets"],
+    ]
+    table = Table(flow, colWidths=[0.9*inch, 3.65*inch, 1.9*inch], repeatRows=1)
+    table.setStyle(TableStyle([
+        ("BACKGROUND", (0,0), (-1,0), colors.HexColor("#1E3A8A")),
+        ("TEXTCOLOR", (0,0), (-1,0), colors.white),
+        ("FONTNAME", (0,0), (-1,0), "Helvetica-Bold"),
+        ("FONTSIZE", (0,0), (-1,0), 8.5),
+        ("FONTSIZE", (0,1), (-1,-1), 8),
+        ("VALIGN", (0,0), (-1,-1), "TOP"),
+        ("GRID", (0,0), (-1,-1), 0.4, colors.HexColor("#D1D5DB")),
+        ("ROWBACKGROUNDS", (0,1), (-1,-1), [colors.HexColor("#F9FAFB"), colors.HexColor("#F3F4F6")]),
+        ("TOPPADDING", (0,0), (-1,-1), 5), ("BOTTOMPADDING", (0,0), (-1,-1), 5),
     ]))
-    story.append(t)
-    story.append(Spacer(1, 15))
-
-    # Page Break for clean section separation
-    story.append(PageBreak())
-
-    # Scaling Strategy to 500k
-    story.append(Paragraph("3. Horizontal Scale Strategy (500,000+ Records)", h1_style))
-    story.append(Paragraph(
-        "To scale the pipeline to ingest and process over 500k records without bottlenecks, "
-        "the architecture shifts from a single-node sequential script to a distributed event-driven framework:",
-        body_style
-    ))
-    story.append(Paragraph("<b>Distributed Queues:</b> A message broker (e.g., Apache Kafka or RabbitMQ) acts as the ingestion backbone. Tasks are pushed to specific queues (e.g., <i>startup-scrape</i>, <i>paper-enrich</i>) and processed by independent, containerized worker nodes (e.g., Celery or Dramatiq) running in Kubernetes (EKS).", bullet_style))
-    story.append(Paragraph("<b>Horizontal Pod Autoscaling:</b> Worker containers scale dynamically based on CPU/memory load and queue backlog depth. This guarantees that during peak periods (e.g., bulk historical crawls), ingestion rates scale without manual server tuning.", bullet_style))
-    story.append(Paragraph("<b>Partitioned Processing:</b> Target URLs and API requests are distributed across workers using hash-based partitioning (e.g., partitioning by domain name) to prevent concurrent workers from hammering the same target domain simultaneously.", bullet_style))
-
-    # Handling 413 and 429
-    story.append(Paragraph("4. Resiliency & Rate-Limit Strategies (413s & 429s)", h1_style))
-    
-    story.append(Paragraph("A. Handling 413 Payload Too Large (LLM Context Constraints)", h2_style))
-    story.append(Paragraph(
-        "Large raw HTML pages, PDF abstracts, or lengthy reports easily trigger 413 HTTP errors or exhaust LLM context windows. "
-        "The pipeline resolves this using a <b>Semantic Chunking and Map-Reduce</b> pattern:",
-        body_style
-    ))
-    story.append(Paragraph("<b>Windowed Chunks:</b> The raw text is divided into standard chunks (e.g., max 12,000 characters) preserving sentence and paragraph boundaries.", bullet_style))
-    story.append(Paragraph("<b>Map Stage:</b> Each chunk is processed concurrently by the LLM extraction chain to extract entity fields, descriptions, and metadata.", bullet_style))
-    story.append(Paragraph("<b>Reduce/Synthesis Stage:</b> The structured outputs are aggregated, resolved, and merged into a single entity record. This dramatically minimizes payload sizes sent to LLM providers.", bullet_style))
-    
-    story.append(Paragraph("B. Handling 429 Too Many Requests (Adaptive Rate Limiting)", h2_style))
-    story.append(Paragraph(
-        "Websites and API providers (like ArXiv, GitHub, and LLM endpoints) actively enforce rate limits. "
-        "The pipeline employs a multi-tiered rate limiting strategy:",
-        body_style
-    ))
-    story.append(Paragraph("<b>Distributed Token Bucket:</b> Workers use a centralized Redis store to track and acquire rate-limit tokens per domain/provider. This ensures global rate compliance across all distributed nodes.", bullet_style))
-    story.append(Paragraph("<b>Adaptive Backoff with Jitter:</b> Requests that fail with 429 or 403 are retried using exponential backoff: <i>t = base^attempt + Jitter</i>, where jitter introduces randomized milliseconds to prevent synchronizing retry waves.", bullet_style))
-    story.append(Paragraph("<b>HTTP Header Sniffing:</b> Scrapers inspect `Retry-After` and GitHub's `X-RateLimit-Reset` headers to pause requests dynamically until the exact reset time, preventing token exhaustions.", bullet_style))
-
-    story.append(PageBreak())
-
-    # Freshness Tracking and Deduplication
-    story.append(Paragraph("5. Freshness Tracking & Deduplication", h1_style))
-    story.append(Paragraph(
-        "For jobs and news datasets, the pipeline guarantees absolute freshness (<= 24 hours) and prevents duplicate processing "
-        "across worker instances using the following mechanism:",
-        body_style
-    ))
-    story.append(Paragraph("<b>Centralized Idempotency Key:</b> Every crawled item is assigned a unique idempotency key: <i>SHA256(URL + NormalizedTitle)</i>. Before parsing, workers query a global Redis cache; if the key is present, the item is skipped.", bullet_style))
-    story.append(Paragraph("<b>Bloom Filters:</b> To scale memory efficiency, Redis Bloom Filters are used to track billions of historically seen URLs with high lookup speed and negligible memory footprints.", bullet_style))
-    story.append(Paragraph("<b>UTC Normalization:</b> Raw publication dates (including relative strings like '2 hours ago') are immediately normalized to ISO-8601 UTC format. Records older than 24 hours are discarded during the ingestion phase.", bullet_style))
-
-    # Storage Strategy
-    story.append(Paragraph("6. Unified Storage Architecture", h1_style))
-    story.append(Paragraph(
-        "The production pipeline stores the resolved intelligence in a hybrid storage architecture designed for multi-dimensional querying:",
-        body_style
-    ))
-    
-    storage_data = [
-        ["Database Type", "Role in Architecture", "Implementation Choice"],
-        ["Relational DB", "Stores canonical entity records, jobs, news, and structured metadata. Enables transactional queries and reporting.", "PostgreSQL"],
-        ["Graph Database", "Maps relationships between entities. E.g., connecting a Research Paper to its GitHub Repo, and mapping the Startup that owns the Product.", "Neo4j"],
-        ["Vector Database", "Stores high-dimensional embeddings of research paper abstracts and product descriptions to enable semantic similarity searches.", "pgvector / Pinecone"]
+    story += [table, Spacer(1, 10),
+              Paragraph("2. Reliability & Data Quality", h1),
+              Paragraph("<b>Freshness:</b> publication timestamps are parsed and normalized to UTC. Jobs and news are retained only when the timestamp is within the preceding 24 hours. Records with unparseable timestamps are rejected rather than assigned a fabricated time.", bullet),
+              Paragraph("<b>Deduplication:</b> news uses source URLs as the primary identity; jobs use normalized source URLs and a company/title fallback fingerprint. Duplicate records are removed before export.", bullet),
+              Paragraph("<b>Traceability:</b> job and news records retain their source name and URL. The pipeline deliberately does not invent records to satisfy a target count.", bullet),
+              Paragraph("<b>Observability:</b> <i>data/signal_source_report.json</i> records per-source fetch status, fresh counts, AI-job counts, unique counts, and duplicate removals.", bullet),
+              Paragraph("3. LLM Orchestration", h1),
+              Paragraph("The extraction layer uses a multi-tier provider strategy: <b>Gemini → Groq → DeepSeek → Mock fallback</b>. Provider failures can trigger retries with exponential backoff and jitter before the next tier is attempted.", body),
+              Paragraph("Large documents are bounded by the chunking layer before LLM submission. The current chunking design uses fixed maximum-size segments so oversized requests do not become a single provider payload. Structured outputs are then validated before downstream resolution/export.", body),
+              Paragraph("4. Entity Resolution", h1),
+              Paragraph("Entity names are normalized deterministically using casing cleanup, corporate-suffix normalization, aliases, and canonical mappings. This keeps variations such as 'OpenAI', 'Open AI', and 'OpenAI Inc.' closer to one canonical entity without asking the LLM to invent an identity.", body),
+              PageBreak(),
+              Paragraph("5. Scale Design: 500,000+ Records", h1),
+              Paragraph("The current repository is a modular implementation suitable for local execution. At 500k+ records, the same stages can be deployed as horizontally scaled workers without changing the logical data contract:", body),
+              Paragraph("<b>Queue-based ingestion:</b> place source tasks on Kafka/RabbitMQ/SQS-style queues and partition work by source/domain.", bullet),
+              Paragraph("<b>Worker scaling:</b> run independent crawler, enrichment, and resolution workers; autoscale using queue depth and resource utilization.", bullet),
+              Paragraph("<b>Rate control:</b> maintain per-domain/provider concurrency and rate-limit state centrally so multiple workers do not overload one source.", bullet),
+              Paragraph("<b>Idempotency:</b> use deterministic URL/content fingerprints so retries and worker restarts do not create duplicate records.", bullet),
+              Paragraph("<b>Storage:</b> PostgreSQL for structured records, pgvector for semantic retrieval, and Neo4j when relationship-heavy entity queries justify a graph store.", bullet),
+              Paragraph("<b>Observability:</b> collect source latency, error rates, freshness, queue depth, retry counts, and record acceptance/rejection metrics.", bullet),
+              Paragraph("6. Failure Handling", h1),
+              Paragraph("<b>429 / rate limits:</b> exponential backoff with jitter, respect provider retry/reset hints where available, and fall back to another LLM provider when the failure is provider-specific.", bullet),
+              Paragraph("<b>413 / oversized context:</b> chunk source text before LLM submission and process bounded segments rather than sending a complete document in one request.", bullet),
+              Paragraph("<b>403 / anti-bot restrictions:</b> treat blocked sources as failed ingestion attempts, record the failure, and do not fabricate replacement records. Production deployments can add browser automation only where permitted by the source's terms.", bullet),
+              Paragraph("<b>Partial source failure:</b> one failed source does not terminate the complete pipeline; source-level status is preserved in the coverage report.", bullet),
+              Paragraph("7. Storage & Delivery", h1),
     ]
-    
-    st = Table(storage_data, colWidths=[1.5*inch, 3.2*inch, 1.8*inch])
+
+    storage = [
+        ["Artifact", "Purpose"],
+        ["export_startups.csv", "Startup intelligence"],
+        ["export_products.csv", "AI product intelligence"],
+        ["export_research_papers.csv", "Research papers + GitHub enrichment"],
+        ["export_jobs.csv", "24-hour fresh AI jobs"],
+        ["export_news.csv", "24-hour fresh AI news"],
+        ["export_entity_mapping_log.csv", "Canonical entity mappings"],
+        ["signal_source_report.json", "Live source/freshness/quality diagnostics"],
+    ]
+    st = Table(storage, colWidths=[2.4*inch, 4.05*inch], repeatRows=1)
     st.setStyle(TableStyle([
-        ('BACKGROUND', (0,0), (-1,0), colors.HexColor("#2563EB")),
-        ('TEXTCOLOR', (0,0), (-1,0), colors.whitesmoke),
-        ('ALIGN', (0,0), (-1,-1), 'LEFT'),
-        ('FONTNAME', (0,0), (-1,0), 'Helvetica-Bold'),
-        ('FONTSIZE', (0,0), (-1,0), 9),
-        ('BOTTOMPADDING', (0,0), (-1,0), 5),
-        ('TOPPADDING', (0,0), (-1,0), 5),
-        ('BACKGROUND', (0,1), (-1,-1), colors.HexColor("#F9FAFB")),
-        ('ROWBACKGROUNDS', (0,1), (-1,-1), [colors.HexColor("#F9FAFB"), colors.HexColor("#F3F4F6")]),
-        ('GRID', (0,0), (-1,-1), 0.5, colors.HexColor("#E5E7EB")),
-        ('FONTNAME', (0,1), (-1,-1), 'Helvetica'),
-        ('FONTSIZE', (0,1), (-1,-1), 8.5),
-        ('BOTTOMPADDING', (0,1), (-1,-1), 4),
-        ('TOPPADDING', (0,1), (-1,-1), 4),
+        ("BACKGROUND", (0,0), (-1,0), colors.HexColor("#2563EB")),
+        ("TEXTCOLOR", (0,0), (-1,0), colors.white),
+        ("FONTNAME", (0,0), (-1,0), "Helvetica-Bold"),
+        ("FONTSIZE", (0,0), (-1,0), 8.5), ("FONTSIZE", (0,1), (-1,-1), 8.2),
+        ("VALIGN", (0,0), (-1,-1), "TOP"),
+        ("GRID", (0,0), (-1,-1), 0.4, colors.HexColor("#D1D5DB")),
+        ("ROWBACKGROUNDS", (0,1), (-1,-1), [colors.HexColor("#F9FAFB"), colors.HexColor("#F3F4F6")]),
+        ("TOPPADDING", (0,0), (-1,-1), 5), ("BOTTOMPADDING", (0,0), (-1,-1), 5),
     ]))
-    story.append(st)
-    story.append(Spacer(1, 15))
+    story += [st, Spacer(1, 10),
+              Paragraph("8. Evaluation & Reproducibility Checklist", h1),
+              Paragraph("A clean evaluator run should be able to install requirements, execute the pipeline, inspect the six required CSV datasets, verify source URLs and timestamps, inspect the entity mapping log, and read this document for the 500k+ scaling strategy.", body),
+              Paragraph("<b>Current-run note:</b> jobs/news are time-sensitive and their counts change between runs. A source that has no qualifying item inside the 24-hour window is reported as such; the system does not manufacture records to force 5/5 source coverage.", body),
+              Paragraph("9. Engineering Principles", h1),
+              Paragraph("<b>Traceability over fabricated completeness.</b> Every retained signal should be attributable to a legitimate source.", bullet),
+              Paragraph("<b>Validation before export.</b> Freshness, schema, and duplicate checks happen before final CSV generation.", bullet),
+              Paragraph("<b>Graceful degradation.</b> Provider/source failures are isolated and observable instead of silently corrupting the dataset.", bullet),
+              Paragraph("<b>Scale by infrastructure.</b> The logical stages and record contracts remain stable while workers, queues, and storage scale horizontally.", bullet),
+              Spacer(1, 8),
+              Paragraph("Generated by src/utils/generate_pdf.py", small)]
 
-    # Build the document using the NumberedCanvas
     doc.build(story, canvasmaker=NumberedCanvas)
     print(f"Successfully generated pdf: {filename}")
+
 
 if __name__ == "__main__":
     build_pdf("architecture.pdf")
