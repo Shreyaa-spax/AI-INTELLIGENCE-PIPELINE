@@ -4,6 +4,7 @@ import aiohttp
 import feedparser
 import json
 import re
+from collections import Counter
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 
@@ -26,11 +27,14 @@ JOB_SOURCES = [
 AI_KEYWORDS = [
     "ai", "artificial intelligence", "machine learning", "deep learning", "ml",
     "data scientist", "data science", "nlp", "natural language", "computer vision",
-    "llm", "neural network", "openai", "pytorch", "tensorflow"
+    "llm", "neural network", "openai", "pytorch", "tensorflow", "generative ai",
+    "genai", "mlops", "robotics", "agentic", "ai engineer", "machine learning engineer"
 ]
+
 
 def clean_company_name(name):
     return (name or "Unknown").strip()
+
 
 def is_ai_job(title, description):
     text = f"{title or ''} {description or ''}".lower()
@@ -41,6 +45,7 @@ def is_ai_job(title, description):
         elif kw in text:
             return True
     return False
+
 
 def parse_date(date_string):
     if not date_string:
@@ -59,20 +64,19 @@ def parse_date(date_string):
             if unit in ["minute", "min", "m"]:
                 return now - timedelta(minutes=val)
             return now - timedelta(days=val)
-    try:
-        dt = parsedate_to_datetime(date_string)
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
-        return dt.astimezone(timezone.utc)
-    except Exception:
-        pass
-    try:
-        dt = datetime.fromisoformat(str(date_string).replace("Z", "+00:00"))
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
-        return dt.astimezone(timezone.utc)
-    except Exception:
-        return None
+    for parser in (
+        lambda value: parsedate_to_datetime(value),
+        lambda value: datetime.fromisoformat(str(value).replace("Z", "+00:00")),
+    ):
+        try:
+            dt = parser(date_string)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt.astimezone(timezone.utc)
+        except Exception:
+            continue
+    return None
+
 
 def is_fresh(date_string):
     published = parse_date(date_string)
@@ -81,10 +85,14 @@ def is_fresh(date_string):
     age = datetime.now(timezone.utc) - published
     return timedelta(seconds=0) <= age <= timedelta(hours=24)
 
+
 async def fetch(session, url):
-    headers = {"User-Agent": "AI-Intelligence-Pipeline/1.0 (+https://github.com/Shreyaa-spax/AI-INTELLIGENCE-PIPELINE)"}
+    headers = {
+        "User-Agent": "AI-Intelligence-Pipeline/1.0 (+https://github.com/Shreyaa-spax/AI-INTELLIGENCE-PIPELINE)",
+        "Accept": "application/rss+xml, application/xml, application/json, text/html;q=0.9, */*;q=0.8",
+    }
     try:
-        async with session.get(url, headers=headers, timeout=30) as response:
+        async with session.get(url, headers=headers, timeout=30, allow_redirects=True) as response:
             print(f"Fetch {url} -> Status: {response.status}")
             if response.status != 200:
                 return None
@@ -92,6 +100,7 @@ async def fetch(session, url):
     except Exception as error:
         print(f"Request failed for {url}: {error}")
         return None
+
 
 async def fetch_article_text(session, url):
     """Best-effort full article extraction without fabricating text."""
@@ -109,12 +118,12 @@ async def fetch_article_text(session, url):
         if candidates:
             text = "\n".join(c.get_text(" ", strip=True) for c in candidates)
         else:
-            paragraphs = soup.find_all("p")
-            text = "\n".join(p.get_text(" ", strip=True) for p in paragraphs)
+            text = "\n".join(p.get_text(" ", strip=True) for p in soup.find_all("p"))
         return re.sub(r"\s+", " ", text).strip()
     except Exception as error:
         print(f"Article extraction failed for {url}: {error}")
         return ""
+
 
 def parse_news_feed(source_name, source_url, xml_data):
     feed = feedparser.parse(xml_data)
@@ -130,111 +139,193 @@ def parse_news_feed(source_name, source_url, xml_data):
             "schemaVersion": "1.0",
             "recordType": "NEWS",
             "source": {"name": source_name, "url": url},
-            "content": {"title": title, "text": summary, "published_date": parse_date(published).isoformat()},
+            "content": {
+                "title": title,
+                "text": summary,
+                "published_date": parse_date(published).isoformat()
+            },
             "collectedAt": datetime.now(timezone.utc).isoformat()
         })
     return records
+
 
 async def crawl_news():
     print("\n===== NEWS CRAWLER =====")
     connector = aiohttp.TCPConnector(limit=5)
     all_news = []
     seen_urls = set()
+    source_report = {}
     async with aiohttp.ClientSession(connector=connector) as session:
         results = await asyncio.gather(*(fetch(session, s["url"]) for s in NEWS_SOURCES))
         for source, xml_data in zip(NEWS_SOURCES, results):
+            report = {"status": "FETCH_FAILED", "fresh": 0, "duplicates_removed": 0}
             if not xml_data:
+                source_report[source["name"]] = report
                 continue
             try:
                 records = parse_news_feed(source["name"], source["url"], xml_data)
+                report["status"] = "OK"
+                report["fresh"] = len(records)
                 for record in records:
                     url = record["source"]["url"]
                     if url in seen_urls:
+                        report["duplicates_removed"] += 1
                         continue
                     seen_urls.add(url)
                     full_text = await fetch_article_text(session, url)
                     if full_text:
                         record["content"]["text"] = full_text
                     all_news.append(record)
-                print(f"{source['name']}: {len(records)} fresh articles")
+                source_report[source["name"]] = report
+                print(f"{source['name']}: {report['fresh']} fresh articles, {report['duplicates_removed']} duplicates removed")
             except Exception as error:
-                print(f"Failed parsing news feed {source['name']}: {error}")
-    return all_news
+                report["status"] = f"PARSE_FAILED: {error}"
+                source_report[source["name"]] = report
+    return all_news, source_report
+
+
+def job_fingerprint(company, title, url):
+    if url:
+        return "url:" + url.strip().lower().rstrip("/")
+    return "job:" + re.sub(r"\W+", " ", f"{company} {title}").strip().lower()
+
+
+def extract_jobs_for_source(source, data):
+    if source["type"] == "api_json":
+        parsed = json.loads(data)
+        if source["name"] == "Arbeitnow":
+            return parsed.get("data", [])
+        return parsed.get("jobs", [])
+    return feedparser.parse(data).entries
+
+
+def normalize_job(source, job):
+    title = company = url = description = date_str = ""
+    is_remote = False
+    if source["name"] == "Arbeitnow":
+        title = job.get("title", "")
+        company = job.get("company_name", "")
+        url = job.get("url", "")
+        description = job.get("description", "")
+        created = job.get("created_at")
+        date_str = datetime.fromtimestamp(created, timezone.utc).isoformat() if created else ""
+        is_remote = bool(job.get("remote", False))
+    elif source["name"] == "Remotive":
+        title = job.get("title", "")
+        company = job.get("company_name", "")
+        url = job.get("url", "")
+        description = job.get("description", "")
+        date_str = job.get("publication_date", "")
+        location = str(job.get("candidate_required_location", ""))
+        is_remote = "remote" in location.lower() or location.lower() in {"anywhere", "worldwide"}
+    else:
+        title = job.get("title", "")
+        url = job.get("link", "")
+        description = job.get("summary", "") or job.get("description", "")
+        date_str = job.get("published") or job.get("updated")
+        is_remote = True
+        if " at " in title:
+            title, company = title.split(" at ", 1)
+        elif ", " in title:
+            title, company = title.split(", ", 1)
+        else:
+            company = source["name"]
+    return title.strip(), clean_company_name(company), url.strip(), description, date_str, is_remote
+
 
 async def crawl_jobs():
     print("\n===== JOB CRAWLER =====")
     connector = aiohttp.TCPConnector(limit=5)
-    all_jobs, seen_urls = [], set()
+    all_jobs = []
+    seen_fingerprints = set()
+    source_report = {}
     async with aiohttp.ClientSession(connector=connector) as session:
         for source in JOB_SOURCES:
+            report = {"status": "FETCH_FAILED", "fresh": 0, "ai": 0, "unique": 0, "duplicates_removed": 0}
             data = await fetch(session, source["url"])
             if not data:
+                source_report[source["name"]] = report
                 continue
-            if source["type"] == "api_json":
-                try:
-                    parsed = json.loads(data)
-                    jobs_list = parsed.get("data", []) if source["name"] == "Arbeitnow" else parsed.get("jobs", [])
-                except Exception as error:
-                    print(f"JSON parse error for {source['name']}: {error}")
-                    continue
-            else:
-                try:
-                    jobs_list = feedparser.parse(data).entries
-                except Exception as error:
-                    print(f"RSS parse error for {source['name']}: {error}")
-                    continue
-            source_count = 0
-            for job in jobs_list:
-                title = company = url = description = date_str = ""
-                is_remote = False
-                if source["name"] == "Arbeitnow":
-                    title, company, url, description = job.get("title", ""), job.get("company_name", ""), job.get("url", ""), job.get("description", "")
-                    created = job.get("created_at")
-                    date_str = datetime.fromtimestamp(created, timezone.utc).isoformat() if created else ""
-                    is_remote = bool(job.get("remote", False))
-                elif source["name"] == "Remotive":
-                    title, company, url, description = job.get("title", ""), job.get("company_name", ""), job.get("url", ""), job.get("description", "")
-                    date_str = job.get("publication_date", "")
-                    is_remote = "remote" in str(job.get("candidate_required_location", "")).lower()
-                else:
-                    title = job.get("title", "")
-                    url = job.get("link", "")
-                    description = job.get("summary", "") or job.get("description", "")
-                    date_str = job.get("published") or job.get("updated")
-                    is_remote = True
-                    if " at " in title:
-                        title, company = title.split(" at ", 1)
-                    elif ", " in title:
-                        title, company = title.split(", ", 1)
-                    else:
-                        company = source["name"]
-                if not date_str or not is_fresh(date_str) or not is_ai_job(title, description):
-                    continue
-                url = url.strip()
-                if not url or url in seen_urls:
-                    continue
-                seen_urls.add(url)
-                all_jobs.append({
-                    "schemaVersion": "1.0", "recordType": "JOB",
-                    "source": {"name": source["name"], "url": url},
-                    "content": {"company": clean_company_name(company), "date": parse_date(date_str).isoformat(), "is_remote": bool(is_remote), "role_family": "Engineering"},
-                    "collectedAt": datetime.now(timezone.utc).isoformat()
-                })
-                source_count += 1
-            print(f"{source['name']}: {source_count} fresh AI jobs found")
-    return all_jobs
+            try:
+                jobs_list = extract_jobs_for_source(source, data)
+                report["status"] = "OK"
+                for job in jobs_list:
+                    title, company, url, description, date_str, is_remote = normalize_job(source, job)
+                    if not date_str or not is_fresh(date_str):
+                        continue
+                    report["fresh"] += 1
+                    if not is_ai_job(title, description):
+                        continue
+                    report["ai"] += 1
+                    fingerprint = job_fingerprint(company, title, url)
+                    if fingerprint in seen_fingerprints:
+                        report["duplicates_removed"] += 1
+                        continue
+                    seen_fingerprints.add(fingerprint)
+                    parsed_date = parse_date(date_str)
+                    if not parsed_date:
+                        continue
+                    all_jobs.append({
+                        "schemaVersion": "1.0",
+                        "recordType": "JOB",
+                        "source": {"name": source["name"], "url": url},
+                        "content": {
+                            "title": title,
+                            "company": company,
+                            "date": parsed_date.isoformat(),
+                            "is_remote": bool(is_remote),
+                            "role_family": "Engineering"
+                        },
+                        "collectedAt": datetime.now(timezone.utc).isoformat()
+                    })
+                    report["unique"] += 1
+                source_report[source["name"]] = report
+                print(f"{source['name']}: fresh={report['fresh']} ai={report['ai']} unique={report['unique']} duplicates={report['duplicates_removed']}")
+            except Exception as error:
+                report["status"] = f"PARSE_FAILED: {error}"
+                source_report[source["name"]] = report
+                print(f"{source['name']}: {report['status']}")
+    return all_jobs, source_report
+
 
 async def run_signal_pipeline():
-    news = await crawl_news()
-    jobs = await crawl_jobs()
+    news, news_report = await crawl_news()
+    jobs, jobs_report = await crawl_jobs()
     os.makedirs("data", exist_ok=True)
     with open("data/news.json", "w", encoding="utf-8") as file:
         json.dump(news, file, indent=4, ensure_ascii=False)
     with open("data/jobs.json", "w", encoding="utf-8") as file:
         json.dump(jobs, file, indent=4, ensure_ascii=False)
-    print(f"\nSaved Fresh news: {len(news)}")
-    print(f"Saved Fresh jobs: {len(jobs)}")
+    report = {
+        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "freshnessWindowHours": 24,
+        "news": {
+            "total_unique": len(news),
+            "source_count": len(NEWS_SOURCES),
+            "sources": news_report,
+            "sources_with_fresh_records": sum(1 for value in news_report.values() if value.get("fresh", 0) > 0)
+        },
+        "jobs": {
+            "total_unique": len(jobs),
+            "source_count": len(JOB_SOURCES),
+            "sources": jobs_report,
+            "sources_with_fresh_ai_records": sum(1 for value in jobs_report.values() if value.get("unique", 0) > 0)
+        },
+        "validation": {
+            "strict_24_hour_filter": True,
+            "job_duplicates_removed_by_url_or_company_title": True,
+            "news_duplicates_removed_by_url": True,
+            "no_records_are_synthesized": True
+        }
+    }
+    with open("data/signal_source_report.json", "w", encoding="utf-8") as file:
+        json.dump(report, file, indent=4, ensure_ascii=False)
+    print("\n===== SOURCE COVERAGE REPORT =====")
+    print(f"News: {len(news)} unique | {report['news']['sources_with_fresh_records']}/{len(NEWS_SOURCES)} sources produced fresh records")
+    print(f"Jobs: {len(jobs)} unique | {report['jobs']['sources_with_fresh_ai_records']}/{len(JOB_SOURCES)} sources produced fresh AI records")
+    print("Report saved to data/signal_source_report.json")
     return news, jobs
+
 
 if __name__ == "__main__":
     asyncio.run(run_signal_pipeline())
