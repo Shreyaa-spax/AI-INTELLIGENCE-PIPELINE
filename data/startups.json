@@ -1,0 +1,1217 @@
+[
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/"
+    },
+    "content": {
+      "entityName": "Home",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579434+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools"
+    },
+    "content": {
+      "entityName": "AI Tools",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579457+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/subscribe"
+    },
+    "content": {
+      "entityName": "Newsletter",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579464+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/resources"
+    },
+    "content": {
+      "entityName": "Resources",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579469+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/free-claude-course"
+    },
+    "content": {
+      "entityName": "Free Claude Course",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579475+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/newsletter"
+    },
+    "content": {
+      "entityName": "Newsletter Archive",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579480+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/ai-agents"
+    },
+    "content": {
+      "entityName": "AI Agents",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579484+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-innovations"
+    },
+    "content": {
+      "entityName": "AI Innovations",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579491+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/tutorials"
+    },
+    "content": {
+      "entityName": "AI Tutorials",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579495+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/resources/automation"
+    },
+    "content": {
+      "entityName": "AI Automations 101",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579502+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/login"
+    },
+    "content": {
+      "entityName": "Login",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579507+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/register"
+    },
+    "content": {
+      "entityName": "Join For Free",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579511+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/tool/chatgpt"
+    },
+    "content": {
+      "entityName": "ChatGPT",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579523+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/chatbots"
+    },
+    "content": {
+      "entityName": "#ai chatbots",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579529+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/research-assistant"
+    },
+    "content": {
+      "entityName": "#research",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579534+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/ai-agents"
+    },
+    "content": {
+      "entityName": "#ai agents",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579541+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/tool/claude"
+    },
+    "content": {
+      "entityName": "Claude",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579548+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/code-assistant"
+    },
+    "content": {
+      "entityName": "#code assistant",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579557+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/tool/hubspot-aeo-sensor"
+    },
+    "content": {
+      "entityName": "HubSpot AEO Sensor",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579567+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/marketing"
+    },
+    "content": {
+      "entityName": "#marketing",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579574+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/seo"
+    },
+    "content": {
+      "entityName": "#SEO",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579579+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/tool/perplexity-ai"
+    },
+    "content": {
+      "entityName": "Perplexity",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579587+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/summarizer"
+    },
+    "content": {
+      "entityName": "#summarizer",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579597+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/tool/google-gemini"
+    },
+    "content": {
+      "entityName": "Google Gemini",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579605+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/writing-generators"
+    },
+    "content": {
+      "entityName": "#writing generators",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579612+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/tool/midjourney"
+    },
+    "content": {
+      "entityName": "Midjourney",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579621+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/text-to-image"
+    },
+    "content": {
+      "entityName": "#text to image",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579626+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/image-editing"
+    },
+    "content": {
+      "entityName": "#image editing",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579631+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/video-generators"
+    },
+    "content": {
+      "entityName": "#video generators",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579637+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/tool/grok"
+    },
+    "content": {
+      "entityName": "Grok",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579644+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/register?source=skillleap&course=skillleap-free-promo&return_to=https%3A%2F%2Fskillleap.futurepedia.io%2Fenroll%2F3784218%3Fprice_id%3D4742492&homepage_free_course_cta=1"
+    },
+    "content": {
+      "entityName": "Claim your free access",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579656+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/marketing"
+    },
+    "content": {
+      "entityName": "Marketing",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579662+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/productivity"
+    },
+    "content": {
+      "entityName": "Productivity",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579667+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/design-generators"
+    },
+    "content": {
+      "entityName": "Design",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579672+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/video-generators"
+    },
+    "content": {
+      "entityName": "Video",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579676+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/research-assistant"
+    },
+    "content": {
+      "entityName": "Research",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579680+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.youtube.com/@futurepedia_io"
+    },
+    "content": {
+      "entityName": "Go to Channel",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579690+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.youtube.com/@futurepedia_io"
+    },
+    "content": {
+      "entityName": "Kevin HutsonAl Music & Video Expert",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579696+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.youtube.com/@SkillLeapAI"
+    },
+    "content": {
+      "entityName": "Saj AdibAl Productivity Specialist",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579706+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/image"
+    },
+    "content": {
+      "entityName": "AI Image Tools",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579716+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/business"
+    },
+    "content": {
+      "entityName": "AI Business Tools",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579721+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/automations"
+    },
+    "content": {
+      "entityName": "Automation Tools",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579727+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/productivity"
+    },
+    "content": {
+      "entityName": "AI Productivity Tools",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579733+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/video"
+    },
+    "content": {
+      "entityName": "AI Video Tools",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579770+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/misc-tools"
+    },
+    "content": {
+      "entityName": "Misc AI Tools",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579788+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/art"
+    },
+    "content": {
+      "entityName": "AI Art Generators",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579793+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/text-generators"
+    },
+    "content": {
+      "entityName": "AI Text Generators",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579800+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/audio-generators"
+    },
+    "content": {
+      "entityName": "AI Audio Generators",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579808+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/code"
+    },
+    "content": {
+      "entityName": "AI Code Tools",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579815+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools"
+    },
+    "content": {
+      "entityName": "AI tool directory",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579821+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://skillleap.futurepedia.io/"
+    },
+    "content": {
+      "entityName": "AI education platform",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579827+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/courses"
+    },
+    "content": {
+      "entityName": "29 courses",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579833+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/courses/14-day-ai-boot-camp"
+    },
+    "content": {
+      "entityName": "14-Day AI Boot Camp",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579838+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/productivity"
+    },
+    "content": {
+      "entityName": "Productivity Tools",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579845+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/image-generators"
+    },
+    "content": {
+      "entityName": "Image Generators",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579851+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/text-generators"
+    },
+    "content": {
+      "entityName": "Text Generators",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579861+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/video"
+    },
+    "content": {
+      "entityName": "Video Tools",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579876+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/art"
+    },
+    "content": {
+      "entityName": "Art Generators",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579891+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/audio-generators"
+    },
+    "content": {
+      "entityName": "Audio Generators",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579906+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools"
+    },
+    "content": {
+      "entityName": "All AI Tools",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579915+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/art-generators/best"
+    },
+    "content": {
+      "entityName": "Best AI Art Generators",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579925+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/image-generators/best"
+    },
+    "content": {
+      "entityName": "Best AI Image Generators",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579932+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/chatbots/best"
+    },
+    "content": {
+      "entityName": "Best AI Chatbots",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579938+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/text-generators/best"
+    },
+    "content": {
+      "entityName": "Best AI Text Generators",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579948+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/ai-tools/3D-generator/best"
+    },
+    "content": {
+      "entityName": "Best AI 3D Generators",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579955+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/resources"
+    },
+    "content": {
+      "entityName": "All Resources",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579963+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://skillleap.futurepedia.io/?utm_source=futurepedia.io&utm_medium=footer&utm_campaign=skillleap_link"
+    },
+    "content": {
+      "entityName": "Skill Leap",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579969+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/about-us"
+    },
+    "content": {
+      "entityName": "About Us",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579976+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/contact"
+    },
+    "content": {
+      "entityName": "Contact Us",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579982+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/submit-tool"
+    },
+    "content": {
+      "entityName": "Submit a Tool",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579988+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/update-a-tool"
+    },
+    "content": {
+      "entityName": "Update a Tool",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.579993+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/editorial-guidelines"
+    },
+    "content": {
+      "entityName": "Editorial Guidelines",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.580002+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.futurepedia.io/register"
+    },
+    "content": {
+      "entityName": "Sign up for free",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.580008+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.linkedin.com/company/futurepedia"
+    },
+    "content": {
+      "entityName": "Linkedin",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.580015+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://x.com/futurepedia_io"
+    },
+    "content": {
+      "entityName": "Twitter",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.580022+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.youtube.com/@futurepedia_io"
+    },
+    "content": {
+      "entityName": "YouTube",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.580029+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.tiktok.com/@futurepediaio"
+    },
+    "content": {
+      "entityName": "TikTok",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.580040+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.instagram.com/futurepedia_io/"
+    },
+    "content": {
+      "entityName": "Instagram",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.580048+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://www.facebook.com/futurepediadotio/"
+    },
+    "content": {
+      "entityName": "Facebook",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.580055+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://legal.hubspot.com/privacy-policy"
+    },
+    "content": {
+      "entityName": "Privacy Policy",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.580061+00:00"
+  },
+  {
+    "schemaVersion": "1.0",
+    "recordType": "STARTUP",
+    "source": {
+      "name": "Futurepedia",
+      "url": "https://legal.hubspot.com/website-terms-of-use"
+    },
+    "content": {
+      "entityName": "HubSpot Website Terms of Use",
+      "data": {
+        "employeeCount": null
+      }
+    },
+    "collectedAt": "2026-08-12T09:02:24.580067+00:00"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "rawName": "OpenAI",
+    "canonicalName": "OpenAI"
+  },
+  {
+    "rawName": "Open AI",
+    "canonicalName": "OpenAI"
+  },
+  {
+    "rawName": "OpenAI Inc.",
+    "canonicalName": "OpenAI"
+  },
+  {
+    "rawName": "Anthropic",
+    "canonicalName": "Anthropic"
+  },
+  {
+    "rawName": "HuggingFace",
+    "canonicalName": "Hugging Face"
+  },
+  {
+    "rawName": "Mistral AI",
+    "canonicalName": "Mistral AI"
+  },
+  {
+    "rawName": "DeepSeek",
+    "canonicalName": "DeepSeek"
+  },
+  {
+    "rawName": "NVIDIA",
+    "canonicalName": "NVIDIA"
+  },
+  {
+    "rawName": "Unknown Startup",
+    "canonicalName": "Unknown Startup"
+  }
+]
