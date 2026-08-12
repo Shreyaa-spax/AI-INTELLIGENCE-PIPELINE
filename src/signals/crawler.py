@@ -4,7 +4,6 @@ import aiohttp
 import feedparser
 import json
 import re
-from collections import Counter
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 
@@ -16,12 +15,15 @@ NEWS_SOURCES = [
     {"name": "MarkTechPost", "url": "https://www.marktechpost.com/feed/"}
 ]
 
+# Five currently usable public job feeds/APIs. Remotive's current category slug is software-dev;
+# We Work Remotely publishes a public programming RSS feed; Remote OK and Remote First Jobs
+# provide public RSS feeds suitable for aggregation.
 JOB_SOURCES = [
     {"name": "Arbeitnow", "url": "https://www.arbeitnow.com/api/job-board-api", "type": "api_json"},
-    {"name": "Remotive", "url": "https://remotive.com/api/remote-jobs?category=software-development", "type": "api_json"},
+    {"name": "Remotive", "url": "https://remotive.com/api/remote-jobs?category=software-dev", "type": "api_json"},
     {"name": "We Work Remotely", "url": "https://weworkremotely.com/categories/remote-programming-jobs.rss", "type": "rss"},
-    {"name": "Python.org Jobs", "url": "https://www.python.org/jobs/feed/rss/", "type": "rss"},
-    {"name": "Jobspresso", "url": "https://jobspresso.co/feed/", "type": "rss"}
+    {"name": "Remote OK", "url": "https://remoteok.com/remote-jobs.rss", "type": "rss"},
+    {"name": "Remote First Jobs AI", "url": "https://remotefirstjobs.com/rss/jobs/ai.rss", "type": "rss"}
 ]
 
 AI_KEYWORDS = [
@@ -103,7 +105,6 @@ async def fetch(session, url):
 
 
 async def fetch_article_text(session, url):
-    """Best-effort full article extraction without fabricating text."""
     if not url:
         return ""
     try:
@@ -136,14 +137,9 @@ def parse_news_feed(source_name, source_url, xml_data):
         url = entry.get("link", source_url).strip()
         summary = re.sub(r"<[^>]+>", "", entry.get("summary", "").strip())
         records.append({
-            "schemaVersion": "1.0",
-            "recordType": "NEWS",
+            "schemaVersion": "1.0", "recordType": "NEWS",
             "source": {"name": source_name, "url": url},
-            "content": {
-                "title": title,
-                "text": summary,
-                "published_date": parse_date(published).isoformat()
-            },
+            "content": {"title": title, "text": summary, "published_date": parse_date(published).isoformat()},
             "collectedAt": datetime.now(timezone.utc).isoformat()
         })
     return records
@@ -152,9 +148,7 @@ def parse_news_feed(source_name, source_url, xml_data):
 async def crawl_news():
     print("\n===== NEWS CRAWLER =====")
     connector = aiohttp.TCPConnector(limit=5)
-    all_news = []
-    seen_urls = set()
-    source_report = {}
+    all_news, seen_urls, source_report = [], set(), {}
     async with aiohttp.ClientSession(connector=connector) as session:
         results = await asyncio.gather(*(fetch(session, s["url"]) for s in NEWS_SOURCES))
         for source, xml_data in zip(NEWS_SOURCES, results):
@@ -164,8 +158,7 @@ async def crawl_news():
                 continue
             try:
                 records = parse_news_feed(source["name"], source["url"], xml_data)
-                report["status"] = "OK"
-                report["fresh"] = len(records)
+                report["status"], report["fresh"] = "OK", len(records)
                 for record in records:
                     url = record["source"]["url"]
                     if url in seen_urls:
@@ -177,7 +170,7 @@ async def crawl_news():
                         record["content"]["text"] = full_text
                     all_news.append(record)
                 source_report[source["name"]] = report
-                print(f"{source['name']}: {report['fresh']} fresh articles, {report['duplicates_removed']} duplicates removed")
+                print(f"{source['name']}: fresh={report['fresh']} duplicates={report['duplicates_removed']}")
             except Exception as error:
                 report["status"] = f"PARSE_FAILED: {error}"
                 source_report[source["name"]] = report
@@ -193,28 +186,20 @@ def job_fingerprint(company, title, url):
 def extract_jobs_for_source(source, data):
     if source["type"] == "api_json":
         parsed = json.loads(data)
-        if source["name"] == "Arbeitnow":
-            return parsed.get("data", [])
-        return parsed.get("jobs", [])
+        return parsed.get("data", []) if source["name"] == "Arbeitnow" else parsed.get("jobs", [])
     return feedparser.parse(data).entries
 
 
 def normalize_job(source, job):
     title = company = url = description = date_str = ""
-    is_remote = False
+    is_remote = True
     if source["name"] == "Arbeitnow":
-        title = job.get("title", "")
-        company = job.get("company_name", "")
-        url = job.get("url", "")
-        description = job.get("description", "")
+        title, company, url, description = job.get("title", ""), job.get("company_name", ""), job.get("url", ""), job.get("description", "")
         created = job.get("created_at")
         date_str = datetime.fromtimestamp(created, timezone.utc).isoformat() if created else ""
         is_remote = bool(job.get("remote", False))
     elif source["name"] == "Remotive":
-        title = job.get("title", "")
-        company = job.get("company_name", "")
-        url = job.get("url", "")
-        description = job.get("description", "")
+        title, company, url, description = job.get("title", ""), job.get("company_name", ""), job.get("url", ""), job.get("description", "")
         date_str = job.get("publication_date", "")
         location = str(job.get("candidate_required_location", ""))
         is_remote = "remote" in location.lower() or location.lower() in {"anywhere", "worldwide"}
@@ -223,22 +208,22 @@ def normalize_job(source, job):
         url = job.get("link", "")
         description = job.get("summary", "") or job.get("description", "")
         date_str = job.get("published") or job.get("updated")
-        is_remote = True
+        # Most RSS feeds put company in the title. Keep the original title if no separator exists.
         if " at " in title:
             title, company = title.split(" at ", 1)
         elif ", " in title:
             title, company = title.split(", ", 1)
         else:
             company = source["name"]
+        if source["name"] == "Remote OK":
+            is_remote = True
     return title.strip(), clean_company_name(company), url.strip(), description, date_str, is_remote
 
 
 async def crawl_jobs():
     print("\n===== JOB CRAWLER =====")
     connector = aiohttp.TCPConnector(limit=5)
-    all_jobs = []
-    seen_fingerprints = set()
-    source_report = {}
+    all_jobs, seen_fingerprints, source_report = [], set(), {}
     async with aiohttp.ClientSession(connector=connector) as session:
         for source in JOB_SOURCES:
             report = {"status": "FETCH_FAILED", "fresh": 0, "ai": 0, "unique": 0, "duplicates_removed": 0}
@@ -261,21 +246,14 @@ async def crawl_jobs():
                     if fingerprint in seen_fingerprints:
                         report["duplicates_removed"] += 1
                         continue
-                    seen_fingerprints.add(fingerprint)
                     parsed_date = parse_date(date_str)
-                    if not parsed_date:
+                    if not parsed_date or not url:
                         continue
+                    seen_fingerprints.add(fingerprint)
                     all_jobs.append({
-                        "schemaVersion": "1.0",
-                        "recordType": "JOB",
+                        "schemaVersion": "1.0", "recordType": "JOB",
                         "source": {"name": source["name"], "url": url},
-                        "content": {
-                            "title": title,
-                            "company": company,
-                            "date": parsed_date.isoformat(),
-                            "is_remote": bool(is_remote),
-                            "role_family": "Engineering"
-                        },
+                        "content": {"title": title, "company": company, "date": parsed_date.isoformat(), "is_remote": bool(is_remote), "role_family": "Engineering"},
                         "collectedAt": datetime.now(timezone.utc).isoformat()
                     })
                     report["unique"] += 1
@@ -297,26 +275,10 @@ async def run_signal_pipeline():
     with open("data/jobs.json", "w", encoding="utf-8") as file:
         json.dump(jobs, file, indent=4, ensure_ascii=False)
     report = {
-        "generatedAt": datetime.now(timezone.utc).isoformat(),
-        "freshnessWindowHours": 24,
-        "news": {
-            "total_unique": len(news),
-            "source_count": len(NEWS_SOURCES),
-            "sources": news_report,
-            "sources_with_fresh_records": sum(1 for value in news_report.values() if value.get("fresh", 0) > 0)
-        },
-        "jobs": {
-            "total_unique": len(jobs),
-            "source_count": len(JOB_SOURCES),
-            "sources": jobs_report,
-            "sources_with_fresh_ai_records": sum(1 for value in jobs_report.values() if value.get("unique", 0) > 0)
-        },
-        "validation": {
-            "strict_24_hour_filter": True,
-            "job_duplicates_removed_by_url_or_company_title": True,
-            "news_duplicates_removed_by_url": True,
-            "no_records_are_synthesized": True
-        }
+        "generatedAt": datetime.now(timezone.utc).isoformat(), "freshnessWindowHours": 24,
+        "news": {"total_unique": len(news), "source_count": len(NEWS_SOURCES), "sources": news_report, "sources_with_fresh_records": sum(1 for v in news_report.values() if v.get("fresh", 0) > 0)},
+        "jobs": {"total_unique": len(jobs), "source_count": len(JOB_SOURCES), "sources": jobs_report, "sources_with_fresh_ai_records": sum(1 for v in jobs_report.values() if v.get("unique", 0) > 0)},
+        "validation": {"strict_24_hour_filter": True, "job_duplicates_removed": True, "news_duplicates_removed": True, "no_records_are_synthesized": True}
     }
     with open("data/signal_source_report.json", "w", encoding="utf-8") as file:
         json.dump(report, file, indent=4, ensure_ascii=False)
