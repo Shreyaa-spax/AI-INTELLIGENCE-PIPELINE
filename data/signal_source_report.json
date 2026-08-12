@@ -1,0 +1,84 @@
+{
+    "generatedAt": "2026-08-12T12:14:32.278895+00:00",
+    "freshnessWindowHours": 24,
+    "news": {
+        "total_unique": 13,
+        "source_count": 5,
+        "sources": {
+            "OpenAI News": {
+                "status": "OK",
+                "fresh": 0,
+                "duplicates_removed": 0
+            },
+            "Hugging Face Blog": {
+                "status": "OK",
+                "fresh": 1,
+                "duplicates_removed": 0
+            },
+            "TechCrunch AI": {
+                "status": "OK",
+                "fresh": 8,
+                "duplicates_removed": 0
+            },
+            "VentureBeat AI": {
+                "status": "OK",
+                "fresh": 0,
+                "duplicates_removed": 0
+            },
+            "MarkTechPost": {
+                "status": "OK",
+                "fresh": 4,
+                "duplicates_removed": 0
+            }
+        },
+        "sources_with_fresh_records": 3
+    },
+    "jobs": {
+        "total_unique": 64,
+        "source_count": 5,
+        "sources": {
+            "Arbeitnow": {
+                "status": "OK",
+                "fresh": 176,
+                "ai": 64,
+                "unique": 64,
+                "duplicates_removed": 0
+            },
+            "Remotive": {
+                "status": "OK",
+                "fresh": 0,
+                "ai": 0,
+                "unique": 0,
+                "duplicates_removed": 0
+            },
+            "We Work Remotely": {
+                "status": "OK",
+                "fresh": 0,
+                "ai": 0,
+                "unique": 0,
+                "duplicates_removed": 0
+            },
+            "Remote OK": {
+                "status": "FETCH_FAILED",
+                "fresh": 0,
+                "ai": 0,
+                "unique": 0,
+                "duplicates_removed": 0
+            },
+            "AIJobs.net": {
+                "status": "FETCH_FAILED",
+                "fresh": 0,
+                "ai": 0,
+                "unique": 0,
+                "duplicates_removed": 0
+            }
+        },
+        "sources_with_fresh_ai_records": 1
+    },
+    "validation": {
+        "strict_24_hour_filter": true,
+        "job_duplicates_removed": true,
+        "news_duplicates_removed": true,
+        "no_records_are_synthesized": true
+    }
+}
